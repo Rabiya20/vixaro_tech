@@ -9,4 +9,11 @@ class Trainerfarm extends CI_Controller
 		$this->load->view('website/home');
 		$this->load->view('template/footer');
 	}
+
+	public function about()
+	{
+		// $this->load->view('template/header');
+		$this->load->view('website/about');
+		// $this->load->view('template/footer');
+	}
 }

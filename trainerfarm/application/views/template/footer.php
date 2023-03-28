@@ -5,18 +5,17 @@
 				<div class="container">
 					<div class="d-flex align-items-stretch">
 						<div class="pt-logo mr-auto">
-							<a href="index.html" class="text-light">Trainerfarm</a>
+							<a href="index.html" class="text-light"><img height="50px" width="150px" src="assets/images/TF-white-red.png" alt="logo"></a>
 						</div>
 						<div class="pt-social-link">
 							<ul class="list-inline m-a0">
 								<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 						<div class="pt-btn-join">
-							<a href="#" class="btn ">Join Now</a>
+							<a href="#" class="btn ">Register/Sign-in</a>
 						</div>
 					</div>
 				</div>
@@ -25,9 +24,12 @@
                 <div class="row">
 					<div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
                         <div class="widget">
-                            <h5 class="footer-title">Sign Up For A Newsletter</h5>
-							<p class="text-capitalize m-b20">Weekly Breaking news analysis and cutting edge advices on job searching.</p>
-                            <div class="subscribe-form m-b20">
+                            <h5 class="footer-title">Online IT Certification Courses & Training Programs</h5>
+							<img height="150px" width="250px" src="assets/images/payments.png" alt="logo">
+							<br><br>
+							<a href="index.html" class="text-light"><img height="50px" width="150px" src="assets/images/partners.png" alt="logo"></a>
+                            
+							<!-- <div class="subscribe-form m-b20">
 								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
 									<div class="ajax-message"></div>
 									<div class="input-group">
@@ -37,41 +39,46 @@
 										</span> 
 									</div>
 								</form>
-							</div>
+							</div> -->
                         </div>
                     </div>
 					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
 						<div class="row">
 							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
 								<div class="widget footer_widget">
+									<h5 class="footer-title">Solutions</h5>
+									<ul>
+										<li><a href="#">Business & Teams</a></li>
+										<li><a href="#">Training Partners</a></li>
+										<li><a href="#">Azure Training</a></li>
+										<li><a href="#">Microsoft Training</a></li>
+										<li><a href="#">AWS Training</a></li>
+										<li><a href="#">ITIL Training</a></li>
+										<li><a href="#">Cisco Training</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
+								<div class="widget footer_widget">
 									<h5 class="footer-title">Company</h5>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about-1.html">About</a></li>
-										<li><a href="faq-1.html">FAQs</a></li>
-										<li><a href="contact-1.html">Contact</a></li>
+										<li><a href="index.html">About TrainerFarm</a></li>
+										<li><a href="about-1.html">Partner With Us</a></li>
+										<li><a href="faq-1.html">Affiliate Program</a></li>
+										<li><a href="contact-1.html">Careers</a></li>
+										<li><a href="contact-1.html">In The News</a></li>
 									</ul>
 								</div>
 							</div>
 							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Get In Touch</h5>
+									<h5 class="footer-title">Resource and Help</h5>
 									<ul>
-										<li><a href="http://educhamp.themetrades.com/admin/index.html">Dashboard</a></li>
-										<li><a href="blog-classic-grid.html">Blog</a></li>
-										<li><a href="portfolio.html">Portfolio</a></li>
-										<li><a href="event.html">Event</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
-								<div class="widget footer_widget">
-									<h5 class="footer-title">Courses</h5>
-									<ul>
-										<li><a href="courses.html">Courses</a></li>
-										<li><a href="courses-details.html">Details</a></li>
-										<li><a href="membership.html">Membership</a></li>
-										<li><a href="profile.html">Profile</a></li>
+										<li><a href="courses.html">Contact Us</a></li>
+										<li><a href="courses-details.html">GGDPR Privacy Policy</a></li>
+										<li><a href="membership.html">Refund Policy</a></li>
+										<li><a href="profile.html">Blog</a></li>
+										<li><a href="profile.html">Customer Success Stories</a></li>
 									</ul>
 								</div>
 							</div>
@@ -79,8 +86,13 @@
                     </div>
 					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                         <div class="widget widget_gallery gallery-grid-4">
-                            <h5 class="footer-title">Our Gallery</h5>
-                            <ul class="magnific-image">
+                            <h5 class="footer-title">We're Here For You</h5>
+							<p><i class="fa fa-user"></i> Lifetime access for self-paced courses</p>
+							<p><i class="fa fa-user"></i> Business and team discounts available</p>
+							<p><i class="fa fa-user"></i> Sales: (866) 991-3924</p>
+							<p><i class="fa fa-user"></i> Support: (855) 800-8240</p>
+                            
+							<!-- <ul class="magnific-image">
 								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>
 								<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic2.jpg" alt=""></a></li>
 								<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic3.jpg" alt=""></a></li>
@@ -89,7 +101,7 @@
 								<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic6.jpg" alt=""></a></li>
 								<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic7.jpg" alt=""></a></li>
 								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-							</ul>
+							</ul> -->
                         </div>
                     </div>
                 </div>
@@ -98,7 +110,7 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center"> <a href="#">Copyright © 2023 TrainerFarm. All rights reserved</a></div>
                 </div>
             </div>
         </div>

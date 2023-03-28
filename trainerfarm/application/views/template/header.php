@@ -183,11 +183,11 @@ defined('VENDORS') OR define('VENDORS', "http://" . $_SERVER['SERVER_NAME'] . $_
 							<li><a href="blog-classic-grid.html">Blogs</a></li>
 							<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 								<ul class="sub-menu">
-									<li><a href="https://www.quickstart.com/about-us/">About QuickStart</a></li>
+									<li><a href="<?php echo base_url('trainerfarm/about') ?>">About Trainerfarm</a></li>
 				                    <li><a href="https://www.quickstart.com/quickstart-instructors/">Meet Our Instructors</a></li>
 				                    <li><a href="https://www.quickstart.com/in-the-news/">In The News</a></li>
 				                    <li><a href="https://www.quickstart.com/academic-partnerships/">Become An Academic Partner</a></li>
-				                    <li><a href="https://www.quickstart.com/careers/">Join The QuickStart Team</a></li>
+				                    <li><a href="https://www.quickstart.com/careers/">Join The Trainerfarm Team</a></li>
 				                    <li><a href="https://www.quickstart.com/success-stories/">Customer Success Stories</a></li>
 								</ul>
 							</li>

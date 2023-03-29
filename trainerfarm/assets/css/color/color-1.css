@@ -199,3 +199,8 @@ button.back-to-top:hover,
 .heading-bx.left .title-head {
     border-color: #f7b205;
 }
+
+
+.counter-text{
+	color: var(--red-primary) !important;
+}

@@ -56,168 +56,170 @@
 <div id="loading-icon-bx"></div>
 <!-- Header Top ==== -->
 <header class="header rs-nav header-transparent">
-		<div class="top-bar">
-			<div class="container">
-				<div class="row d-flex justify-content-between">
-					<div class="topbar-left">
-						<ul>
-							<li><a href="faq-1.html"><i class="fa-regular fa-comment-dots"></i>Chat</a></li>
-							<li><a href="faq-1.html"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-							<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
-						</ul>
-					</div>
-					<div class="topbar-right">
-						<ul>
-							<!--<li>
-								 <select class="header-lang-bx">
-									<option data-icon="flag flag-uk">English UK</option>
-									<option data-icon="flag flag-us">English US</option> 
-									</select> 
-							</li>-->
-							<li><a href="login.html">Login</a></li>
-							<li><a href="register.html">Register</a></li>
-						</ul>
-					</div>
+	<!-- top bar  -->
+	<div class="top-bar">
+		<div class="container">
+			<div class="row d-flex justify-content-between">
+				<div class="topbar-left">
+					<ul>
+						<li><a href="faq-1.html"><i class="fa-regular fa-comment-dots"></i>Chat</a></li>
+						<li><a href="faq-1.html"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+						<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
+					</ul>
+				</div>
+				<div class="topbar-right">
+					<ul>
+						<!--<li>
+								<select class="header-lang-bx">
+								<option data-icon="flag flag-uk">English UK</option>
+								<option data-icon="flag flag-us">English US</option> 
+								</select> 
+						</li>-->
+						<li><a href="login.html">Login</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="sticky-header navbar-expand-lg">
-            <div class="menu-bar clearfix bg-light">
-                <div class="container clearfix">
-					<!-- Header Logo ==== -->
-					<div class="menu-logo">
-						<a href="index.html"><img src="assets/images/TF.png" alt=""></a>
-					</div>
-					<!-- Mobile Nav Button ==== -->
-                    <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-					<!-- Author Nav ==== -->
-                    <div class="secondary-menu">
-                        <div class="secondary-inner">
-                            <ul>
-								<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="javascript:;" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-								<!-- Search Button ==== -->
-								<li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li>
-							</ul>
-						</div>
-                    </div>
-					<!-- Search Box ==== -->
-                    <div class="nav-search-bar">
-                        <form action="#">
-                            <input name="search" value="" type="text" class="form-control" placeholder="Type to search">
-                            <span><i class="ti-search"></i></span>
-                        </form>
-						<span id="search-remove"><i class="ti-close"></i></span>
-                    </div>
-					<!-- Navigation Menu ==== -->
-                    <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
-						<div class="menu-logo">
-							<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
-						</div>
-                        <ul class="nav navbar-nav">	
-							<li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index.html">IT Bootcamp Program</a></li>
-									<li><a href="index-2.html">Workforce Development</a></li>
-									<li><a href="index-2.html">Career Services</a></li>
-									<li><a href="index-2.html">Finance & Funding</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:;">IT Professional <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<!--<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
-										 <ul class="sub-menu">
-											<li><a href="about-1.html">About 1</a></li>
-											<li><a href="about-2.html">About 2</a></li>
-										</ul> 
-									</li>-->
-									<li><a href="portfolio.html">Certifications By Topic</a></li>
-									<li><a href="profile.html">Certifications By Brand</a></li>
-									<li><a href="membership.html">Top 15 Certifications</a></li>
-									<li><a href="error-404.html">Guaranteed To Run</a></li>
-								</ul>
-							</li>
-							<li class="add-mega-menu"><a href="javascript:;">Employers <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="portfolio.html">Corporate & Business Training</a></li>
-									<li><a href="profile.html">State & Local Government/Education</a></li>
-									<li><a href="membership.html">Federal & DoD Training</a></li>
-									<li><a href="error-404.html">Unlimited Access Master Subscription</a></li>
-									<li><a href="error-404.html">Technology Apprentice Scholar Program</a></li>
-								</ul>
-								<!--<ul class="sub-menu add-menu">
-									<li class="add-menu-left">
-										<h5 class="menu-adv-title">Our Courses</h5>
-										<ul>
-											<li><a href="courses.html">Courses </a></li>
-											<li><a href="courses-details.html">Courses Details</a></li>
-											<li><a href="profile.html">Instructor Profile</a></li>
-											<li><a href="event.html">Upcoming Event</a></li>
-											<li><a href="membership.html">Membership</a></li>
-										</ul>
-									</li>
-									 <li class="add-menu-right">
-										<img src="assets/images/adv/adv.jpg" alt=""/>
-									</li> 
-								</ul>-->
-							</li>
-							<li><a href="javascript:;">Militery <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li> <a href="https://www.quickstart.com/army-cool/">Army Funded Training</a></li>
-                					<li> <a href="https://www.quickstart.com/air-force-cool/">Air Force Funded Training</a></li>
-                					<li> <a href="https://www.quickstart.com/mycaa/">MyCAA Funded Training</a></li>
-								</ul>
-							</li>
-							<li><a href="blog-classic-grid.html">Blogs</a></li>
-							<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="about_tf.php">About Trainerfarm</a></li>
-				                    <li><a href="https://www.quickstart.com/quickstart-instructors/">Meet Our Instructors</a></li>
-				                    <li><a href="https://www.quickstart.com/in-the-news/">In The News</a></li>
-				                    <li><a href="https://www.quickstart.com/academic-partnerships/">Become An Academic Partner</a></li>
-				                    <li><a href="https://www.quickstart.com/careers/">Join The Trainerfarm Team</a></li>
-				                    <li><a href="https://www.quickstart.com/success-stories/">Customer Success Stories</a></li>
-								</ul>
-							</li>
-							<!-- <li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="admin/index.html">Dashboard</a></li>
-									<li><a href="admin/add-listing.html">Add Listing</a></li>
-									<li><a href="admin/bookmark.html">Bookmark</a></li>
-									<li><a href="admin/courses.html">Courses</a></li>
-									<li><a href="admin/review.html">Review</a></li>
-									<li><a href="admin/teacher-profile.html">Teacher Profile</a></li>
-									<li><a href="admin/user-profile.html">User Profile</a></li>
-									<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/basic-calendar.html">Basic Calendar</a></li>
-											<li><a href="admin/list-view-calendar.html">List View Calendar</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="admin/mailbox.html">Mailbox</a></li>
-											<li><a href="admin/mailbox-compose.html">Compose</a></li>
-											<li><a href="admin/mailbox-read.html">Mail Read</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li> -->
+	</div>
+	<!-- na bar  -->
+	<div class="sticky-header navbar-expand-lg">
+		<div class="menu-bar clearfix bg-light">
+			<div class="container clearfix">
+				<!-- Header Logo ==== -->
+				<div class="menu-logo">
+					<a href="index.html"><img src="assets/images/TF.png" alt=""></a>
+				</div>
+				<!-- Mobile Nav Button ==== -->
+				<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<!-- Author Nav ==== -->
+				<div class="secondary-menu">
+					<div class="secondary-inner">
+						<ul>
+							<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="javascript:;" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
+							<!-- Search Button ==== -->
+							<li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li>
 						</ul>
-						<div class="nav-social-link">
-							<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-							<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
-							<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
-						</div>
-                    </div>
-					<!-- Navigation Menu END ==== -->
-                </div>
-            </div>
-        </div>
+					</div>
+				</div>
+				<!-- Search Box ==== -->
+				<div class="nav-search-bar">
+					<form action="#">
+						<input name="search" value="" type="text" class="form-control" placeholder="Type to search">
+						<span><i class="ti-search"></i></span>
+					</form>
+					<span id="search-remove"><i class="ti-close"></i></span>
+				</div>
+				<!-- Navigation Menu ==== -->
+				<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+					<div class="menu-logo">
+						<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+					</div>
+					<ul class="nav navbar-nav">	
+						<li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="index.html">IT Bootcamp Program</a></li>
+								<li><a href="index-2.html">Workforce Development</a></li>
+								<li><a href="index-2.html">Career Services</a></li>
+								<li><a href="index-2.html">Finance & Funding</a></li>
+							</ul>
+						</li>
+						<li><a href="javascript:;">IT Professional <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<!--<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">
+										<li><a href="about-1.html">About 1</a></li>
+										<li><a href="about-2.html">About 2</a></li>
+									</ul> 
+								</li>-->
+								<li><a href="portfolio.html">Certifications By Topic</a></li>
+								<li><a href="profile.html">Certifications By Brand</a></li>
+								<li><a href="membership.html">Top 15 Certifications</a></li>
+								<li><a href="error-404.html">Guaranteed To Run</a></li>
+							</ul>
+						</li>
+						<li class="add-mega-menu"><a href="javascript:;">Employers <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="portfolio.html">Corporate & Business Training</a></li>
+								<li><a href="profile.html">State & Local Government/Education</a></li>
+								<li><a href="membership.html">Federal & DoD Training</a></li>
+								<li><a href="error-404.html">Unlimited Access Master Subscription</a></li>
+								<li><a href="error-404.html">Technology Apprentice Scholar Program</a></li>
+							</ul>
+							<!--<ul class="sub-menu add-menu">
+								<li class="add-menu-left">
+									<h5 class="menu-adv-title">Our Courses</h5>
+									<ul>
+										<li><a href="courses.html">Courses </a></li>
+										<li><a href="courses-details.html">Courses Details</a></li>
+										<li><a href="profile.html">Instructor Profile</a></li>
+										<li><a href="event.html">Upcoming Event</a></li>
+										<li><a href="membership.html">Membership</a></li>
+									</ul>
+								</li>
+									<li class="add-menu-right">
+									<img src="assets/images/adv/adv.jpg" alt=""/>
+								</li> 
+							</ul>-->
+						</li>
+						<li><a href="javascript:;">Militery <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li> <a href="https://www.quickstart.com/army-cool/">Army Funded Training</a></li>
+								<li> <a href="https://www.quickstart.com/air-force-cool/">Air Force Funded Training</a></li>
+								<li> <a href="https://www.quickstart.com/mycaa/">MyCAA Funded Training</a></li>
+							</ul>
+						</li>
+						<li><a href="blog-classic-grid.html">Blogs</a></li>
+						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="about_tf.php">About Trainerfarm</a></li>
+								<li><a href="https://www.quickstart.com/quickstart-instructors/">Meet Our Instructors</a></li>
+								<li><a href="https://www.quickstart.com/in-the-news/">In The News</a></li>
+								<li><a href="https://www.quickstart.com/academic-partnerships/">Become An Academic Partner</a></li>
+								<li><a href="https://www.quickstart.com/careers/">Join The Trainerfarm Team</a></li>
+								<li><a href="https://www.quickstart.com/success-stories/">Customer Success Stories</a></li>
+							</ul>
+						</li>
+						<!-- <li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="admin/index.html">Dashboard</a></li>
+								<li><a href="admin/add-listing.html">Add Listing</a></li>
+								<li><a href="admin/bookmark.html">Bookmark</a></li>
+								<li><a href="admin/courses.html">Courses</a></li>
+								<li><a href="admin/review.html">Review</a></li>
+								<li><a href="admin/teacher-profile.html">Teacher Profile</a></li>
+								<li><a href="admin/user-profile.html">User Profile</a></li>
+								<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="admin/basic-calendar.html">Basic Calendar</a></li>
+										<li><a href="admin/list-view-calendar.html">List View Calendar</a></li>
+									</ul>
+								</li>
+								<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="admin/mailbox.html">Mailbox</a></li>
+										<li><a href="admin/mailbox-compose.html">Compose</a></li>
+										<li><a href="admin/mailbox-read.html">Mail Read</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li> -->
+					</ul>
+					<div class="nav-social-link">
+						<a href="javascript:;"><i class="fa fa-facebook"></i></a>
+						<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+						<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+				<!-- Navigation Menu END ==== -->
+			</div>
+		</div>
+	</div>
     </header>
     <!-- Header Top END ==== -->

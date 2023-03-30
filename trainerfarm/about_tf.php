@@ -98,7 +98,7 @@
 			<div class="section-area content-inner section-sp1">
                 <div class="container">
                     <div class="section-content">
-                         <div class="row">
+                        <!-- <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6 col-6 m-b30">
                                 <div class="counter-style-1">
                                     <div class="text-primary">
@@ -126,15 +126,7 @@
                                     <p>Developed by credentialed world class instructors</p>
 								</div>
                             </div>
-                            <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                <div class="counter-style-1">
-									<div class="text-black">
-										<span class="counter">1000</span><span>+</span>
-									</div>
-									<span class="counter-text">Ordered Coffee's</span>
-								</div>
-                            </div> -->
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -250,7 +242,7 @@
                             <div class="container" style=" padding: 50px;">
                                 <h2>The QuickStart Team<br/></h2>
 
-                                <div class="section-content">
+                                <!-- <div class="section-content">
                                     <div class="row">
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
                                             <div class="counter-style-1">
@@ -285,7 +277,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <h4>We have one of the strongest teams in the industry, building it by focusing on different departments in a sequence.</h4>
                                 <br>
                                 <a href="#" class="btn explore"><b>See Our Job Openings</b></a>                         

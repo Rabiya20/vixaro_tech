@@ -16,7 +16,7 @@
 </div> -->
 <!-- Header End -->
  <!-- Content -->
- <div class="page-content bg-white">
+<div class="page-content bg-white">
 	<!-- Main Slider -->
 	<div class="rev-slider">
 		<div id="rev_slider_486_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="news-gallery36" data-source="gallery" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
@@ -119,8 +119,8 @@
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa fa-bank text-primary"></i>
 								</div>
-								<h4><a href="#">University BootCamps</a></h4>
-								<a href="#" class="btn radius-xl">Explore BootCamps</a>
+								<h4>University BootCamps</h4>
+								<a href="#bootcamps" class="btn radius-xl">Explore BootCamps</a>
 							</div>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 									<!-- <i class="fa fa-book text-primary"></i> -->
 									<i class="fa-solid fa-certificate text-primary"></i>
 								</div>
-								<h4><a href="#">Official Certifications</a></h4>
+								<h4>Official Certifications</h4>
 								<a href="#" class="btn radius-xl">Explore Certifications</a>
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 									<i class="fa-solid fa-network-wired text-primary"></i>
 									<!-- <i class="fa fa-file-text-o text-primary"></i> -->
 								</div>
-								<h4><a href="#">Technologies & Partners</a></h4>
+								<h4>Technologies & Partners</h4>
 								<a href="#" class="btn radius-xl">Explore Technologies</a>
 							</div>
 						</div>
@@ -523,7 +523,7 @@
 		</div> -->
 		
 		<!-- Testimonials -->
-		<div class="section-area section-sp2 bg-fix ovbl-dark" style="background-image:url(assets/images/background/bg1.jpg);">
+		<div id="bootcamps" class="section-area section-sp2 bg-fix ovbl-dark" style="background-image:url(assets/images/background/bg1.jpg);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-white heading-bx left">

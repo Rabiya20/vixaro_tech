@@ -1,21 +1,4 @@
 <?php include('includes/header.php'); ?>
-<!-- Header Start -->
-<!-- <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
-    <div class="container text-center my-5 py-5">
-        <h1 class="text-white mt-4 mb-4">Learn From Home</h1>
-        <h1 class="text-white display-1 mb-5">Education Courses</h1>
-        <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
-        <div id="title">
-        <h1 id="text1">Online IT</h1>
-        <h1 id="text2" class="text-white display-1 mb-5"></h1>
-    </div>
-        </div>
-    </div>
-
-    
-</div> -->
-<!-- Header End -->
- <!-- Content -->
 <div class="page-content bg-white">
 	<!-- Main Slider -->
 	<div class="rev-slider">
@@ -97,16 +80,14 @@
 								</div>
 								<h2 style="color: #fff !important;">Achieve Career Growth and Workforce Readiness</h2>
 								<h4 style="color: #fff !important;">Flexible <i class="fa-regular fa-circle-dot"></i> Trusted <i class="fa-regular fa-circle-dot"></i> Affordable</h4>
-								<!-- <h4 style="color: #fff !important;">Leveraging over 35 years of training experience, we work with industry experts, hiring managers, and IT professionals to curate the most up-to-date curriculum.</h4> -->
 						</div>
 					</li>
 				</ul>
-			</div><!-- END REVOLUTION SLIDER -->  
+			</div>
 		</div>  
 	</div> 
-	<!-- Main Slider -->
+	
 	<div class="content-block">
-		<!-- Our Services -->
 		<div class="section-area content-inner service-info-bx">
 			<div class="container">
 				<div class="row">
@@ -131,11 +112,10 @@
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
-									<!-- <i class="fa fa-book text-primary"></i> -->
 									<i class="fa-solid fa-certificate text-primary"></i>
 								</div>
 								<h4>Official Certifications</h4>
-								<a href="#" class="btn radius-xl">Explore Certifications</a>
+								<a href="certifications.php" class="btn radius-xl">Explore Certifications</a>
 							</div>
 						</div>
 					</div>
@@ -147,19 +127,15 @@
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa-solid fa-network-wired text-primary"></i>
-									<!-- <i class="fa fa-file-text-o text-primary"></i> -->
 								</div>
 								<h4>Technologies & Partners</h4>
-								<a href="#" class="btn radius-xl">Explore Technologies</a>
+								<a href="certifications.php?view=byBrands" class="btn radius-xl">Explore Technologies</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Our Services END -->
-		
-		<!-- Popular Courses -->
 		<div class="section-area section-sp2 popular-courses-bx">
 			<div class="container">
 				<div class="row">
@@ -172,7 +148,7 @@
 					<div class="container">
 						<div class="skills-flex-container">
 						<div class="box">
-							<a href="#">
+							<a href="courses/aws.php">
 								<div class="image">
 									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="xd">
 								</div>
@@ -180,7 +156,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/microsoft.php">
 								<div class="image">
 									<img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="figma">
 								</div>
@@ -188,7 +164,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/comptia.php">
 								<div class="image">
 									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="html">
 								</div>
@@ -196,7 +172,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/itil.php">
 								<div class="image">
 									<img src="https://seeklogo.com/images/I/itil-logo-569A84C737-seeklogo.com.png" alt="css">
 								</div>
@@ -204,7 +180,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/cisco.php">
 								<div class="image">
 									<img src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="javascript">
 								</div>
@@ -212,7 +188,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/linux.php">
 								<div class="image">
 									<img src="https://w7.pngwing.com/pngs/669/239/png-transparent-kubernetes-linux-foundation-certification-cloud-native-computing-foundation-test-kubernetes-blue-text-logo-thumbnail.png" alt="photoshop">
 								</div>
@@ -220,7 +196,7 @@
 							</a>
 						</div>
 						<div class="box">
-							<a href="#">
+							<a href="courses/ec_council.php">
 								<div class="image">
 									<img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="illustrator">
 								</div>
@@ -229,7 +205,7 @@
 						</div>
 
 						<div class="box">
-							<a href="#">
+							<a href="courses/google.php">
 								<div class="image">
 									<img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="premiere pro">
 								</div>
@@ -238,178 +214,8 @@
 						</div>
 					</div>
 				</section>
-				<!-- <div class="row">
-				<div class="courses-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-					<div class="item">
-						<div class="cours-bx">
-							<div class="action-box">
-								<img src="assets/images/courses/pic1.jpg" alt="">
-								<a href="#" class="btn">Read More</a>
-							</div>
-							<div class="info-bx text-center">
-								<h5><a href="#">Introduction EduChamp - LMS plugin</a></h5>
-								<span>Programming</span>
-							</div>
-							<div class="cours-more-info">
-								<div class="review">
-									<span>3 Review</span>
-									<ul class="cours-star">
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-									</ul>
-								</div>
-								<div class="price">
-									<del>$190</del>
-									<h5>$120</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="cours-bx">
-							<div class="action-box">
-								<img src="assets/images/courses/pic2.jpg" alt="">
-								<a href="#" class="btn">Read More</a>
-							</div>
-							<div class="info-bx text-center">
-								<h5><a href="#">Introduction EduChamp – LMS plugin</a></h5>
-								<span>Programming</span>
-							</div>
-							<div class="cours-more-info">
-								<div class="review">
-									<span>3 Review</span>
-									<ul class="cours-star">
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-									</ul>
-								</div>
-								<div class="price">
-									<del>$190</del>
-									<h5>$120</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="cours-bx">
-							<div class="action-box">
-								<img src="assets/images/courses/pic3.jpg" alt="">
-								<a href="#" class="btn">Read More</a>
-							</div>
-							<div class="info-bx text-center">
-								<h5><a href="#">Introduction EduChamp - LMS plugin</a></h5>
-								<span>Programming</span>
-							</div>
-							<div class="cours-more-info">
-								<div class="review">
-									<span>3 Review</span>
-									<ul class="cours-star">
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-									</ul>
-								</div>
-								<div class="price">
-									<del>$190</del>
-									<h5>$120</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="cours-bx">
-							<div class="action-box">
-								<img src="assets/images/courses/pic4.jpg" alt="">
-								<a href="#" class="btn">Read More</a>
-							</div>
-							<div class="info-bx text-center">
-								<h5><a href="#">Introduction EduChamp - LMS plugin</a></h5>
-								<span>Programming</span>
-							</div>
-							<div class="cours-more-info">
-								<div class="review">
-									<span>3 Review</span>
-									<ul class="cours-star">
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li class="active"><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-									</ul>
-								</div>
-								<div class="price">
-									<del>$190</del>
-									<h5>$120</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div> -->
 			</div>
 		</div>
-		<!-- Popular Courses END -->
-		
-		
-
-
-		<!-- Form -->
-		<!-- <div class="section-area section-sp1 ovpr-dark bg-fix online-cours" style="background-image:url(assets/images/background/bg1.jpg);">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center text-white">
-						<h2>Online Courses To Learn</h2>
-						<h5>Own Your Feature Learning New Skills Online</h5>
-						<form class="cours-search">
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="What do you want to learn today?	">
-								<div class="input-group-append">
-									<button class="btn" type="submit">Search</button> 
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-				<div class="mw800 m-auto">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="cours-search-bx m-b30">
-								<div class="icon-box">
-									<h3><i class="ti-user"></i><span class="counter">5</span>M</h3>
-								</div>
-								<span class="cours-search-text">Over 5 million student</span>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="cours-search-bx m-b30">
-								<div class="icon-box">
-									<h3><i class="ti-book"></i><span class="counter">30</span>K</h3>
-								</div>
-								<span class="cours-search-text">30,000 Courses.</span>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-12">
-							<div class="cours-search-bx m-b30">
-								<div class="icon-box">
-									<h3><i class="ti-layout-list-post"></i><span class="counter">20</span>K</h3>
-								</div>
-								<span class="cours-search-text">Learn Anythink Online.</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- Form END -->
-
 		
 		<div class="section-area section-sp1">
 			<div class="container">
@@ -429,100 +235,12 @@
 						<a href="#bootcamps" class="btn explore"><b>Explore BootCamps</b></a>
 					</div>
 					<div class="col-lg-6">
-						<a href="#" class="btn explore"><b>Explore IT Certifications</b></a>
+						<a href="certifications.php" class="btn explore"><b>Explore IT Certifications</b></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div class="section-area section-sp2">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center heading-bx">
-						<h2 class="title-head m-b0">Upcoming <span>Events</span></h2>
-						<p class="m-b0">Upcoming Education Events To Feed Brain. </p>
-					</div>
-				</div>
-				<div class="row">
-				<div class="upcoming-event-carousel owl-carousel owl-btn-center-lr owl-btn-1 col-12 p-lr0  m-b30">
-					<div class="item">
-						<div class="event-bx">
-							<div class="action-box">
-								<img src="assets/images/event/pic4.jpg" alt="">
-							</div>
-							<div class="info-bx d-flex">
-								<div>
-									<div class="event-time">
-										<div class="event-date">29</div>
-										<div class="event-month">October</div>
-									</div>
-								</div>
-								<div class="event-info">
-									<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-									<ul class="media-post">
-										<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-										<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-									</ul>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="event-bx">
-							<div class="action-box">
-								<img src="assets/images/event/pic3.jpg" alt="">
-							</div>
-							<div class="info-bx d-flex">
-								<div>
-									<div class="event-time">
-										<div class="event-date">29</div>
-										<div class="event-month">October</div>
-									</div>
-								</div>
-								<div class="event-info">
-									<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-									<ul class="media-post">
-										<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-										<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-									</ul>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="event-bx">
-							<div class="action-box">
-								<img src="assets/images/event/pic2.jpg" alt="">
-							</div>
-							<div class="info-bx d-flex">
-								<div>
-									<div class="event-time">
-										<div class="event-date">29</div>
-										<div class="event-month">October</div>
-									</div>
-								</div>
-								<div class="event-info">
-									<h4 class="event-title"><a href="#">Education Autumn Tour 2019</a></h4>
-									<ul class="media-post">
-										<li><a href="#"><i class="fa fa-clock-o"></i> 7:00am 8:00am</a></li>
-										<li><a href="#"><i class="fa fa-map-marker"></i> Berlin, Germany</a></li>
-									</ul>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the..</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-				<div class="text-center">
-					<a href="#" class="btn">View All Event</a>
-				</div>
-			</div>
-		</div> -->
-		
-		<!-- Testimonials -->
 		<div id="bootcamps" class="section-area section-sp2 bg-fix ovbl-dark" style="background-image:url(assets/images/background/bg1.jpg);">
 			<div class="container">
 				<div class="row">
@@ -537,7 +255,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Artificial Intelligence</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/arti_int.php">Artificial Intelligence</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -545,7 +263,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Cloud Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/cloud_eng.php">Cloud Engineering</a></div>
 								</div>								
 							</div>
 						</div>
@@ -556,7 +274,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Cybersecurity Defense</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/cyber_def.php">Cybersecurity Defense</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -564,7 +282,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Software Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/soft_eng.php">Software Engineering</a></div>
 								</div>								
 							</div>
 						</div>
@@ -575,7 +293,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Data Science</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/data_sci.php">Data Science</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -583,7 +301,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="">Web Development</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp/web_dev.php">Web Development</a></div>
 								</div>								
 							</div>
 						</div>
@@ -591,7 +309,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- Testimonials END -->
 		
 		<div class="section-area section-sp2" style="background-color: #fff;">
 			<div class="container">
@@ -608,7 +325,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Cyber Security</h4></a></div>
+									<div class="col-md-6"><a href="courses/cyber_sec.php"><h4>Cyber Security</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -616,7 +333,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Cloud Engineering</h4></a></div>
+									<div class="col-md-6"><a href="courses/cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -627,7 +344,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Networking</h4></a></div>
+									<div class="col-md-6"><a href="courses/netwroking.php"><h4>Networking</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -635,7 +352,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>DevOps</h4></a></div>
+									<div class="col-md-6"><a href="courses/devops.php"><h4>DevOps</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -646,7 +363,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>AI & ML</h4></a></div>
+									<div class="col-md-6"><a href="courses/arti_int.php"><h4>AI & ML</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -654,7 +371,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-8"><a href=""><h4>Data Science & Analytics</h4></a></div>
+									<div class="col-md-8"><a href="courses/data_sci.php"><h4>Data Science & Analytics</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -665,21 +382,21 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Project Management</h4></a></div>
+									<div class="col-md-6"><a href="courses/proj_man.php"><h4>Project Management</h4></a></div>
 								</div>
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-lg-6">
-								<a href="#" class="btn explore"><b>Explore Certifications</b></a>
+								<a href="certifications.php" class="btn explore"><b>Explore Certifications</b></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Recent News -->
+
 		<div class="section-area section-sp2" style="background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
 			<div class="container">
 				<div class="row">
@@ -694,7 +411,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Microsoft</h4></a><span>Azure, Sharepoint, Windows</span></div>
+									<div class="col-md-6"><a href="courses/microsoft.php"><h4>Microsoft</h4></a><span>Azure, Sharepoint, Windows</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -702,7 +419,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>AWS</h4></a><span>Architecting, Cloud computing and much more</span></div>
+									<div class="col-md-6"><a href="courses/aws.php"><h4>AWS</h4></a><span>Architecting, Cloud computing and much more</span></div>
 								</div>								
 							</div>
 						</div>
@@ -713,7 +430,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Google Cloud</h4></a><span>Architect And Engineering Training</span></div>
+									<div class="col-md-6"><a href="courses/google.php"><h4>Google Cloud</h4></a><span>Architect And Engineering Training</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -721,7 +438,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>Cisco</h4></a><span>Cisco Cloud, CCNA, CCNP, And More</span></div>
+									<div class="col-md-6"><a href="courses/cisco.php"><h4>Cisco</h4></a><span>Cisco Cloud, CCNA, CCNP, And More</span></div>
 								</div>								
 							</div>
 						</div>
@@ -732,7 +449,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>CompTIA</h4></a><span>Official A+,Network+ & Security+ Training</span></div>
+									<div class="col-md-6"><a href="courses/comptia.php"><h4>CompTIA</h4></a><span>Official A+,Network+ & Security+ Training</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -740,7 +457,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-8"><a href=""><h4>Linux Foundation</h4></a><span>Administration Course + CKA Certification Exam</span></div>
+									<div class="col-md-8"><a href="courses/linux.php"><h4>Linux Foundation</h4></a><span>Administration Course + CKA Certification Exam</span></div>
 								</div>								
 							</div>
 						</div>
@@ -751,14 +468,14 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href=""><h4>EC Council</h4></a><span>Certified Ethical Hacking</span></div>
+									<div class="col-md-6"><a href="courses/ec_council.php"><h4>EC Council</h4></a><span>Certified Ethical Hacking</span></div>
 								</div>
 							</div>
 						</div>
 						<br>
 						<div class="row">
 							<div class="col-lg-6">
-								<a href="#" class="btn explore"><b>Explore Technologies</b></a>
+								<a href="certifications.php?view=byBrand" class="btn explore"><b>Explore Technologies</b></a>
 							</div>
 						</div>
 					</div>
@@ -768,51 +485,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- Recent News End -->
-		<!-- Testimonials ==== -->
-		<!-- <div class="section-area section-sp2">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 heading-bx left">
-						<h2 class="title-head text-uppercase">what people <span>say</span></h2>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-					</div>
-				</div>
-				<div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-					hdjhahskdhkahskd
-					<div class="item">
-						<div class="testimonial-bx">
-							<div class="testimonial-thumb">
-								<img src="assets/images/testimonials/pic1.jpg" alt="">
-							</div>
-							<div class="testimonial-info">
-								<h5 class="name">Peter Packer</h5>
-								<p>-Art Director</p>
-							</div>
-							<div class="testimonial-content">
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-bx">
-							<div class="testimonial-thumb">
-								<img src="assets/images/testimonials/pic2.jpg" alt="">
-							</div>
-							<div class="testimonial-info">
-								<h5 class="name">Peter Packer</h5>
-								<p>-Art Director</p>
-							</div>
-							<div class="testimonial-content">
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- Testimonials END ==== -->
-		
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
@@ -965,7 +637,6 @@
 				<h2 class="title-head text-uppercase text-light"><span>Learn From </span>The Best</h2>
 				<p>Trainerfarm Instructors are some of the best experts and instructional designers in the IT industry, with knowledge spanning across several different topics including big data, cloud, security and more. Here is what they and their students have to say:</p>
 				<div class="content-block">
-            	<!-- About Us ==== -->
 				<div class="section-area">
 					<div class="container">
 						<div class="row">

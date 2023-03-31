@@ -2,20 +2,153 @@
 <br><br><br><br>
     <div class="page-content">
         <!-- Page Heading Box ==== -->
-        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
-            <div class="container mt-10">
-                <div class="page-banner-entry">
-                    <h1 class="text-light">Trainerfarm's Mission</h1>
-                    <br>
-                    <h5 class="text-light">Trainerfarm's mission is to create world-class technologists by personalizing training to address the massive skills gap in the IT industry.</h5>
-				 </div>
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner1.jpg);">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="">
+                        <br><br>
+                        <h1 class="text-light">Meet Our IT Instructors</h1>
+                        <br>
+                        <h5 class="text-light">TrainerFarm has over 35 years of training experience, working with industry experts, hiring managers, and IT professionals to curate the most up-to-date curriculum. Our instructors are some of the best experts in the IT industry, with expertise spanning various fields of Data Science, Cloud, Cybersecurity, and more.</h5>
+                        <br>
+                        <a href="#" class="btn radius-xl" data-toggle="modal" data-target="#instructor_modal">Become an Instructor</a>
+                        <div class="mb-5"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 instructor-slider" style=" 
+  ">
+                        <!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-3">
+                                            <div class="card instructors-card">
+                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mr. Ali</h4>
+                                                    <p class="card-text">Developer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-3">
+                                            <div class="card instructors-card">
+                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mr. Ali</h4>
+                                                    <p class="card-text">Developer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-12 mb-3">
+                                            <div class="card instructors-card">
+                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mr. Ali</h4>
+                                                    <p class="card-text">Developer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="cards">
+                            <div class="outer">
+                                <div class="card" style="--delay:-1;">
+                                <div class="content">
+                                    <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFIvBPH9fIMQZis4SHYTuv485uqr38bg1VQ&usqp=CAU"></div>
+                                    <div class="details">
+                                    <span class="name">Iron Man</span>
+                                    <p>Frontend Developer</p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#">Follow</a> -->
+                                </div>
+                                <div class="card" style="--delay:0;">
+                                <div class="content">
+                                    <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMYmBQyoz9BWjEiMi5XipSPOmhamZUyI1gQ&usqp=CAU" alt=""></div>
+                                    <div class="details">
+                                    <span class="name">Spider Man</span>
+                                    <p>Full-stack Developer</p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#">Follow</a> -->
+                                </div>
+                                <div class="card" style="--delay:1;">
+                                <div class="content">
+                                    <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2k6vsAWhq5UPsCW58Q2RSCKqPxMDq75wfg&usqp=CAU" alt=""></div>
+                                    <div class="details">
+                                    <span class="name">Venom</span>
+                                    <p>Tester</p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#">Follow</a> -->
+                                </div>
+                                <div class="card" style="--delay:2;">
+                                <div class="content">
+                                    <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwJX81iy7cnzgclyjTKlNnDlzIzPN1KSIgA&usqp=CAU" alt=""></div>
+                                    <div class="details">
+                                    <span class="name">Batman</span>
+                                    <p>Backend Developer</p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#">Follow</a> -->
+                                </div>
+                                <div class="card" style="--delay:2;">
+                                <div class="content">
+                                    <div class="img"><img src="https://static.rogerebert.com/uploads/review/primary_image/reviews/great-movie-superman-1978/EB20101104REVIEWS08101109987AR.jpg" alt=""></div>
+                                    <div class="details">
+                                    <span class="name">Superman</span>
+                                    <p>Youtuber</p>
+                                    </div>
+                                </div>
+                                <!-- <a href="#">Follow</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
+        <!-- large modal -->
+        <div class="modal fade" id="instructor_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <br><br><br><br><br>
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Large Modal</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>Modal Body</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
 		<div class="breadcrumb-row">
 			<div class="container">
 				<ul class="list-inline">
 					<li><a href="#">About Us</a></li>
-					<li>About Trainerfarm</li>
+					<li>Meet Our Instructors</li>
 				</ul>
 			</div>
 		</div>
@@ -95,10 +228,10 @@
 			</div> -->
 			<!-- Our Story END ==== -->
 			<!-- Our Status ==== -->
-			<!-- <div class="section-area content-inner section-sp1">
+			<div class="section-area content-inner section-sp1">
                 <div class="container">
                     <div class="section-content">
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6 col-6 m-b30">
                                 <div class="counter-style-1">
                                     <div class="text-primary">
@@ -126,10 +259,10 @@
                                     <p>Developed by credentialed world class instructors</p>
 								</div>
                             </div>
-                        </div> 
+                        </div> -->
                     </div>
                 </div>
-            </div>-->
+            </div>
 			<!-- Our Status END ==== -->
 			<!-- About Content ==== -->
 			<div class="">

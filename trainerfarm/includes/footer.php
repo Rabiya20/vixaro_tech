@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="d-flex align-items-stretch">
 						<div class="pt-logo mr-auto">
-							<a href="index.html" class="text-light"><img height="50px" width="150px" src="assets/images/TF-white-red.png" alt="logo"></a>
+							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/TF-white-red.png" alt="logo"></a>
 						</div>
 						<div class="pt-social-link">
 							<ul class="list-inline m-a0">
@@ -27,7 +27,7 @@
                             <h5 class="footer-title">Online IT Certification Courses & Training Programs</h5>
 							<img height="150px" width="250px" src="assets/images/payments.png" alt="logo">
 							<br><br>
-							<a href="index.html" class="text-light"><img height="50px" width="150px" src="assets/images/partners.png" alt="logo"></a>
+							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/partners.png" alt="logo"></a>
                             
 							<!-- <div class="subscribe-form m-b20">
 								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
@@ -62,11 +62,11 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Company</h5>
 									<ul>
-										<li><a href="index.html">About TrainerFarm</a></li>
-										<li><a href="about-1.html">Partner With Us</a></li>
-										<li><a href="faq-1.html">Affiliate Program</a></li>
-										<li><a href="contact-1.html">Careers</a></li>
-										<li><a href="contact-1.html">In The News</a></li>
+										<li><a href="index.php">About TrainerFarm</a></li>
+										<li><a href="about-1.php">Partner With Us</a></li>
+										<li><a href="faq-1.php">Affiliate Program</a></li>
+										<li><a href="contact-1.php">Careers</a></li>
+										<li><a href="contact-1.php">In The News</a></li>
 									</ul>
 								</div>
 							</div>
@@ -74,11 +74,11 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Resource and Help</h5>
 									<ul>
-										<li><a href="courses.html">Contact Us</a></li>
-										<li><a href="courses-details.html">GGDPR Privacy Policy</a></li>
-										<li><a href="membership.html">Refund Policy</a></li>
-										<li><a href="profile.html">Blog</a></li>
-										<li><a href="profile.html">Customer Success Stories</a></li>
+										<li><a href="courses.php">Contact Us</a></li>
+										<li><a href="courses-details.php">GGDPR Privacy Policy</a></li>
+										<li><a href="membership.php">Refund Policy</a></li>
+										<li><a href="profile.php">Blog</a></li>
+										<li><a href="profile.php">Customer Success Stories</a></li>
 									</ul>
 								</div>
 							</div>

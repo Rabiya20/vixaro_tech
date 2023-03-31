@@ -13,7 +13,7 @@
 					data-easein="default" 
 					data-easeout="default" 
 					data-masterspeed="default" 
-					data-thumb="error-404.html" 
+					data-thumb="error-404.php" 
 					data-rotate="0" 
 					data-fstransition="fade" 
 					data-fsmasterspeed="1500" 
@@ -101,7 +101,7 @@
 									<i class="fa fa-bank text-primary"></i>
 								</div>
 								<h4>University BootCamps</h4>
-								<a href="#bootcamps" class="btn radius-xl">Explore BootCamps</a>
+								<a href="#bootcamps" class="btn radius-xl smooth-goto">Explore BootCamps</a>
 							</div>
 						</div>
 					</div>
@@ -232,7 +232,7 @@
 				<br>
 				<div class="row">
 					<div class="col-lg-6 text-right">
-						<a href="#bootcamps" class="btn explore"><b>Explore BootCamps</b></a>
+						<a href="#bootcamps" class="btn explore smooth-goto"><b>Explore BootCamps</b></a>
 					</div>
 					<div class="col-lg-6">
 						<a href="certifications.php" class="btn explore"><b>Explore IT Certifications</b></a>

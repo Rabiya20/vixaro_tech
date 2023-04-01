@@ -204,3 +204,23 @@ button.back-to-top:hover,
 .counter-text{
 	color: var(--red-primary) !important;
 }
+.btn-danger{
+    color: var(--white-primary);
+    background-color: var(--red-primary);
+}
+.modal-footer, .modal-header{
+    background-color: var(--blue-primary);
+    color: var(--white-primary);
+
+}
+.modal-title{
+    color: var(--white-primary);
+}
+.modal-body{
+    
+    text-align: center;
+    align-content: center;
+}
+.modal-body h3{
+    color: var(--white-primary);
+}

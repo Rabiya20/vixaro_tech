@@ -3,7 +3,7 @@
     <div class="page-content">
         <!-- Page Heading Box ==== -->
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
-            <div class="container mt-10">
+            <div class="container mt-5">
                 <div class="page-banner-entry">
                     <h1 class="text-light">Trainerfarm's Mission</h1>
                     <br>

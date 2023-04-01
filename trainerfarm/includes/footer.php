@@ -150,6 +150,8 @@
 <script src="assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="https://kit.fontawesome.com/6a27c18349.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> 
+
 <script>
 jQuery(document).ready(function() {
 	var ttrevapi;

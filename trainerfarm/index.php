@@ -486,9 +486,7 @@
 			</div>
 		</div>
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> 
+		 
 		<div class="container rounded section-area section-sp2">
 			<div class="row">
 				<div class="col-md-12 heading-bx left">
@@ -498,7 +496,7 @@
 			</div>
 			<div class="owl-carousel owl-theme"> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 
@@ -520,7 +518,7 @@
 					</div> 
 				</div> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 
@@ -542,7 +540,7 @@
 					</div> 
 				</div> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 
@@ -564,7 +562,7 @@
 					</div> 
 				</div> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 
@@ -586,7 +584,7 @@
 					</div> 
 				</div> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 
@@ -608,7 +606,7 @@
 					</div> 
 				</div> 
 				<div class="owl-item"> 
-					<div class="card d-flex flex-column"> 
+					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star active-star"></span> 

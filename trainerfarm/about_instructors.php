@@ -225,10 +225,10 @@
                 </div>
             </div>
 			
-			<div class="" style="background-color: #e2e2e2; ">
+			<div class="" style="background-color: #e2e2e2;">
                 <div class="container">
                     <div class="row" >
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card-body ">
                                 <div class=" card-container">
                                     <div class="profile-shape">
@@ -248,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card-body ">
                                 <div class=" card-container">
                                     <div class="profile-shape">
@@ -268,7 +268,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card-body ">
                                 <div class=" card-container">
                                     <div class="profile-shape">
@@ -288,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card-body container">
                                 <div class=" card-container">
                                     <div class="profile-shape">
@@ -308,7 +308,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-12">
                             <div class="card-body container">
                                 <div class=" card-container">
                                     <div class="profile-shape">

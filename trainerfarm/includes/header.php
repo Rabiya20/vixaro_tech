@@ -41,10 +41,6 @@
 	<!-- SHORTCODES ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">
 	
-	<!-- STYLESHEETS ============================================= -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
-	
 	<!-- REVOLUTION SLIDER CSS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/settings.css">
@@ -56,6 +52,21 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+	<!-- Font links -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<!-- CSS links-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- fancybox -->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
+	<!-- magnific-popup -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+	<!-- STYLESHEETS ============================================= -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 </head>
 <body id="bg">
 <div class="page-wraper">
@@ -125,7 +136,7 @@
 				<!-- Navigation Menu ==== -->
 				<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
 					<div class="menu-logo">
-						<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
+						<a href="index.php"><img src="assets/images/TF.png" alt=""></a>
 					</div>
 					<ul class="nav navbar-nav">	
 						<li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
@@ -189,7 +200,7 @@
 								<li><a href="about_news.php">In The News</a></li>
 								<li><a href="about_partnerships.php">Become An Academic Partner</a></li>
 								<li><a href="careers.php">Join The Trainerfarm Team</a></li>
-								<li><a href="success_stories.php">Customer Success Stories</a></li>
+								<li><a href="about_success_stories.php">Customer Success Stories</a></li>
 							</ul>
 						</li>
 						<!-- <li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>

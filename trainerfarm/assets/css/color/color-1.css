@@ -4,9 +4,9 @@
     --sc-primary: #4d0a91;
 
     --blue-primary: #1D315F;
-	--red-primary: #EF4137;
-	--orange-primary: #F58020;
-	--white-primary: #fff;
+    --red-primary: #EF4137;
+    --orange-primary: #F58020;
+    --white-primary: #fff;
 }
 
 /* Hex */
@@ -112,7 +112,7 @@ h6 a:hover,
 
 .footer-top,
 .footer-bottom {
-    background-color:  var(--blue-primary);
+    background-color: var(--blue-primary);
 }
 
 .ovbl-middle::after,
@@ -167,7 +167,8 @@ button.back-to-top,
 .recent-news-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next,
 .testimonial-carousel .owl-nav .owl-prev {
-    background-color:  var(--orange-primary);
+    background-color: var(--orange-primary);
+    border-color: var(--orange-primary);
     color: var(--white-primary);
 }
 
@@ -201,26 +202,36 @@ button.back-to-top:hover,
 }
 
 
-.counter-text{
-	color: var(--red-primary) !important;
+.counter-text {
+    color: var(--red-primary) !important;
 }
-.btn-danger{
+
+.btn-danger {
     color: var(--white-primary);
     background-color: var(--red-primary);
 }
-.modal-footer, .modal-header{
+
+.modal-footer,
+.modal-header {
     background-color: var(--blue-primary);
     color: var(--white-primary);
 
 }
-.modal-title{
+
+.modal-title {
     color: var(--white-primary);
 }
-.modal-body{
-    
+
+.modal-body {
+
     text-align: center;
     align-content: center;
 }
-.modal-body h3{
+
+.modal-body h3 {
     color: var(--white-primary);
+}
+
+.navbar-toggler > span {
+    background-color: var(--blue-primary) !important;
 }

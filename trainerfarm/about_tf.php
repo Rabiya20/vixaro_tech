@@ -201,7 +201,38 @@
                     <h1  style="color: var(--blue-primary)">University Partners</h1>
                 </div>
                 <div>
-                    <marquee behavior="" direction="left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus ab magnam, similique nihil exercitationem. Repudiandae fuga a hic vero! Sequi quis, natus molestias voluptatum reprehenderit alias non doloribus adipisci.</marquee>
+                    <section class="ribbon sponsor-slider">
+                        <div>
+                            <div class="row">
+                                <div style="margin-top: 2rem;">
+                                    <div class="marquee">
+                                        <ul class="marquee__content">
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                        </ul>
+                                        <ul aria-hidden="true" class="marquee__content">
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
                 <div class="container text-center">
                     <p style="color: var(--blue-primary)">We partner with elite University brands that students may choose to complete an IT bootcamp with. To continue higher education, we have bootcamps in the following areas: Cybersecurity, Web Development, Cloud Engineering, Data Science and AI/ML.</p>
@@ -221,13 +252,12 @@
                                 <p>At course completion, we have a team of advisors who assist students with job placement. These services include resume review and correction, and mock interviews to prepare for the job search process. Some of our students staying with their current employing companies have used their QuickStart education to gain promotions to advance their careers.</p>
                                 <br>
                                 <h4>Where Our Students Work:</h4>
-
+                                
                                 <a href="#" class="btn explore"><b>See Our Apprenticeship Program</b></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">
+                    <div class="col-md-4" style="background-image: url('https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg'); background-repeat: no-repeat; background-size: cover;">
                     </div>
                 </div>
 			</div>
@@ -242,42 +272,6 @@
                             <div class="container" style=" padding: 50px;">
                                 <h2>The QuickStart Team<br/></h2>
 
-                                <!-- <div class="section-content">
-                                    <div class="row">
-                                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                            <div class="counter-style-1">
-                                                <div class="text-primary">
-                                                    <span class="counter">3000</span><span>+</span>
-                                                </div>
-                                                <span class="counter-text">Completed Projects</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                            <div class="counter-style-1">
-                                                <div class="text-primary">
-                                                    <span class="counter">2500</span><span>+</span>
-                                                </div>
-                                                <span class="counter-text">Happy Clients</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                            <div class="counter-style-1">
-                                                <div class="text-primary">
-                                                    <span class="counter">1500</span><span>+</span>
-                                                </div>
-                                                <span class="counter-text">Questions Answered</span>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-                                            <div class="counter-style-1">
-                                                <div class="text-primary">
-                                                    <span class="counter">1000</span><span>+</span>
-                                                </div>
-                                                <span class="counter-text">Ordered Coffee's</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
                                 <h4>We have one of the strongest teams in the industry, building it by focusing on different departments in a sequence.</h4>
                                 <br>
                                 <a href="#" class="btn explore"><b>See Our Job Openings</b></a>                         
@@ -293,7 +287,6 @@
                         <div class="text-black">
                             <div class="container" style=" padding: 50px;">
                                 <h2 style="color: var(--blue-primary)">Meet Our Leadership Team<br/></h2>
-                                <!-- team imagges -->
                             </div>
                         </div>
                     </div>
@@ -302,50 +295,6 @@
                     </div>
                 </div>
 			</div>
-			<!-- About Content END ==== -->
-			<!-- Testimonials ==== -->
-			<!-- <div class="section-area section-sp2">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 heading-bx left">
-							<h2 class="title-head text-uppercase">what people <span>say</span></h2>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-						</div>
-					</div>
-					<div class="testimonial-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-						<div class="item">
-							<div class="testimonial-bx">
-								<div class="testimonial-thumb">
-									<img src="assets/images/testimonials/pic1.jpg" alt="">
-								</div>
-								<div class="testimonial-info">
-									<h5 class="name">Peter Packer</h5>
-									<p>-Art Director</p>
-								</div>
-								<div class="testimonial-content">
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimonial-bx">
-								<div class="testimonial-thumb">
-									<img src="assets/images/testimonials/pic2.jpg" alt="">
-								</div>
-								<div class="testimonial-info">
-									<h5 class="name">Peter Packer</h5>
-									<p>-Art Director</p>
-								</div>
-								<div class="testimonial-content">
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type...</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-			<!-- Testimonials END ==== -->
 		</div>
-		<!-- Page Content Box END ==== -->
     </div>
 <?php include('includes/footer.php'); ?>

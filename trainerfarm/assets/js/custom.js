@@ -2,50 +2,50 @@
     "use strict";
 
     var words = ["Certifications", "Bootcamps", "Learning"]
-    var colors = ["#F58020" , "#F58020", "#F58020"]
-    
+    var colors = ["#F58020", "#F58020", "#F58020"]
+
     var counter = 0;
     var currentIndex = getRandomInt(0, words.length - 1);
-    
+
     var text = document.getElementById("text2");
-    
+
     var stepInterval = setInterval(() => { step(); }, 200);
     var delInterval = null;
     var delTimeout = null;
-    
+
     function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    
-    function delIntervalCallback(){
+
+    function delIntervalCallback() {
         delInterval = setInterval(() => { del(); }, 100);
         clearTimeout(delTimeout);
     }
-    
-    function del(){
-        if(counter == 0){
+
+    function del() {
+        if (counter == 0) {
             let newIndex = getRandomInt(0, words.length - 1);
-            while(newIndex == currentIndex){
-                newIndex = getRandomInt(0, words.length -1 );
+            while (newIndex == currentIndex) {
+                newIndex = getRandomInt(0, words.length - 1);
             }
             currentIndex = newIndex;
             clearInterval(delInterval);
             stepInterval = setInterval(() => { step(); }, 200);
         }
-        else{
+        else {
             text.textContent = text.textContent.slice(0, -1)
             counter--;
         }
     }
-    
-    function step(){
-        if(counter >= words[currentIndex].length){
+
+    function step() {
+        if (counter >= words[currentIndex].length) {
             clearInterval(stepInterval);
             delTimeout = setTimeout(() => { delIntervalCallback(); }, 2000);
         }
-        else{
+        else {
             text.textContent += words[currentIndex][counter];
             text.style.color = colors[currentIndex];
             counter++;
@@ -74,11 +74,13 @@
             }
         });
     });
-    
+
     $(document).ready(function () {
-        $('.smooth-goto').on('click', function() {  
-            $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+        $('.smooth-goto').on('click', function () {
+            $('html, body').animate({ scrollTop: $(this.hash).offset().top - 50 }, 1000);
             return false;
         });
     });
+
+    
 })(jQuery);

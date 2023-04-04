@@ -235,3 +235,7 @@ button.back-to-top:hover,
 .navbar-toggler > span {
     background-color: var(--blue-primary) !important;
 }
+
+.text-primary{
+    color: var(--orange-primary) !important;
+}

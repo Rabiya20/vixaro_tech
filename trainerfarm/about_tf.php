@@ -289,6 +289,90 @@
                                 <h2 style="color: var(--blue-primary)">Meet Our Leadership Team<br/></h2>
                             </div>
                         </div>
+                        <div class="container">
+                            <div class="row mb-5">
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <article>
+                                        <figure>
+                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                        </figure>
+                                        <div>
+                                            <h1>Bryan Kenna</h1>
+                                            <p>Chief Executive Officer (CEO)</p>
+                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
+                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">

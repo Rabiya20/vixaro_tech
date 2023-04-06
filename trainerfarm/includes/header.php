@@ -138,18 +138,35 @@
 					<div class="menu-logo">
 						<a href="index.php"><img src="assets/images/TF.png" alt=""></a>
 					</div>
-					<ul class="nav navbar-nav">	
-						<li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
+					<ul class="nav navbar-nav">
+						<li><a href="javascript:;">Job Seekers  <i class="fa fa-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
+										<ul class="sub-menu">
+										<li><a href="#">Cyber Security</a></li>
+										<li><a href="#">Cloud Engineering</a></li>
+										<li><a href="#">AI/ Machine Learning</a></li>
+										<li><a href="#">Data Science & Analytics</a></li>
+										<li><a href="#">Web Development</a></li>
+										<li><a href="#">Software Engineering</a></li>
+									</ul> 
+								</li>
+								<li><a href="index-2.php">Workforce Development</a></li>
+								<li><a href="index-2.php">Career Services</a></li>
+								<li><a href="index-2.php">Finance & Funding</a></li>
+							</ul>
+						</li>
+						<!-- <li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="index.php">IT Bootcamp Program</a></li>
 								<li><a href="index-2.php">Workforce Development</a></li>
 								<li><a href="index-2.php">Career Services</a></li>
 								<li><a href="index-2.php">Finance & Funding</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="javascript:;">IT Professional <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<!--<li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
+								<!-- <li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
 										<li><a href="about-1.php">About 1</a></li>
 										<li><a href="about-2.php">About 2</a></li>
@@ -192,7 +209,7 @@
 								<li> <a href="https://www.quickstart.com/mycaa/">MyCAA Funded Training</a></li>
 							</ul>
 						</li>
-						<li><a href="blog-classic-grid.php">Blogs</a></li>
+						<li><a href="blogs.php">Blogs</a></li>
 						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="about_tf.php">About Trainerfarm</a></li>

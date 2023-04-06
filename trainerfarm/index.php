@@ -147,70 +147,74 @@
 				<section class="skills">
 					<div class="container">
 						<div class="skills-flex-container">
-						<div class="box">
-							<a href="courses/aws.php">
-								<div class="image">
-									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="xd">
+							<div class="row">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/aws.php">
+										<div class="image">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="xd">
+										</div>
+										<div class="title">AWS Certifications</div>
+									</a>
 								</div>
-								<div class="title">AWS Certifications</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/microsoft.php">
-								<div class="image">
-									<img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="figma">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/microsoft.php">
+										<div class="image">
+											<img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="figma">
+										</div>
+										<div class="title">Micosoft Assure</div>
+									</a>
 								</div>
-								<div class="title">Micosoft Assure</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/comptia.php">
-								<div class="image">
-									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="html">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/comptia.php">
+										<div class="image">
+											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="html">
+										</div>
+										<div class="title">CompTIA Certifications</div>
+									</a>
 								</div>
-								<div class="title">CompTIA Certifications</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/itil.php">
-								<div class="image">
-									<img src="https://seeklogo.com/images/I/itil-logo-569A84C737-seeklogo.com.png" alt="css">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/itil.php">
+										<div class="image">
+											<img src="https://seeklogo.com/images/I/itil-logo-569A84C737-seeklogo.com.png" alt="css">
+										</div>
+										<div class="title">ITIL Certifications</div>
+									</a>
 								</div>
-								<div class="title">ITIL Certifications</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/cisco.php">
-								<div class="image">
-									<img src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="javascript">
+							</div>
+							<div class="row">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/cisco.php">
+										<div class="image">
+											<img src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="javascript">
+										</div>
+										<div class="title">Cisco Certifications</div>
+									</a>
 								</div>
-								<div class="title">Cisco Certifications</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/linux.php">
-								<div class="image">
-									<img src="https://w7.pngwing.com/pngs/669/239/png-transparent-kubernetes-linux-foundation-certification-cloud-native-computing-foundation-test-kubernetes-blue-text-logo-thumbnail.png" alt="photoshop">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/linux.php">
+										<div class="image">
+											<img src="https://w7.pngwing.com/pngs/669/239/png-transparent-kubernetes-linux-foundation-certification-cloud-native-computing-foundation-test-kubernetes-blue-text-logo-thumbnail.png" alt="photoshop">
+										</div>
+										<div class="title">Linux Foundation Certifications</div>
+									</a>
 								</div>
-								<div class="title">Linux Foundation Certifications</div>
-							</a>
-						</div>
-						<div class="box">
-							<a href="courses/ec_council.php">
-								<div class="image">
-									<img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="illustrator">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/ec_council.php">
+										<div class="image">
+											<img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="illustrator">
+										</div>
+										<div class="title">EC-Council Certifications</div>
+									</a>
 								</div>
-								<div class="title">EC-Council Certifications</div>
-							</a>
-						</div>
-
-						<div class="box">
-							<a href="courses/google.php">
-								<div class="image">
-									<img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="premiere pro">
+								<div class="box col-md-3 col-sm-6">
+									<a href="courses/google.php">
+										<div class="image">
+											<img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="premiere pro">
+										</div>
+										<div class="title">Google Cloud</div>
+									</a>
 								</div>
-								<div class="title">Google Cloud</div>
-							</a>
+							</div>
 						</div>
 					</div>
 				</section>

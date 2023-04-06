@@ -239,6 +239,95 @@ jQuery(document).ready(function() {
 	}
 });	
 </script>
+<script>
+$(document).ready(function() {
+    // define the number of posts per page
+    var postsPerPage = 4;
+
+    // hide all the posts
+    $(".post").hide();
+
+    // show the first set of posts
+    $(".post").slice(0, postsPerPage).show();
+
+    // calculate the number of pages needed
+    var numPages = Math.ceil($(".post").length / postsPerPage);
+
+    // create the pagination links
+    var pagination = "<ul class='pagination'>";
+	// pagination += "<button class='previous prev'><a href='javascript:;'><i class='ti-arrow-left'></i> Prev</a></button>";
+    for (var i = 1; i <= numPages; i++) {
+		pagination += "<li class='page'><a href='javascript:;'>" + i + "</a></li>";
+    }
+	// pagination += "<button class='next'><a href='javascript:;'><i class='ti-arrow-right'></i> Next</a></button>";
+    pagination += "</ul>";
+
+    // add the pagination links to the page
+    $("#pagination").append(pagination);
+
+    // add the active class to the first pagination link
+    $(".pagination li:first-child").addClass("active");
+
+    // hide the previous button on the first page
+    $("#pagination button.prev").hide();
+
+    // hide the next button on the last page
+    $("#pagination button.next").show();
+
+    // handle click events on the pagination links
+    $(".pagination li").on("click", function() {
+        // get the page number of the clicked link
+        var pageNum = $(this).index() + 1;
+
+        // remove the active class from all pagination links
+        $(".pagination li").removeClass("active");
+
+        // add the active class to the clicked link
+        $(this).addClass("active");
+
+        // hide all the posts
+        $(".post").hide();
+
+        // show the posts for the clicked page
+        var start = (pageNum - 1) * postsPerPage;
+        var end = start + postsPerPage;
+        $(".post").slice(start, end).show();
+
+        // show or hide the previous and next buttons based on the current page
+        if (pageNum == 1) {
+            $("#pagination button.prev").hide();
+        } else {
+            $("#pagination button.prev").show();
+        }
+        if (pageNum == numPages) {
+            $("#pagination button.next").hide();
+        } else {
+            $("#pagination button.next").show();
+        }
+    });
+
+    // handle click events on the previous and next buttons
+    $("#pagination button.prev").on("click", function() {
+        // get the current page number
+        var pageNum = $(".pagination li.active").index() + 1;
+
+        // go to the previous page
+        if (pageNum > 1) {
+            $(".pagination li.active").removeClass("active").prev().addClass("active").click();
+        }
+    });
+
+    $("#pagination button.next").on("click", function() {
+        // get the current page number
+        var pageNum = $(".pagination li.active").index() + 1;
+
+        // go to the next page
+        if (pageNum < numPages) {
+            $(".pagination li.active").removeClass("active").next().addClass("active").click();
+        }
+    });
+});
+</script>
 </body>
 
 </html>

@@ -124,7 +124,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/ai.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/arti_int.php">Artificial Intelligence</a></div>
                             </div>
@@ -132,7 +132,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/cloud.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/cloud_eng.php">Cloud Engineering</a></div>
                             </div>								
@@ -143,7 +143,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/cybersecurity.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/cyber_def.php">Cybersecurity Defense</a></div>
                             </div>
@@ -151,7 +151,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/software.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/soft_eng.php">Software Engineering</a></div>
                             </div>								
@@ -162,7 +162,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/datascience.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/data_sci.php">Data Science</a></div>
                             </div>
@@ -170,7 +170,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="course-logo" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="course-logo" src="assets/images/courses/webdev.png" alt="">
                                 </div>
                                 <div class="col-md-6 course-name"><a href="bootcamp/web_dev.php">Web Development</a></div>
                             </div>								
@@ -193,7 +193,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/cybersecurity.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/cyber_sec.php"><h4>Cyber Security</h4></a></div>
                             </div>
@@ -201,7 +201,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/cloud.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
                             </div>								
@@ -212,7 +212,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/networking.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/netwroking.php"><h4>Networking</h4></a></div>
                             </div>
@@ -220,7 +220,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/devops.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/devops.php"><h4>DevOps</h4></a></div>
                             </div>								
@@ -231,7 +231,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/ai.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/arti_int.php"><h4>AI & ML</h4></a></div>
                             </div>
@@ -239,7 +239,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/datascience.png" alt="">
                                 </div>
                                 <div class="col-md-8"><a href="courses/data_sci.php"><h4>Data Science & Analytics</h4></a></div>
                             </div>								
@@ -250,7 +250,7 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-2">
-                                    <img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
+                                    <img class="" src="assets/images/courses/pm.png" alt="">
                                 </div>
                                 <div class="col-md-6"><a href="courses/proj_man.php"><h4>Project Management</h4></a></div>
                             </div>

@@ -165,29 +165,29 @@
                                 <p>Our expanding catalog of courses covers hundreds of technologies, like AWS, Microsoft Azure, Google, CompTIA, and more. We work with industry experts, hiring managers, and IT professionals to curate the most up-to-date curriculum.</p>
                                 <div class="row text-center">
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/microsoft-logo.png" height="80px" width="100px" alt="">
                                     </div>
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" height="80px" width="100px" alt="">
                                     </div>
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" height="80px" width="100px" alt="">
                                     </div>
                                 </div>  <br>
                                 <div class="row text-center">
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/pc-logo.png" height="80px" width="100px" alt="">
                                     </div>
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/pmi-logo.png" height="80px" width="100px" alt="">
                                     </div>
                                     <div class="col">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/cisco-logo.png" height="80px" width="100px" alt="">
                                     </div>
                                 </div>  <br>
                                 <div class="row text-center">
                                     <div class="col-12">
-                                        <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="80px" width="100px" alt="">
+                                        <img src="https://www.peoplecert.org/-/media/peoplecert/images/logos/axelos-logos/itil-white.png?h=280&iar=0&w=588&hash=BF5A7D980541DC72FB737D5ABF74D8C7" height="80px" width="100px" alt="">
                                     </div>
                                 </div>                              
                             </div>

@@ -149,7 +149,7 @@
 						<div class="skills-flex-container">
 							<div class="row">
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/aws.php">
+									<a href="courses-aws.php">
 										<div class="image">
 											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="xd">
 										</div>
@@ -157,7 +157,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/microsoft.php">
+									<a href="courses-microsoft.php">
 										<div class="image">
 											<img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="figma">
 										</div>
@@ -165,7 +165,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/comptia.php">
+									<a href="courses-comptia.php">
 										<div class="image">
 											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="html">
 										</div>
@@ -173,7 +173,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/itil.php">
+									<a href="courses-itil.php">
 										<div class="image">
 											<img src="https://seeklogo.com/images/I/itil-logo-569A84C737-seeklogo.com.png" alt="css">
 										</div>
@@ -183,7 +183,7 @@
 							</div>
 							<div class="row">
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/cisco.php">
+									<a href="courses-cisco.php">
 										<div class="image">
 											<img src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="javascript">
 										</div>
@@ -191,7 +191,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/linux.php">
+									<a href="courses-linux.php">
 										<div class="image">
 											<img src="assets/images/courses/linux.png" alt="photoshop">
 										</div>
@@ -199,7 +199,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/ec_council.php">
+									<a href="courses-ec_council.php">
 										<div class="image">
 											<img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="illustrator">
 										</div>
@@ -207,7 +207,7 @@
 									</a>
 								</div>
 								<div class="box col-md-3 col-sm-6">
-									<a href="courses/google.php">
+									<a href="courses-google.php">
 										<div class="image">
 											<img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="premiere pro">
 										</div>
@@ -259,7 +259,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/ai.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/arti_int.php">Artificial Intelligence</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-arti_int.php">Artificial Intelligence</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -267,7 +267,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/cloud.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/cloud_eng.php">Cloud Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-cloud_eng.php">Cloud Engineering</a></div>
 								</div>								
 							</div>
 						</div>
@@ -278,7 +278,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/cybersecurity.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/cyber_def.php">Cybersecurity Defense</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-cyber_def.php">Cybersecurity Defense</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -286,7 +286,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/software.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/soft_eng.php">Software Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-soft_eng.php">Software Engineering</a></div>
 								</div>								
 							</div>
 						</div>
@@ -297,7 +297,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/datascience.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/data_sci.php">Data Science</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-data_sci.php">Data Science</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -305,7 +305,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp/web_dev.php">Web Development</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-web_dev.php">Web Development</a></div>
 								</div>								
 							</div>
 						</div>
@@ -329,7 +329,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/cybersecurity.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/cyber_sec.php"><h4>Cyber Security</h4></a></div>
+									<div class="col-md-6"><a href="courses-cyber_sec.php"><h4>Cyber Security</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -337,7 +337,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/cloud.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
+									<div class="col-md-6"><a href="courses-cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -348,7 +348,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/networking.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/netwroking.php"><h4>Networking</h4></a></div>
+									<div class="col-md-6"><a href="courses-netwroking.php"><h4>Networking</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -356,7 +356,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/devops.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/devops.php"><h4>DevOps</h4></a></div>
+									<div class="col-md-6"><a href="courses-devops.php"><h4>DevOps</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -367,7 +367,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/ai.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/arti_int.php"><h4>AI & ML</h4></a></div>
+									<div class="col-md-6"><a href="courses-artificial_intelligence.php"><h4>AI & ML</h4></a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -375,7 +375,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/datascience.png" alt="">
 									</div>
-									<div class="col-md-8"><a href="courses/data_sci.php"><h4>Data Science & Analytics</h4></a></div>
+									<div class="col-md-8"><a href="courses-data_sciece.php"><h4>Data Science & Analytics</h4></a></div>
 								</div>								
 							</div>
 						</div>
@@ -386,7 +386,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/pm.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/proj_man.php"><h4>Project Management</h4></a></div>
+									<div class="col-md-6"><a href="courses-proj_management.php"><h4>Project Management</h4></a></div>
 								</div>
 							</div>
 						</div>
@@ -415,7 +415,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/microsoft.php"><h4>Microsoft</h4></a><span>Azure, Sharepoint, Windows</span></div>
+									<div class="col-md-6"><a href="courses-microsoft.php"><h4>Microsoft</h4></a><span>Azure, Sharepoint, Windows</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -423,7 +423,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/aws.php"><h4>AWS</h4></a><span>Architecting, Cloud computing and much more</span></div>
+									<div class="col-md-6"><a href="courses-aws.php"><h4>AWS</h4></a><span>Architecting, Cloud computing and much more</span></div>
 								</div>								
 							</div>
 						</div>
@@ -434,7 +434,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/google.php"><h4>Google Cloud</h4></a><span>Architect And Engineering Training</span></div>
+									<div class="col-md-6"><a href="courses-google.php"><h4>Google Cloud</h4></a><span>Architect And Engineering Training</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -442,7 +442,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/cisco.php"><h4>Cisco</h4></a><span>Cisco Cloud, CCNA, CCNP, And More</span></div>
+									<div class="col-md-6"><a href="courses-cisco.php"><h4>Cisco</h4></a><span>Cisco Cloud, CCNA, CCNP, And More</span></div>
 								</div>								
 							</div>
 						</div>
@@ -453,7 +453,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/comptia.php"><h4>CompTIA</h4></a><span>Official A+,Network+ & Security+ Training</span></div>
+									<div class="col-md-6"><a href="courses-comptia.php"><h4>CompTIA</h4></a><span>Official A+,Network+ & Security+ Training</span></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -461,7 +461,7 @@
 									<div class="col-md-2">
 										<img class="" src="assets/images/courses/linux.png" alt="">
 									</div>
-									<div class="col-md-8"><a href="courses/linux.php"><h4>Linux Foundation</h4></a><span>Administration Course + CKA Certification Exam</span></div>
+									<div class="col-md-8"><a href="courses-linux.php"><h4>Linux Foundation</h4></a><span>Administration Course + CKA Certification Exam</span></div>
 								</div>								
 							</div>
 						</div>
@@ -472,7 +472,7 @@
 									<div class="col-md-2">
 										<img class="" src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="">
 									</div>
-									<div class="col-md-6"><a href="courses/ec_council.php"><h4>EC-Council</h4></a><span>Certified Ethical Hacking</span></div>
+									<div class="col-md-6"><a href="courses-ec_council.php"><h4>EC-Council</h4></a><span>Certified Ethical Hacking</span></div>
 								</div>
 							</div>
 						</div>

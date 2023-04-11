@@ -1,4 +1,10 @@
 <?php include('includes/header.php'); ?>
+<style>
+	.box{
+	width: 200px !important;
+    height: 210px !important;
+}
+</style>
 <div class="page-content bg-white">
 	<!-- Main Slider -->
 	<div class="rev-slider">

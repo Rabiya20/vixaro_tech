@@ -86,12 +86,6 @@
 				</div>
 				<div class="topbar-right">
 					<ul>
-						<!--<li>
-								<select class="header-lang-bx">
-								<option data-icon="flag flag-uk">English UK</option>
-								<option data-icon="flag flag-us">English US</option> 
-								</select> 
-						</li>-->
 						<li><a href="login.php">Login</a></li>
 						<li><a href="register.php">Register</a></li>
 					</ul>
@@ -139,7 +133,7 @@
 						<a href="index.php"><img src="assets/images/TF.png" alt=""></a>
 					</div>
 					<ul class="nav navbar-nav">
-						<li><a href="javascript:;">Job Seekers  <i class="fa fa-chevron-down"></i></a>
+						<li><a href="javascript:;">BootCamps <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
@@ -156,15 +150,7 @@
 								<li><a href="index-2.php">Finance & Funding</a></li>
 							</ul>
 						</li>
-						<!-- <li class="active"><a href="javascript:;">Job Seekers <i class="fa fa-chevron-down"></i></a>
-							<ul class="sub-menu">
-								<li><a href="index.php">IT Bootcamp Program</a></li>
-								<li><a href="index-2.php">Workforce Development</a></li>
-								<li><a href="index-2.php">Career Services</a></li>
-								<li><a href="index-2.php">Finance & Funding</a></li>
-							</ul>
-						</li> -->
-						<li><a href="javascript:;">IT Professional <i class="fa fa-chevron-down"></i></a>
+						<li><a href="javascript:;">Certifications <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<!-- <li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
@@ -178,7 +164,7 @@
 								<li><a href="error-404.php">Guaranteed To Run</a></li>
 							</ul>
 						</li>
-						<li class="add-mega-menu"><a href="javascript:;">Employers <i class="fa fa-chevron-down"></i></a>
+						<li class="add-mega-menu"><a href="javascript:;">Corporate Training <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="portfolio.php">Corporate & Business Training</a></li>
 								<li><a href="profile.php">State & Local Government/Education</a></li>
@@ -186,29 +172,15 @@
 								<li><a href="error-404.php">Unlimited Access Master Subscription</a></li>
 								<li><a href="error-404.php">Technology Apprentice Scholar Program</a></li>
 							</ul>
-							<!--<ul class="sub-menu add-menu">
-								<li class="add-menu-left">
-									<h5 class="menu-adv-title">Our Courses</h5>
-									<ul>
-										<li><a href="courses.php">Courses </a></li>
-										<li><a href="courses-details.php">Courses Details</a></li>
-										<li><a href="profile.php">Instructor Profile</a></li>
-										<li><a href="event.php">Upcoming Event</a></li>
-										<li><a href="membership.php">Membership</a></li>
-									</ul>
-								</li>
-									<li class="add-menu-right">
-									<img src="assets/images/adv/adv.jpg" alt=""/>
-								</li> 
-							</ul>-->
 						</li>
-						<li><a href="javascript:;">Militery <i class="fa fa-chevron-down"></i></a>
+						<!-- for future use -->
+						<!-- <li><a href="javascript:;">Militery <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li> <a href="https://www.quickstart.com/army-cool/">Army Funded Training</a></li>
 								<li> <a href="https://www.quickstart.com/air-force-cool/">Air Force Funded Training</a></li>
 								<li> <a href="https://www.quickstart.com/mycaa/">MyCAA Funded Training</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li><a href="blogs.php">Blogs</a></li>
 						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
@@ -220,30 +192,6 @@
 								<li><a href="about_success_stories.php">Customer Success Stories</a></li>
 							</ul>
 						</li>
-						<!-- <li class="nav-dashboard"><a href="javascript:;">Dashboard <i class="fa fa-chevron-down"></i></a>
-							<ul class="sub-menu">
-								<li><a href="admin/index.php">Dashboard</a></li>
-								<li><a href="admin/add-listing.php">Add Listing</a></li>
-								<li><a href="admin/bookmark.php">Bookmark</a></li>
-								<li><a href="admin/courses.php">Courses</a></li>
-								<li><a href="admin/review.php">Review</a></li>
-								<li><a href="admin/teacher-profile.php">Teacher Profile</a></li>
-								<li><a href="admin/user-profile.php">User Profile</a></li>
-								<li><a href="javascript:;">Calendar<i class="fa fa-angle-right"></i></a>
-									<ul class="sub-menu">
-										<li><a href="admin/basic-calendar.php">Basic Calendar</a></li>
-										<li><a href="admin/list-view-calendar.php">List View Calendar</a></li>
-									</ul>
-								</li>
-								<li><a href="javascript:;">Mailbox<i class="fa fa-angle-right"></i></a>
-									<ul class="sub-menu">
-										<li><a href="admin/mailbox.php">Mailbox</a></li>
-										<li><a href="admin/mailbox-compose.php">Compose</a></li>
-										<li><a href="admin/mailbox-read.php">Mail Read</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li> -->
 					</ul>
 					<div class="nav-social-link">
 						<a href="javascript:;"><i class="fa fa-facebook"></i></a>

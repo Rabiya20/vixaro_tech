@@ -64,6 +64,13 @@
 	<!-- magnific-popup -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
+
+
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style2.css">
+
 	<!-- STYLESHEETS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
@@ -137,7 +144,7 @@
 							<ul class="sub-menu">
 								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
-										<li><a href="#">Cyber Security</a></li>
+										<li><a href="bootcamp-cyber_def.php">Cyber Security</a></li>
 										<li><a href="#">Cloud Engineering</a></li>
 										<li><a href="#">AI/ Machine Learning</a></li>
 										<li><a href="#">Data Science & Analytics</a></li>

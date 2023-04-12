@@ -1,4 +1,11 @@
 <?php include('includes/header.php'); ?>
+<style>
+.img img{
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 0% !important;
+}
+</style>
 <br><br><br><br>
     <div class="page-content">
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/bootcamps/cyber-cover.jpg);">
@@ -64,15 +71,15 @@
                 <p>Enrolling in a cyber-security boot camp is an opportune time to start your journey towards a secure and rewarding career. Contact TrainerFarm today to learn more about our Cyber security certification program and how it can benefit you.</p>
                 <p class="disclaimer">*Bureau of Labor Statistics, U.S. Department of Labor, Occupational Outlook Handbook, Information Security Analysts, at <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" target="_blank">https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</a> (visited February 7, 2023). This data represents national figures and is not based on school-specific information. Conditions in your area may vary.</p>
                 <div class="row">
-                    <div class="col-4" style="background-image: url('assets/images/background/bg-1.png'); background-cover: cover;">
-                        <ul style="margin-top: 200px;">
+                    <div class="col-4" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-cover: cover;">
+                        <!-- <ul style="margin-top: 200px;">
                             <li class="badge-list"> 
                                 <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
                             </li>
                             <li class="badge-list">
                                 <img src="assets/images/courses/cysa.png" alt="" style="width: 100px;">
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="col-8" style="background-color: var(--blue-primary);">
                         <div class="section-list">
@@ -275,17 +282,70 @@
             <div class="container" class="mb-5">
                 <span class="section_title">TYPICAL WEEK</span>
                 <h3 class="text-primary">Our Part-Time Format</h3>
+                <div class="owl-carousel owl-1">
+                    <div class="media-29101 d-md-flex w-100" id="first_tab">
+                        <div class="img">
+                            <img src="https://cutecdn.codingdojo.com/new_design_image/cyber_security/lectures.png" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <a class="category d-block mb-4" href="#">4 hrs/week</a>
+                            <h2><a href="#">Lectures</a></h2>
+                            <p>2 hour lectures, twice per week</p>
+                            <p>5 PM PST</p>
+                            <p>Always live, but always recorded!</p>
+                        </div>
+                    </div>
+
+                    <div class="media-29101 d-md-flex w-100" id="second_tab">
+                        <div class="img">
+                            <img src="assets/images/hero_2.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <a class="category d-block mb-4" href="#">2 hrs/week</a>
+                            <h2><a href="#">Lectures</a></h2>
+                            <p>2 hour lectures, twice per week</p>
+                            <p>5 PM PST</p>
+                            <p>Always live, but always recorded!</p>
+                        </div>
+                    </div>
+
+                    <div class="media-29101 d-md-flex w-100" id="third_tab">
+                        <div class="img">
+                            <img src="assets/images/hero_3.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <a class="category d-block mb-4" href="#">10 hrs/week</a>
+                            <h2><a href="#">Lectures</a></h2>
+                            <p>2 hour lectures, twice per week</p>
+                            <p>5 PM PST</p>
+                            <p>Always live, but always recorded!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="media-29101 d-md-flex w-100" id="fourth_tab">
+                        <div class="img">
+                            <img src="assets/images/hero_3.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <a class="category d-block mb-4" href="#">25 hrs/week</a>
+                            <h2><a href="#">Lectures</a></h2>
+                            <p>2 hour lectures, twice per week</p>
+                            <p>5 PM PST</p>
+                            <p>Always live, but always recorded!</p>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </section>
 
-        <section id="weekly_schedule_section" class="mb-5">
+        <!-- <section id="weekly_schedule_section" class="mb-5">
             <div class="container">
                 <span class="section_title">Support</span>
                 <h3 class="text-primary">Here to Support You</h3>
             </div>
-        </section>
+        </section> -->
 
-        <section id="career_services" class="mb-2">
+        <!-- <section id="career_services" class="mb-2">
             <div class="container">
                 <span class="section_title">CAREER SERVICES</span>
                 <h3 class="text-primary">Dedicated Cybersecurity Career Services</h3>
@@ -326,31 +386,31 @@
                     </div>
                 </div>
             </div>
-        </section>  
+        </section>   -->
 
-        <section id="tuition" class="mb-5">
+        <!-- <section id="tuition" class="mb-5">
             <div class="container">
                 <span class="section_title">Payment</span>
                 <h3 class="text-primary">Tuition + Financing</h3>
                 <p>Not sure which financing option is right for you? Check out <a href="/financing" target="_blank">Financing 101</a> or <a href="javascript:void(0);" class="ada_cta_button cta_disabled">book a call with admissions</a>!</p>
             </div>
-        </section> 
+        </section>  -->
 
-        <section id="how_to_enroll" class="mb-5">
+        <!-- <section id="how_to_enroll" class="mb-5">
             <div class="container">
                 <span class="section_title">Application Process</span>
                 <h3 class="text-primary">How to Enroll</h3>
                 <p>Are you ready for a challenging and rewarding career in Cybersecurity? Applying to the Coding Dojo Online Part-Time Cybersecurity Program is simple:</p>
             </div>
-        </section>
+        </section> -->
 
-        <section id="what_are_you_waiting_for" class="mb-5">
+        <section id="what_are_you_waiting_for" class="mb-5"  style="padding:20px; text-align: center; background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
             <div class="container">
-                <h3 class="text-primary">What are you waiting for?</h3>
+                <h1 class="text-primary">What are you waiting for?</h1>
                 <p>Let's get started.</p>
-                <div>
+                <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
                     <p>Part-Time Remote Cybersecurity Bootcamp <span>(24 Weeks)</span></p>
-                    <a href="/apply" class="cta_blue_button" target="_blank">Apply Now</a>
+                    <a href="" class="btn btn-primary" target="_blank">Apply Now</a>
                 </div>
             </div>
         </section>
@@ -359,6 +419,63 @@
             <div class="container">
                 <span class="section_title">Faqs</span>
                 <h3 class="text-primary">You've Got Questions We've Got Answers</h3>
+                <div class="col-lg-12 col-md-12">
+                    <div class="heading-bx left">
+                        <h2 class="m-b10 title-head">Frequently <span>Asked Questions (FAQs)</span></h2>
+                    </div>
+                    <div class="ttr-accordion m-b30 faq-bx" id="accordion1">
+                        <div class="panel">
+                            <div class="acod-head">
+                                <h6 class="acod-title"> 
+                                    <a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
+                                    Why won't my payment go through? </a> </h6>
+                            </div>
+                            <div id="faq1" class="acod-body collapse">
+                                <div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="acod-head">
+                                <h6 class="acod-title"> 
+                                    <a data-toggle="collapse" href="#faq2" class="collapsed" data-parent="#faq2">
+                                    How do I get a refund?</a> </h6>
+                            </div>
+                            <div id="faq2" class="acod-body collapse">
+                                <div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="acod-head">
+                                <h6 class="acod-title"> 
+                                    <a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
+                                    How do I redeem a coupon? </a> </h6>
+                            </div>
+                            <div id="faq3" class="acod-body collapse">
+                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="acod-head">
+                                <h6 class="acod-title"> 
+                                    <a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
+                                    Why aren't my courses showing in my account? </a> </h6>
+                            </div>
+                            <div id="faq4" class="acod-body collapse">
+                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="acod-head">
+                                <h6 class="acod-title"> 
+                                    <a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
+                                    Changing account name </a> </h6>
+                            </div>
+                            <div id="faq5" class="acod-body collapse">
+                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -373,4 +490,9 @@
         </div>
     </div>
 <br>
+<script src="js2/jquery-3.3.1.min.js"></script>
+<script src="js2/popper.min.js"></script>
+<script src="js2/bootstrap.min.js"></script>
+<script src="js2/owl.carousel.min.js"></script>
+<script src="js2/main.js"></script>
 <?php include('includes/footer.php'); ?>

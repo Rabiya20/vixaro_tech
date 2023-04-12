@@ -60,7 +60,7 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="cards">
+                        <!-- <div class="cards">
                             <div class="outer">
                                 <div class="card" style="--delay:-1;">
                                     <div class="content">
@@ -108,7 +108,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

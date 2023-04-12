@@ -4245,7 +4245,7 @@ button.back-to-top {
 }
 
 .owl-carousel .owl-item img {
-	width: 45px !important;
+	width: 45px;
 	height: 45px;
 	border-radius: 50%;
 	object-fit: cover

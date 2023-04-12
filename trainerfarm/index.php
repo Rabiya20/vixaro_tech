@@ -82,10 +82,11 @@
 							style="z-index: 6; font-family:rubik; text-align:center; white-space: normal;">
 								<div id="title">
 									<h3 id="text1">Online IT</h3>
-									<h3 id="text2" class="text-white display-1 mb-5"></h3>
+									<h3 id="text2" class="text-primary display-1 mb-5"></h3>
 								</div>
-								<h2 style="color: #fff !important;">Achieve Career Growth and Workforce Readiness</h2>
-								<h4 style="color: #fff !important;">Flexible <i class="fa-regular fa-circle-dot"></i> Trusted <i class="fa-regular fa-circle-dot"></i> Affordable</h4>
+								<h2 style="color: #fff !important;">TRAINING FOR BETTERMENT</h2>
+								<h4 style="color: #fff !important;">For 5 years, TrainerFarm has associated with IT experts and hiring managers to develop industry-aligned certificate courses and bootcamp training programs.</h4>
+								<!-- <h4 style="color: #fff !important;">Flexible <i class="fa-regular fa-circle-dot"></i> Trusted <i class="fa-regular fa-circle-dot"></i> Affordable</h4> -->
 						</div>
 					</li>
 				</ul>
@@ -100,13 +101,14 @@
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
-								<img src="assets/images/our-services/pic1.jpg" alt="">
+								<img src="assets/images/gallery/explore-bc.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa fa-bank text-primary"></i>
 								</div>
-								<h4>University BootCamps</h4>
+								<!-- <h4>University BootCamps</h4> -->
+								<h4></h4>
 								<a href="#bootcamps" class="btn radius-xl smooth-goto">Explore BootCamps</a>
 							</div>
 						</div>
@@ -114,13 +116,14 @@
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
-								<img src="assets/images/our-services/pic2.jpg" alt="">
+								<img src="assets/images/gallery/explore-cert.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa-solid fa-certificate text-primary"></i>
 								</div>
-								<h4>Official Certifications</h4>
+								<!-- <h4>Official Certifications</h4> -->
+								<h4></h4>
 								<a href="certifications.php" class="btn radius-xl">Explore Certifications</a>
 							</div>
 						</div>
@@ -128,13 +131,14 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="service-bx m-b0">
 							<div class="action-box">
-								<img src="assets/images/our-services/pic3.jpg" alt="">
+								<img src="assets/images/gallery/explore-tech.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa-solid fa-network-wired text-primary"></i>
 								</div>
-								<h4>Technologies & Partners</h4>
+								<!-- <h4>Technologies & Partners</h4> -->
+								<h4></h4>
 								<a href="certifications.php?view=byBrands" class="btn radius-xl">Explore Technologies</a>
 							</div>
 						</div>
@@ -147,7 +151,7 @@
 				<div class="row">
 					<div class="col-md-12 heading-bx left">
 						<h2 class="title-head">IT Bootcamps and Certifications</h2>
-						<p>Our IT Bootcamps and Certifications leverage the following technologies... We Offer Over <b>50+ Training Certifications & <span style="color: var(--orange-primary)">Bootcamps</span></b></p>
+						<p>We Offer Over <b>20+ different <span style="color: var(--orange-primary)">IT Training Courses</span></b></p>
 					</div>
 				</div>
 				<section class="skills">

@@ -4023,11 +4023,12 @@ button.back-to-top {
 	justify-content: center;
 	height: 130px;
 	width: 100%;
+	padding-bottom: 70px !important;
+	margin-top: 20px !important;
 }
 
 #text1 {
 	display: inline-block;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #FFFFFF;
 	height: 100px;
 	margin-top: 40px;
@@ -4035,11 +4036,52 @@ button.back-to-top {
 
 #text2 {
 	display: inline-block;
-	padding-left: 2%;
+	padding-left: 10px;
 	overflow: hidden;
 	animation:
 		blink-caret .75s step-end infinite;
 }
+.bootcamp-btn {
+	text-align: right;
+}
+.course-img{
+	/* height: 50px !important; */
+	width: 80px !important;
+}
+@media(max-width:630px) {
+	#text2 {
+		font-size: 50px !important;
+	}
+	.bootcamp-btn, .certification-btn {
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: -10px;
+	}
+	.course-list img{
+		margin-bottom: 10px;
+	}
+	.course-list-row{
+		margin-top: -25px;
+	}
+	.course-list-row2{
+		margin-top: -15px;
+	}
+	.course-list-row2 .row{
+		margin-bottom: 10px;
+	}
+	.course-img{
+		/* height: 50px !important; */
+		width: 40px !important;
+	}
+	.exp-tech-btn{
+		text-align: center;
+	}
+	.course-list-row2 img{
+		margin-top: 20px !important;
+	}
+}
+
+
 
 @keyframes blink-caret {
 
@@ -5112,6 +5154,10 @@ ul.btn_hvr_list li a:hover {
 @media screen and (max-width: 767px) {
 	.tabs {
 		min-height: 400px;
+	}
+	.tabby-tab label{
+		padding: 0;
+		height: 50px;
 	}
 }
 

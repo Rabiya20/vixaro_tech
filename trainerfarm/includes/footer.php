@@ -5,7 +5,7 @@
 				<div class="container">
 					<div class="d-flex align-items-stretch">
 						<div class="pt-logo mr-auto">
-							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/TF-white-red.png" alt="logo"></a>
+							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/logo/TF-white-red.png" alt="logo"></a>
 						</div>
 						<div class="pt-social-link">
 							<ul class="list-inline m-a0">

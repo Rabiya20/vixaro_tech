@@ -282,7 +282,7 @@
             <div class="container" class="mb-5">
                 <span class="section_title">TYPICAL WEEK</span>
                 <h3 class="text-primary">Our Part-Time Format</h3>
-                <div class="owl-carousel owl-1">
+                <div class="owl-carousel owl-1 mb-3">
                     <div class="media-29101 d-md-flex w-100" id="first_tab">
                         <div class="img">
                             <img src="https://cutecdn.codingdojo.com/new_design_image/cyber_security/lectures.png" alt="Image" class="img-fluid">
@@ -298,7 +298,7 @@
 
                     <div class="media-29101 d-md-flex w-100" id="second_tab">
                         <div class="img">
-                            <img src="assets/images/hero_2.jpg" alt="Image" class="img-fluid">
+                            <img src="assets/images/banner/banner1.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
                             <a class="category d-block mb-4" href="#">2 hrs/week</a>
@@ -311,7 +311,7 @@
 
                     <div class="media-29101 d-md-flex w-100" id="third_tab">
                         <div class="img">
-                            <img src="assets/images/hero_3.jpg" alt="Image" class="img-fluid">
+                            <img src="assets/images/banner/banner2.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
                             <a class="category d-block mb-4" href="#">10 hrs/week</a>
@@ -324,7 +324,7 @@
                     
                     <div class="media-29101 d-md-flex w-100" id="fourth_tab">
                         <div class="img">
-                            <img src="assets/images/hero_3.jpg" alt="Image" class="img-fluid">
+                            <img src="assets/images/banner/banner3.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
                             <a class="category d-block mb-4" href="#">25 hrs/week</a>

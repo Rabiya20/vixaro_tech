@@ -5139,3 +5139,7 @@ ul.btn_hvr_list li a:hover {
 	border-radius: 20px;
 	height: 70%;
 }
+
+.action-box img{
+	height: 250px !important;
+}

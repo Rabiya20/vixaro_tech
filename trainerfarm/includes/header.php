@@ -144,7 +144,7 @@
 							<ul class="sub-menu">
 								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
 										<ul class="sub-menu">
-										<li><a href="bootcamp-cyber_def.php">Cyber Security</a></li>
+										<li><a href="bootcamp-cyber_security.php">Cyber Security</a></li>
 										<li><a href="#">Cloud Engineering</a></li>
 										<li><a href="#">AI/ Machine Learning</a></li>
 										<li><a href="#">Data Science & Analytics</a></li>

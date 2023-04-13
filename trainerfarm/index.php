@@ -146,6 +146,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="section-area section-sp2 popular-courses-bx">
 			<div class="container">
 				<div class="row">
@@ -233,7 +234,7 @@
 		
 		<div class="section-area section-sp1">
 			<div class="container">
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-lg-6">
 						<h2 class="title-head ">Winner of the 2022 EC-Council ATC Circle of <span class="text-primary">  Excellence Award</span></h2>
 						<p>Trainerfarm received this 2022 award from EC-Council, which highlights the top EC-Council training partners worldwide, who create a meaningful impact for their students.</p>
@@ -242,14 +243,14 @@
 						<h2 class="title-head ">Fortune Education Best Cybersecurity  <span class="text-primary">Bootcamps 2023</span></h2>
 						<p>The Trainerfarm Cybersecurity Bootcamp made the unranked list of Fortune Education's Best Cybersecurity Bootcamps 2023. This year, 23 other cybersecurity bootcamps were selected the listing.</p>
 					</div>
-				</div>
-				<br>
+				</div> 
+				<br>-->
 				<div class="row">
 					<div class="col-lg-6 text-right">
 						<a href="#bootcamps" class="btn explore smooth-goto"><b>Explore BootCamps</b></a>
 					</div>
 					<div class="col-lg-6">
-						<a href="certifications.php" class="btn explore"><b>Explore IT Certifications</b></a>
+						<a href="certifications.php" class="btn explore"><b>Explore Certifications</b></a>
 					</div>
 				</div>
 			</div>
@@ -259,8 +260,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-white heading-bx left">
-						<h2 class="title-head text-uppercase">IT Bootcamps Designed To Prepare You For High-Paying IT Jobs and in Partnership With <span>Major Universities</span></h2>
-						<p>Select your desired university partner and enroll in an IT Bootcamp. Our flexible schedule allows you to easily balance coursework with your personal and professional priorities. Upon completion you can impress employers with a certificate from our University Partner. Select a bootcamp based on these popular programs:</p>
+						<h2 class="title-head text-uppercase">IT bootcamps are intensive, short-term training programs that focus on teaching technical skills in <span>information technology (IT)</span> in a condensed period of time</h2>
+						<p>TrainerFarm IT bootcamps are often used by individuals who are looking to transition into a new career in IT or by working professionals who want to enhance their existing IT skills. Bootcamps cover a wide range of IT-related topics, including programming, web development, cybersecurity, data analysis, and cloud computing.</p>
 					</div>
 					<div class="col-md-12 text-white heading-bx left">
 						<div class="row">
@@ -269,7 +270,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/ai.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-arti_int.php">Artificial Intelligence</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
@@ -277,7 +278,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/cloud.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-cloud_eng.php">Cloud Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-cloud_computing.php">Cloud Computing</a></div>
 								</div>								
 							</div>
 						</div>
@@ -288,15 +289,15 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/cybersecurity.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-cyber_def.php">Cybersecurity Defense</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-cyber_security.php">Cybersecurity</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="row">
 									<div class="col-md-2">
-										<img class="course-logo" src="assets/images/courses/software.png" alt="">
+										<img class="course-logo" src="assets/images/courses/datascience.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-soft_eng.php">Software Engineering</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-data_science.php">Data Science</a></div>
 								</div>								
 							</div>
 						</div>
@@ -305,17 +306,17 @@
 							<div class="col-md-6">
 								<div class="row">
 									<div class="col-md-2">
-										<img class="course-logo" src="assets/images/courses/datascience.png" alt="">
+										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-data_sci.php">Data Science</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-web_development.php">Web Development</a></div>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="row">
 									<div class="col-md-2">
-										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
+										<img class="course-logo" src="assets/images/courses/software.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-web_dev.php">Web Development</a></div>
+									<div class="col-md-6 course-name"><a href="bootcamp-software_engineering.php">Software Engineering</a></div>
 								</div>								
 							</div>
 						</div>
@@ -324,7 +325,7 @@
 			</div>
 		</div>
 		
-		<div class="section-area section-sp2" style="background-color: #fff;">
+		<!-- <div class="section-area section-sp2" style="background-color: #fff;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 heading-bx right">
@@ -409,15 +410,14 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
-		<div class="section-area section-sp2" style="background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
+		<div class="section-area section-sp2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 heading-bx left">
-						<h2 class="title-head">We Understand The Latest And Greatest Emerging Technologies, And Partner With  <span>The Biggest Technology Vendors</span></h2>
-						<p>We Understand The Latest And Greatest Emerging Technologies, And Partner With The Biggest Technology Vendors
-						Achieving workforce readiness is about understanding the vast skillsets and core technologies that make up official IT certifications. Our expanding catalog of courses span over hundreds of emerging and complimentary technologies for things like AWS, Microsoft Azure, Google, and more.</p>
+						<h2 class="title-head">IT emerging technologies refer to the latest and most promising technologies that are currently being developed or gaining widespread adoption in the field of <span>information technology (IT)</span></h2>
+						<p>We offer certifications in various IT fields like CompTIA, Microsoft, ITIL and many more.</p>
 						<br>
 						<div class="row">
 							<div class="col-md-6">
@@ -494,18 +494,16 @@
 						</div>
 					</div>
 					<div class="col-md-4 heading-bx left">
-						
 					</div>
 				</div>
 			</div>
 		</div>
 
-		 
 		<div class="container rounded section-area section-sp2">
 			<div class="row">
 				<div class="col-md-12 heading-bx left">
-					<h2 class="title-head text-uppercase">what people <span>say</span></h2>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
+					<h2 class="title-head text-uppercase">Reviews<span>!</span></h2>
+					<!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page</p> -->
 				</div>
 			</div>
 			<div class="owl-carousel owl-theme"> 
@@ -518,20 +516,42 @@
 							<span class="fas fa-star active-star"></span> 
 							<span class="fas fa-star-half-alt active-star"></span> 
 						</div> 
-						<div class="main font-weight-bold pb-2 pt-1">Great Service</div> 
+						<!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div>  -->
 						<div class="testimonial"> 
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. 
+							It was the best decision I could've made once I knew I wanted my next career to be in software development. I went in knowing very little and graduated with a wealth of knowledge that helped jumpstart my new career. <br><br>
 						</div> 
 						<div class="d-flex flex-row profile pt-4 mt-auto"> 
-							<img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
+							<img src="assets/images/testimonials/pro-1.jpg" alt="" class="rounded-circle"> 
 							<div class="d-flex flex-column pl-2"> 
-								<div class="name">Megan</div> 
-								<p class="text-muted designation">CEO of My Company</p> 
+								<div class="name">Green Pat</div> 
+								<!-- <p class="text-muted designation">CEO of My Company</p>  -->
 							</div> 
 						</div> 
 					</div> 
 				</div> 
 				<div class="owl-item"> 
+					<div class="card testimonial-card d-flex flex-column"> 
+						<div class="mt-2"> 
+							<span class="fas fa-star active-star"></span> 
+							<span class="fas fa-star active-star"></span> 
+							<span class="fas fa-star active-star"></span> 
+							<span class="fas fa-star active-star"></span> 
+							<span class="fas fa-star-half-alt active-star"></span> 
+						</div> 
+						<!-- <div class="main font-weight-bold pb-2 pt-1">Great Service</div>  -->
+						<div class="testimonial"> 
+							It definitely gave me a lot of motivation. Every time I would get through an obstacle or a speed bump, it was very motivational and encouraging to just keep going. I definitely feel like I gained a lot of skills. I learned how to adapt. I learned how to be comfortable with being uncomfortable.
+						</div> 
+						<div class="d-flex flex-row profile pt-4 mt-auto"> 
+							<img src="assets/images/testimonials/pro-2.jpg" alt="" class="rounded-circle"> 
+							<div class="d-flex flex-column pl-2"> 
+								<div class="name">Maria Gomez</div> 
+								<!-- <p class="text-muted designation">CEO of My Company</p>  -->
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+				<!-- <div class="owl-item"> 
 					<div class="card testimonial-card d-flex flex-column"> 
 						<div class="mt-2"> 
 							<span class="fas fa-star active-star"></span> 
@@ -618,91 +638,71 @@
 							</div> 
 						</div> 
 					</div> 
-				</div> 
-				<div class="owl-item"> 
-					<div class="card testimonial-card d-flex flex-column"> 
-						<div class="mt-2"> 
-							<span class="fas fa-star active-star"></span> 
-							<span class="fas fa-star active-star"></span> 
-							<span class="fas fa-star active-star"></span> 
-							<span class="fas fa-star active-star"></span> 
-							<span class="fas fa-star-half-alt active-star"></span> 
-						</div> 
-						<div class="main font-weight-bold pb-2 pt-1">Great Service</div> 
-						<div class="testimonial"> 
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. 
-						</div> 
-						<div class="d-flex flex-row profile pt-4 mt-auto"> 
-							<img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle"> 
-							<div class="d-flex flex-column pl-2"> 
-								<div class="name">Megan</div> 
-								<p class="text-muted designation">CEO of My Company</p> 
-							</div> 
-						</div> 
-					</div> 
-				</div> 
+				</div>  -->
 			</div>
 		</div>
 
 		<div class="section-area section-sp2 last-details" style="">
 			<div class="container">
-				<h2 class="title-head text-uppercase text-light"><span>Learn From </span>The Best</h2>
-				<p>Trainerfarm Instructors are some of the best experts and instructional designers in the IT industry, with knowledge spanning across several different topics including big data, cloud, security and more. Here is what they and their students have to say:</p>
-				<div class="content-block">
-				<div class="section-area">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-								<div class="feature-container">
-									<div class="feature-md text-white m-b20">
-										<img src="assets/images/icon/icon4.png" alt=""/>
-									</div>
-									<div class="icon-content">
-										<h5 class="ttr-tilte">Our Instructors</h5>
-										<p>A brief introduction on Trainerfarm and our instructors and what makes them unique.</p>
-										<a href="">Watch Video ></a>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-								<div class="feature-container">
-									<div class="feature-md text-white m-b20">
-										<img src="assets/images/icon/icon4.png" alt=""/>
-									</div>
-									<div class="icon-content">
-										<h5 class="ttr-tilte">Kingster's Principle</h5>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-										<a href="">Watch Video ></a>
+				<h2 class="title-head text-uppercase text-light"><span>MEET OUR </span>TEAM</h2>
+				<p>TrainerFarm has great IT instructors who have a deep understanding of the subject matter they are teaching. They are up-to-date with the latest industry trends and technologies and have a track record of success in the field.</p>
+				<p>They can able to explain concepts in multiple ways and provide different types of materials and resources to support different learning styles.</p>
+				<!-- <div class="content-block">
+					<div class="section-area">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+									<div class="feature-container">
+										<div class="feature-md text-white m-b20">
+											<img src="assets/images/icon/icon4.png" alt=""/>
+										</div>
+										<div class="icon-content">
+											<h5 class="ttr-tilte">Our Instructors</h5>
+											<p>A brief introduction on Trainerfarm and our instructors and what makes them unique.</p>
+											<a href="">Watch Video ></a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-								<div class="feature-container">
-									<div class="feature-md text-white m-b20">
-										<img src="assets/images/icon/icon4.png" alt=""/>
-									</div>
-									<div class="icon-content">
-										<h5 class="ttr-tilte">Key Of Success</h5>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-										<a href="">Watch Video ></a>
+								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+									<div class="feature-container">
+										<div class="feature-md text-white m-b20">
+											<img src="assets/images/icon/icon4.png" alt=""/>
+										</div>
+										<div class="icon-content">
+											<h5 class="ttr-tilte">Kingster's Principle</h5>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+											<a href="">Watch Video ></a>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-								<div class="feature-container">
-									<div class="feature-md text-white m-b20">
-										<img src="assets/images/icon/icon4.png" alt=""/>
+								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+									<div class="feature-container">
+										<div class="feature-md text-white m-b20">
+											<img src="assets/images/icon/icon4.png" alt=""/>
+										</div>
+										<div class="icon-content">
+											<h5 class="ttr-tilte">Key Of Success</h5>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+											<a href="">Watch Video ></a>
+										</div>
 									</div>
-									<div class="icon-content">
-										<h5 class="ttr-tilte">Our Philosophy</h5>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-										<a href="">Watch Video ></a>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
+									<div class="feature-container">
+										<div class="feature-md text-white m-b20">
+											<img src="assets/images/icon/icon4.png" alt=""/>
+										</div>
+										<div class="icon-content">
+											<h5 class="ttr-tilte">Our Philosophy</h5>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+											<a href="">Watch Video ></a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

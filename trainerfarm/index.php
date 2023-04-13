@@ -278,7 +278,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/cloud.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-cloud_computing.php">Cloud Computing</a></div>
+									<div class="col-md-6 course-name"><p href="bootcamp-cloud_computing.php">Cloud Computing</p></div>
 								</div>								
 							</div>
 						</div>
@@ -297,7 +297,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/datascience.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-data_science.php">Data Science</a></div>
+									<div class="col-md-6 course-name"><p href="bootcamp-data_science.php">Data Science</p></div>
 								</div>								
 							</div>
 						</div>
@@ -308,7 +308,7 @@
 									<div class="col-md-2">
 										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
 									</div>
-									<div class="col-md-6 course-name"><a href="bootcamp-web_development.php">Web Development</a></div>
+									<div class="col-md-6 course-name"><p href="bootcamp-web_development.php">Web Development</p></div>
 								</div>
 							</div>
 							<div class="col-md-6">

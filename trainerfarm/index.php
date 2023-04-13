@@ -101,7 +101,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
-								<img src="assets/images/gallery/explore-bc.jpg" alt="">
+								<img src="assets/images/banner/explore-bc.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
@@ -116,7 +116,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
-								<img src="assets/images/gallery/explore-cert.jpg" alt="">
+								<img src="assets/images/banner/explore-cert.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">
@@ -131,7 +131,7 @@
 					<div class="col-lg-4 col-md-4 col-sm-12">
 						<div class="service-bx m-b0">
 							<div class="action-box">
-								<img src="assets/images/gallery/explore-tech.jpg" alt="">
+								<img src="assets/images/banner/explore-tech.jpg" alt="">
 							</div>
 							<div class="info-bx text-center">
 								<div class="feature-box-sm radius bg-white">

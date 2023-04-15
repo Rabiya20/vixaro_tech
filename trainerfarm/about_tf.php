@@ -5,9 +5,9 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
             <div class="container mt-5">
                 <div class="page-banner-entry">
-                    <h1 class="text-light">Trainerfarm's Mission</h1>
+                    <h1 class="text-light">About Trainerfarm</h1>
                     <br>
-                    <h5 class="text-light">Trainerfarm's mission is to create world-class technologists by personalizing training to address the massive skills gap in the IT industry.</h5>
+                    <!-- <h5 class="text-light">Trainerfarm's mission is to create world-class technologists by personalizing training to address the massive skills gap in the IT industry.</h5> -->
 				 </div>
             </div>
         </div>
@@ -133,37 +133,39 @@
 			<!-- Our Status END ==== -->
 			<!-- About Content ==== -->
 			<div class="">
-                <div class="row" style="background-color: #e2e2e2; ">
-                    <div class="col-md-8">
+                <div class="row" style="background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-abstract-technology-background-technical-electric-picture-image_1252603.jpg'); background-repeat: no-repeat; background-size: cover;">
+                    <div class="col-md-8" style="background-color: #e2e2e2;">
                         <div class="text-black">
                             <div class="container" style=" padding: 50px;">
-                                <h2 style="color: var(--blue-primary)">How We Achieve Our Mission <br/></h2>
-                                <img src="assets/images/clipp-logo.png" height="80px" width="100px" alt="">
-                                <h4 style="color: var(--orange-primary)">With over 35 years of IT training experience and 20 years of research, we developed an AI-enabled cloud-based platform - CLIPP.</h4>
+                                <h2 style="color: var(--blue-primary)">WHO ARE WE? <br/></h2>
+                                <h4 style="color: var(--orange-primary)">TrainerFarm is the leading learning services and professional development solutions provider in online world.</h4>
                                 <br>
-                                <p>The Cognitive Learning & IT Project Performance (CLIPP) platform enhances the course process for students by personalizing the learning plan and goals. This valuable tool keeps students organized by allowing them to track their certifications, run analytics to rank their competencies against personal goals, generate “bite-sized” learning based on user search, and users can even schedule coaching sessions with course instructors.</p>
+                                <p>Established in 2018, TrainerFarm has been the finest to introduce IT certifications training from vendors like AWS, Microsoft, Cisco, Axelos and CompTIA to the market.</p>
+                                <br>
+                                <p>Our learning programs are designed to assist individuals in acquiring professional certifications in a global context to help them grow at work and to allow businesses to close skills gaps amongst their IT team</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">
                     </div>
                 </div>
 			</div>
 
             <div class="">
-                <div class="row" style="background-color: var(--blue-primary); ">
+                <div class="row" style="background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=360'); background-repeat: no-repeat; background-size: cover;">
                     <div class="col-md-4">
-                        <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">
+                        <!-- <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; "> -->
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8" style="background-color: var(--blue-primary); ">
                         <div class="text-white">
                             <div class="container" style=" padding: 50px;">
-                                <h2>Our Products and Technology Partners<br/></h2>
-                                <h4>QuickStart provides <span> 50+</span> virtual IT certificate courses and training programs to help students achieve career growth and workforce readiness.</h4>
+                                <h2>WHAT DO WE DO?<br/></h2>
+                                <p>TrainerFarm is an Online-based learning solutions provider excelling in relevant, timely content delivery through our team of highly experienced, certified instructors.</p>
                                 <br>
-                                <p>Our expanding catalog of courses covers hundreds of technologies, like AWS, Microsoft Azure, Google, CompTIA, and more. We work with industry experts, hiring managers, and IT professionals to curate the most up-to-date curriculum.</p>
-                                <div class="row text-center">
+                                <p>We provide customized private programs, convenient public training scheduling options, flexible delivery formats and continuous learning support to accelerate success in learning.</p>
+                                <br>
+                                <p>With multiple courses in IT - from foundational training to specialized certifications - our core IT training services are focused on technology partners like AWS, Microsoft, Cisco, Axelos and CompTIA.</p>
+                                <!-- <div class="row text-center">
                                     <div class="col">
                                         <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/microsoft-logo.png" height="80px" width="100px" alt="">
                                     </div>
@@ -189,7 +191,7 @@
                                     <div class="col-12">
                                         <img src="https://www.peoplecert.org/-/media/peoplecert/images/logos/axelos-logos/itil-white.png?h=280&iar=0&w=588&hash=BF5A7D980541DC72FB737D5ABF74D8C7" height="80px" width="100px" alt="">
                                     </div>
-                                </div>                              
+                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -241,28 +243,33 @@
             </div>
 
             <div class="mt-5">
-                <div class="row" style="background-color: #e2e2e2; ">
-                    <div class="col-md-8">
+                <div class="row" style="background-image: url('https://media.istockphoto.com/id/1387945043/photo/computer-technology-background-digital-data-flow-network-connection-structure-big-data.jpg?b=1&s=170667a&w=0&k=20&c=Sd255zPE6kBUU_EE3omdvL5GNWQdfSeOBmHBdEObCJc='); background-repeat: no-repeat; background-size: cover;">
+                    <div class="col-md-8" style="background-color: #e2e2e2;">
                         <div class="text-black">
                             <div class="container" style=" padding: 50px;">
-                                <h2 style="color: var(--blue-primary)">How We Care for Our Students<br/></h2>
-                                <h4 style="color: var(--orange-primary)">With over 35 years of IT training experience and 20 years of research, we developed an AI-enabled cloud-based platform - CLIPPOur training process carefully guides students through our courses to completion.</h4>
+                                <h2 style="color: var(--blue-primary)">Our Pillar is our Curriculum<br/></h2>
+                                <p>Designing a curriculum is a complex process that involves identifying the learning goals and objectives, selecting appropriate content and teaching strategies, and evaluating student learning.</p>
                                 <br>
-                                <p>Our instructors serve as mentors and are readily available to assist with any questions or extra help that students may need.</p>
-                                <p>At course completion, we have a team of advisors who assist students with job placement. These services include resume review and correction, and mock interviews to prepare for the job search process. Some of our students staying with their current employing companies have used their QuickStart education to gain promotions to advance their careers.</p>
+                                <h4 style="color: var(--orange-primary)">TrainerFarm Focus on below major point for the continuous improvement</h4>
                                 <br>
-                                <h4>Where Our Students Work:</h4>
-                                
-                                <a href="#" class="btn explore"><b>See Our Apprenticeship Program</b></a>
+                                <div style="padding-left: 30px;">
+                                    <ul>
+                                        <li>Identify the Learning Goals and Objectives</li>
+                                        <li>Select Appropriate Content</li>
+                                        <li>Determine the Teaching Strategies</li>
+                                        <li>Create Assessment Tools</li>
+                                        <li>Evaluate and Revise the Curriculum</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" style="background-image: url('https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg'); background-repeat: no-repeat; background-size: cover;">
+                    <div class="col-md-4">
                     </div>
                 </div>
 			</div>
 
-            <div class="">
+            <!-- <div class="">
                 <div class="row" style="background-color: var(--blue-primary); ">
                     <div class="col-md-4">
                         <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">
@@ -279,11 +286,11 @@
                         </div>
                     </div>
                 </div>
-			</div>
+			</div> -->
 
             <div class="">
-                <div class="row" style="background-color: #e2e2e2; ">
-                    <div class="col-md-8">
+                <div class="row" >
+                    <div class="col-md-12">
                         <div class="text-black">
                             <div class="container" style=" padding: 50px;">
                                 <h2 style="color: var(--blue-primary)">Meet Our Leadership Team<br/></h2>
@@ -291,81 +298,53 @@
                         </div>
                         <div class="container">
                             <div class="row mb-5">
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-md-3 col-sm-6">
                                     <article>
                                         <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                            <img alt="" src="assets/images/instructors/ins1.png" />
                                         </figure>
                                         <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
+                                            <h1>Andrew Simmons</h1>
+                                            <p>Managing Director</p>
                                             <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
                                             <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-md-3 col-sm-6">
                                     <article>
                                         <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                            <img alt="" src="assets/images/instructors/ins2.png" />
                                         </figure>
                                         <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
+                                            <h1>Michelle Rez</h1>
+                                            <p>Manager Training Operations</p>
                                             <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
                                             <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-md-3 col-sm-6">
                                     <article>
                                         <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                            <img alt="" src="assets/images/instructors/ins3.jpg" />
                                         </figure>
                                         <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
+                                            <h1>Qurat Ul Ain</h1>
+                                            <p>Sale Specialist Training</p>
                                             <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
                                             <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
                                         </div>
                                     </article>
                                 </div>
-                            </div>
-                            <div class="row mb-5">
-                                <div class="col-md-4 col-sm-12">
+                                <div class="col-md-3 col-sm-6">
                                     <article>
                                         <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                                            <img alt="" src="assets/images/instructors/ins4.png" />
                                         </figure>
                                         <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
-                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
-                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="col-md-4 col-sm-12">
-                                    <article>
-                                        <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                                        </figure>
-                                        <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
-                                            <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
-                                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="col-md-4 col-sm-12">
-                                    <article>
-                                        <figure>
-                                            <img alt="" src="https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                                        </figure>
-                                        <div>
-                                            <h1>Bryan Kenna</h1>
-                                            <p>Chief Executive Officer (CEO)</p>
+                                            <h1>Muhammad Tariq Abid</h1>
+                                            <p>Sale Specialist Training</p>
                                             <a href="maito:example@mail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span></a>
                                             <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
                                         </div>
@@ -373,9 +352,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://greatpeopleinside.com/wp-content/uploads/2017/05/HR-GR8-technology.jpg" alt="" style=" height: 100%; ">
                     </div>
                 </div>
 			</div>

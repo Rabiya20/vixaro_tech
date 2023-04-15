@@ -404,7 +404,7 @@
             </div>
         </section> -->
 
-        <section id="what_are_you_waiting_for" class="mb-5"  style="padding:20px; text-align: center; background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
+        <section id="what_are_you_waiting_for" class="mb-5 pt-5 pb-5"  style="padding:20px; text-align: center; background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
             <div class="container">
                 <h1 class="text-primary">What are you waiting for?</h1>
                 <p>Let's get started.</p>
@@ -417,7 +417,7 @@
 
         <section id="faq" class="mb-5">
             <div class="container">
-                <span class="section_title">Faqs</span>
+                <span class="section_title">FAQs</span>
                 <h3 class="text-primary">You've Got Questions We've Got Answers</h3>
                 <div class="col-lg-12 col-md-12">
                     <div class="heading-bx left">

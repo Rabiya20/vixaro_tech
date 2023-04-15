@@ -4529,13 +4529,17 @@ button.back-to-top {
 	top: -80px;
 	transform: rotate(25deg);
 }
-
+.card-body{
+	padding: 0 20px 0 20px;
+	height: 500px !important;
+}
 .card-container h3 {
 	margin-bottom: 10px;
 }
 
 .profile-title {
 	color: var(--red-primary);
+	font-size: 12px;
 }
 
 .card-container p {

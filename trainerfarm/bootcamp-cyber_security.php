@@ -285,7 +285,7 @@
                 <div class="owl-carousel owl-1 mb-3">
                     <div class="media-29101 d-md-flex w-100" id="first_tab">
                         <div class="img">
-                            <img src="https://cutecdn.codingdojo.com/new_design_image/cyber_security/lectures.png" alt="Image" class="img-fluid">
+                            <img src="assets/images/banner/bg1.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
                             <a class="category d-block mb-4" href="#">4 hrs/week</a>
@@ -415,7 +415,7 @@
             </div>
         </section>
 
-        <section id="faq" class="mb-5">
+        <!-- <section id="faq" class="mb-5">
             <div class="container">
                 <span class="section_title">FAQs</span>
                 <h3 class="text-primary">You've Got Questions We've Got Answers</h3>
@@ -477,7 +477,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Video Modal -->
         <div class="modal fade video_modal mt-3" id="video_modal" tabindex="-1" aria-hidden="true">

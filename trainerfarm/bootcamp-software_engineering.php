@@ -393,20 +393,35 @@
 
         <section id="payment" class="mb-4">
             <div class="container">
-                <span class="section_title">PAYMENT</span>
-                <h3 class="text-primary">Tuition and Finance</h3>
+                <span class="section_title">CAREER</span>
+                <h3 class="text-primary">Career after this Bootcamp</h3>
                 <div class="row" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-size: cover; background-repeat: no-repeat;">
                     <div class="col-8" style="background-color: var(--blue-primary);">
                         <div class="payment-list">
                             <ul>
                                 <li>
-                                    <h2>Machine Learning Researcher</h2>
-                                    <p>$142k per annum</p>
+                                    <h2>Computer Programmer</h2>
+                                    <p>$61k per annum</p>
                                 </li>
                                 <hr>
                                 <li>
-                                    <h2>Data Science Engineer - Machine Learning</h2>
-                                    <p>$125k per annum</p>
+                                    <h2>Back End Developer/Engineer</h2>
+                                    <p>$119k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Front End Developer/Engineer</h2>
+                                    <p>$109k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Full-Stack Developer</h2>
+                                    <p>$108k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Software Engineer</h2>
+                                    <p>$72k per annum</p>
                                 </li>
                             </ul>
                         </div>

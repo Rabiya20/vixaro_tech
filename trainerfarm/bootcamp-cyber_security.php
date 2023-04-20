@@ -432,8 +432,8 @@
 
         <section id="payment" class="mb-4">
             <div class="container">
-                <span class="section_title">PAYMENT</span>
-                <h3 class="text-primary">Tuition and Finance</h3>
+                <span class="section_title">CAREER</span>
+                <h3 class="text-primary">Career after this Bootcamp</h3>
                 <div class="row" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-size: cover; background-repeat: no-repeat;">
                     <div class="col-8" style="background-color: var(--blue-primary);">
                         <div class="payment-list">

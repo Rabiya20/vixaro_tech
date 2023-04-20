@@ -1,7 +1,29 @@
 <?php include('includes/header.php'); ?>
+<style>
+    .partnership-banner-btn{
+        margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 600px) {
+        .GFG{
+            height: 110vh !important;
+        }
+        .course-img{
+            width: 50px !important;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .GFG{
+            height: 120vh !important;
+        }
+        .course-img{
+            width: 50px !important;
+        }
+    }
+</style>
 <br><br><br>
 
 <div class="page-content">
+
     <div class="GFG mt-5">
         <div class="container">
             <div class="page-banner-entry partnership-banner"><br><br>
@@ -13,16 +35,17 @@
                 <h5 class="text-light">Trainerfarm has provided training for the IT Industry since 1988. This includes many of the academic institutions that partner with us today. Before successfully launching our university bootcamps in 2019, we provided training for IT teams at dozens of universities and colleges. These relationships were the main steppingstone for our Academic Partner Division. We look forward to continuing to grow our academic partnerships and to helping students prepare for the workforce and launch successful careers in the IT field.</h5>
                 <br>
                 <div class="row">
-					<div class="col-lg-6 text-right">
+					<div class="partnership-banner-btn col-lg-6 col-md-6 col-sm-12">
 						<a href="#bootcamps" class="btn explore smooth-goto"><b>Schedule An Academic Partnership Meeting</b></a>
 					</div>
-					<div class="col-lg-6">
+					<div class="partnership-banner-btn col-lg-6 col-md-6 col-sm-12">
 						<a href="certifications.php" class="btn explore"><b>Email Director Of Academic Partnerships</b></a>
 					</div>
 				</div>
             </div>
         </div>
     </div>
+
     <div class="breadcrumb-row">
         <div class="container">
             <ul class="list-inline">
@@ -31,6 +54,7 @@
             </ul>
         </div>
     </div>
+
     <div class="">
         <div class="container">
             <div class="row">
@@ -63,7 +87,42 @@
                     <p>Select a University partner below…</p>
                 </div>
             </div>
-            <div class="slider"></div>
+            <div class="slider">
+                <div>
+                    <section class="ribbon sponsor-slider">
+                        <div>
+                            <div class="row">
+                                <div style="margin-top: 2rem;">
+                                    <div class="marquee">
+                                        <ul class="marquee__content">
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                        </ul>
+                                        <ul aria-hidden="true" class="marquee__content">
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/gsu.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/ucsb.gif" loading="lazy"></a></li>
+                                            <li><a href="#" target="_blank"><img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/why-quickstart/hofstra.gif" loading="lazy"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -103,10 +162,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 text-right">
+                <div class="partnership-banner-btn col-lg-6 col-md-6 col-sm-12">
                     <a href="#bootcamps" class="btn explore smooth-goto"><b>Schedule An Academic Partnership Meeting</b></a>
                 </div>
-                <div class="col-lg-6">
+                <div class="partnership-banner-btn col-lg-6 col-md-6 col-sm-12">
                     <a href="certifications.php" class="btn explore"><b>Email Director Of Academic Partnerships</b></a>
                 </div>
             </div>
@@ -119,67 +178,68 @@
                 <div class="col-md-12 text-white heading-bx left">
                     <h2 class="title-head text-uppercase">Our IT Bootcamps</h2>
                 </div>
-                <div class="col-md-12 text-white heading-bx left">
-                    <div class="row">
-                        <div class="col-md-6">
+                <div class="col-md-12 text-white heading-bx left course-list">
+                    <div class="row course-list-row">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3">
                                     <img class="course-logo" src="assets/images/courses/ai.png" alt="">
                                 </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/arti_int.php">Artificial Intelligence</a></div>
+                                <div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3">
                                     <img class="course-logo" src="assets/images/courses/cloud.png" alt="">
                                 </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/cloud_eng.php">Cloud Engineering</a></div>
+                                <div class="col-md-6 col-sm-9 course-name"><p href="bootcamp-cloud_computing.php">Cloud Computing</p></div>
                             </div>								
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row course-list-row">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3">
                                     <img class="course-logo" src="assets/images/courses/cybersecurity.png" alt="">
                                 </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/cyber_def.php">Cybersecurity Defense</a></div>
+                                <div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-cyber_security.php">Cybersecurity</a></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="course-logo" src="assets/images/courses/software.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-logo" src="assets/images/courses/datascience.png" alt="">
                                 </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/soft_eng.php">Software Engineering</a></div>
-                            </div>								
+                                <div class="col-md-6 col-sm-9 course-name"><p href="bootcamp-data_science.php">Data Science</p></div>
+                            </div>
                         </div>
                     </div>
                     <br>
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row course-list-row">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="course-logo" src="assets/images/courses/datascience.png" alt="">
-                                </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/data_sci.php">Data Science</a></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3">
                                     <img class="course-logo" src="assets/images/courses/webdev.png" alt="">
                                 </div>
-                                <div class="col-md-6 course-name"><a href="bootcamp/web_dev.php">Web Development</a></div>
-                            </div>								
+                                <div class="col-md-6 col-sm-9 course-name"><p href="bootcamp-web_development.php">Web Development</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-logo" src="assets/images/courses/software.png" alt="">
+                                </div>
+                                <div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-software_engineering.php">Software Engineering</a></div>
+                            </div>	
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="section-area section-sp2" style="background-color: #fff;">
         <div class="container">
             <div class="row">
@@ -190,69 +250,69 @@
                     <p>Whether you're looking to expand your knowledge, develop and hone your skills, or increase your income, QuickStart offers industry-valued certifications in the latest emerging technologies. You can choose from...</p>
                     <br>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/cybersecurity.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/cybersecurity.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/cyber_sec.php"><h4>Cyber Security</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/cyber_sec.php"><h4>Cyber Security</h4></a></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/cloud.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/cloud.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
                             </div>								
                         </div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/networking.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/networking.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/netwroking.php"><h4>Networking</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/netwroking.php"><h4>Networking</h4></a></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/devops.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/devops.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/devops.php"><h4>DevOps</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/devops.php"><h4>DevOps</h4></a></div>
                             </div>								
                         </div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/ai.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/ai.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/arti_int.php"><h4>AI & ML</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/arti_int.php"><h4>AI & ML</h4></a></div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/datascience.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/datascience.png" alt="">
                                 </div>
-                                <div class="col-md-8"><a href="courses/data_sci.php"><h4>Data Science & Analytics</h4></a></div>
+                                <div class="col-md-8 col-sm-9"><a href="courses/data_sci.php"><h4>Data Science & Analytics</h4></a></div>
                             </div>								
                         </div>
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-12">
                             <div class="row">
-                                <div class="col-md-2">
-                                    <img class="" src="assets/images/courses/pm.png" alt="">
+                                <div class="col-md-2 col-sm-3">
+                                    <img class="course-img" src="assets/images/courses/pm.png" alt="">
                                 </div>
-                                <div class="col-md-6"><a href="courses/proj_man.php"><h4>Project Management</h4></a></div>
+                                <div class="col-md-6 col-sm-9"><a href="courses/proj_man.php"><h4>Project Management</h4></a></div>
                             </div>
                         </div>
                     </div>

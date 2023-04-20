@@ -5161,7 +5161,10 @@ ul.btn_hvr_list li a:hover {
 	}
 	.tabby-tab label{
 		padding: 0;
-		height: 50px;
+		height: 62px !important;
+	}
+	.tabby-content {
+		top: 60px;
 	}
 }
 

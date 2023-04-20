@@ -5,13 +5,38 @@
   width: 100% !important;
   border-radius: 0% !important;
 }
+.payment-list{
+    padding: 20px !important;
+}
+.payment-list li{
+    list-style: none !important;
+    color: #fff !important;
+}
+.payment-list h2{
+    color: var(--white-primary) !important;
+}
+.payment-list p, #how_to_enroll h2, #how_to_enroll a,
+#weekly_activities h4{
+    color: var(--orange-primary) !important;
+}
+@media screen and (max-width: 767px) {
+    .img img{
+        height: 200px !important;
+        width: 100% !important;
+        border-radius: 0% !important;
+    }
+}
+#how_to_enroll h2{
+    border-bottom: 2px solid var(--blue-primary);
+    width: 50%;
+}
 </style>
 <br><br><br><br>
     <div class="page-content">
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/bootcamps/cyber-cover.jpg);">
             <div class="container mt-5">
                 <div class="row align-items-center">
-                    <div class="col-md-8 col-sm-12 instructor-div">
+                    <div class="col-md-8 col-sm-12">
                         <div class="text-light">
                             <br><br>
                             <h3 class="text-light">ONLINE / PART-TIME</h3>
@@ -21,20 +46,20 @@
                             <a href="" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
                             <a href="" target="_blank" class="text-light"><i class="fa-solid fa-download"></i> Download Course Packet</a>
                             <br><br>
-                            <ul>
+                            <ul style="padding-left: 10px;">
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
                                 <li>Online Attendance</li>
                             </ul>
-                            <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
-                            <img src="assets/images/courses/cysa.png" alt="" style="width: 100px;">
+                            <!-- <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
+                            <img src="assets/images/courses/cysa.png" alt="" style="width: 100px;"> -->
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-md-4 col-sm-12 mb-3">
                         <img src="assets/images/bootcamps/cyber-cover.jpg" style="border-radius: 20px;" alt="" data-toggle="modal" data-target="#video_modal" data-video-link="" width="500" height="400" >
                         <!-- <video class="video_modal_btn cta_disabled" data-toggle="modal" data-target="#video_modal" data-video-link="" width="500" height="400" autoplay loop>
                             <source src="assets/videos/sample.mp4" type="video/mp4">
                         </video> -->
-                        <div class="playpause" data-toggle="modal" data-target="#video_modal"></div>
+                        <!-- <div class="playpause" data-toggle="modal" data-target="#video_modal"></div> -->
                     </div>
                 </div>
             </div>
@@ -70,8 +95,8 @@
                 <p>According to the U.S. Bureau of Labor Statistics, employment in cyber security and information security is predicted to grow by 351% between 2021 and 2029*. This demonstrates the high demand for skilled professionals in this field and highlights the job security that comes with a cyber-security certification.</p>
                 <p>Enrolling in a cyber-security boot camp is an opportune time to start your journey towards a secure and rewarding career. Contact TrainerFarm today to learn more about our Cyber security certification program and how it can benefit you.</p>
                 <p class="disclaimer">*Bureau of Labor Statistics, U.S. Department of Labor, Occupational Outlook Handbook, Information Security Analysts, at <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" target="_blank">https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</a> (visited February 7, 2023). This data represents national figures and is not based on school-specific information. Conditions in your area may vary.</p>
-                <div class="row">
-                    <div class="col-4" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-cover: cover;">
+                <div class="row" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-size: cover; background-repeat: no-repeat;">
+                    <div class="col-4">
                         <!-- <ul style="margin-top: 200px;">
                             <li class="badge-list"> 
                                 <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
@@ -99,67 +124,29 @@
             <div class="container">
                 <span class="section_title">YOUR TEAM</span>
                 <h3 class="text-primary">Our Cyber Security Team</h3>
-                <div class="">
-                    <div class="container">
-                        <div class="row" >
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card-body ">
-                                    <div class=" card-container">
-                                        <div class="profile-shape">
-                                            <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                        </div>
-                                        <h3>Muhammad Farhan</h3>
-                                        <p class="profile-title">Web Designer</p>
-                                        <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card-body ">
+                                <div class=" card-container">
+                                    <div class="profile-shape">
+                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
                                     </div>
+                                    <h3>Muhammad Farhan</h3>
+                                    <p class="profile-title">Web Designer</p>
+                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card-body ">
-                                    <div class=" card-container">
-                                        <div class="profile-shape">
-                                            <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                        </div>
-                                        <h3>Muhammad Farhan</h3>
-                                        <p class="profile-title">Web Designer</p>
-                                        <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card-body ">
+                                <div class=" card-container">
+                                    <div class="profile-shape">
+                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card-body ">
-                                    <div class=" card-container">
-                                        <div class="profile-shape">
-                                            <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                        </div>
-                                        <h3>Muhammad Farhan</h3>
-                                        <p class="profile-title">Web Designer</p>
-                                        <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card-body container">
-                                    <div class=" card-container">
-                                        <div class="profile-shape">
-                                            <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                        </div>
-                                        <h3>Muhammad Farhan</h3>
-                                        <p class="profile-title">Web Designer</p>
-                                        <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card-body container">
-                                    <div class=" card-container">
-                                        <div class="profile-shape">
-                                            <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                        </div>
-                                        <h3>Muhammad Farhan</h3>
-                                        <p class="profile-title">Web Designer</p>
-                                        <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                    </div>
+                                    <h3>Muhammad Farhan</h3>
+                                    <p class="profile-title">Web Designer</p>
+                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +207,7 @@
                         <p>Our Cybersecurity bootcamp features extensive offensive and defensive experience within our sandbox. Near the end of course, up to 75% of your time is spent in labs, attacking and defending against each other in Capture the Flag and other exercises. Graduates are mission-ready with an informed perspective on cybersecurity and be ready to hit the ground running.</p>
                     </div>
                 </div>
-                <p class="disclaimer">*TrainerFarm cannot guarantee that graduates of this program will be eligible to take third party certification examinations. Certification requirements for taking and passing these exams are controlled by outside entities and are subject to change without notice to Coding Dojo.</p></div><div class="carousel-item"><span>No professional experience requirements</span></div>
+                <p class="disclaimer">*TrainerFarm cannot guarantee that graduates of this program will be eligible to take third party certification examinations. Certification requirements for taking and passing these exams are controlled by outside entities and are subject to change without notice to TrainerFarm.</p></div><div class="carousel-item"><span>No professional experience requirements</span></div>
         </section>
 
         <section id="curriculum" class="mb-5">
@@ -278,34 +265,38 @@
             </div>
         </section>
 
-        <section id="weekly_activities">
+        <section id="weekly_activities" class="mb-5">
             <div class="container" class="mb-5">
                 <span class="section_title">TYPICAL WEEK</span>
                 <h3 class="text-primary">Our Part-Time Format</h3>
                 <div class="owl-carousel owl-1 mb-3">
-                    <div class="media-29101 d-md-flex w-100" id="first_tab">
-                        <div class="img">
-                            <img src="assets/images/banner/bg1.jpg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="text">
-                            <a class="category d-block mb-4" href="#">4 hrs/week</a>
-                            <h2><a href="#">Lectures</a></h2>
-                            <p>2 hour lectures, twice per week</p>
-                            <p>5 PM PST</p>
-                            <p>Always live, but always recorded!</p>
-                        </div>
-                    </div>
 
                     <div class="media-29101 d-md-flex w-100" id="second_tab">
                         <div class="img">
                             <img src="assets/images/banner/banner1.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
-                            <a class="category d-block mb-4" href="#">2 hrs/week</a>
-                            <h2><a href="#">Lectures</a></h2>
-                            <p>2 hour lectures, twice per week</p>
-                            <p>5 PM PST</p>
-                            <p>Always live, but always recorded!</p>
+                            <h4>Beginning the Program</h4>
+                            <ul>
+                                <li>Meet your Mentor</li>
+                                <li>Set your Career Goals</li>
+                                <li>Start a Target List</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="media-29101 d-md-flex w-100" id="first_tab">
+                        <div class="img">
+                            <img src="assets/images/banner/bg1.jpg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text">
+                            <h4>During the Program</h4>
+                            <ul>
+                                <li>Build your Brand</li>
+                                <li>One on One Mentorship</li>
+                                <li>Resume Development</li>
+                                <li>Networking Strategy</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -314,11 +305,13 @@
                             <img src="assets/images/banner/banner2.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
-                            <a class="category d-block mb-4" href="#">10 hrs/week</a>
-                            <h2><a href="#">Lectures</a></h2>
-                            <p>2 hour lectures, twice per week</p>
-                            <p>5 PM PST</p>
-                            <p>Always live, but always recorded!</p>
+                            <h4>Ending the Program</h4>
+                            <ul>
+                                <li>Job Search Strategy</li>
+                                <li>Alumni Network Access</li>
+                                <li>Mock Interview Practice</li>
+                                <li>Contract Negotiation</li>
+                            </ul>
                         </div>
                     </div>
                     
@@ -327,11 +320,13 @@
                             <img src="assets/images/banner/banner3.jpg" alt="Image" class="img-fluid">
                         </div>
                         <div class="text">
-                            <a class="category d-block mb-4" href="#">25 hrs/week</a>
-                            <h2><a href="#">Lectures</a></h2>
-                            <p>2 hour lectures, twice per week</p>
-                            <p>5 PM PST</p>
-                            <p>Always live, but always recorded!</p>
+                            <h4>After the Program</h4>
+                            <ul>
+                                <li>Lifetime Community Support</li>
+                                <li>Mentor Check Ins</li>
+                                <li>Salary Negotiation</li>
+                                <li>Contract Negotiation</li>
+                            </ul>
                         </div>
                     </div> 
                 </div>
@@ -396,13 +391,33 @@
             </div>
         </section>  -->
 
-        <!-- <section id="how_to_enroll" class="mb-5">
+        <section id="how_to_enroll" class="mb-5">
             <div class="container">
-                <span class="section_title">Application Process</span>
+                <span class="section_title">APPLICATION PROCESS</span>
                 <h3 class="text-primary">How to Enroll</h3>
-                <p>Are you ready for a challenging and rewarding career in Cybersecurity? Applying to the Coding Dojo Online Part-Time Cybersecurity Program is simple:</p>
+                <p class="text-secondary">We truly believe that anyone can learn to code, regardless of their professional background. After teaching many students, we have found that determination is the #1 factor to student success - NOT coding experience. That's why our admissions process does not include a coding challenge or technical assessment.</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>1. Explore <span style="font-size: 15px; font-weight: lighter">(optional)</span></h2>
+                        <p>Get quick review about Bootcamp</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h2>2. Apply</h2>
+                        <p>Ready to join? <a href="apply.php">Submit your application</a> and pick your start date to join.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>3. Interview</h2>
+                        <p>Meet an Admission Advisor to make sure you're ready for the challenges of the program. An acceptance decision will be made within 2-3 business days.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h2>4. Deposit to Enroll</h2>
+                        <p>If accepted, submit your deposit to officially save your seat and gain access to bootcamp-prep materials for your start date.</p>
+                    </div>
+                </div>
             </div>
-        </section> -->
+        </section>
 
         <section id="what_are_you_waiting_for" class="mb-5 pt-5 pb-5"  style="padding:20px; text-align: center; background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
             <div class="container">
@@ -411,6 +426,51 @@
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
                     <p>Part-Time Remote Cybersecurity Bootcamp <span>(24 Weeks)</span></p>
                     <a href="" class="btn btn-primary" target="_blank">Apply Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="payment" class="mb-4">
+            <div class="container">
+                <span class="section_title">PAYMENT</span>
+                <h3 class="text-primary">Tuition and Finance</h3>
+                <div class="row" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-size: cover; background-repeat: no-repeat;">
+                    <div class="col-8" style="background-color: var(--blue-primary);">
+                        <div class="payment-list">
+                            <ul>
+                                <li>
+                                    <h2>Data Security Analyst</h2>
+                                    <p>$114k-$160k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Systems Security Administrator</h2>
+                                    <p>$106k-$150k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Network Security Administrator</h2>
+                                    <p>$103k-$147k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Network Security Engineer</h2>
+                                    <p>$110k-$153k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Information Systems Security Manager</h2>
+                                    <p>$130k-$182k per annum</p>
+                                </li>
+                                <hr>
+                                <li>
+                                    <h2>Chief Security Officer</h2>
+                                    <p>$140k-$223k per annum</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
                 </div>
             </div>
         </section>
@@ -479,15 +539,21 @@
             </div>
         </section> -->
 
+        <section id="apply">
+            <div class="container text-center">
+                <a href="apply.php" class="btn btn-primary">APLLY NOW</a>
+            </div>
+        </section>
+
         <!-- Video Modal -->
-        <div class="modal fade video_modal mt-3" id="video_modal" tabindex="-1" aria-hidden="true">
+        <!-- <div class="modal fade video_modal mt-3" id="video_modal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
                     <iframe width="auto" height="400px" src="assets/videos/sample.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 <br>
 <script src="js2/jquery-3.3.1.min.js"></script>

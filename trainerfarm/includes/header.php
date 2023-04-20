@@ -146,10 +146,10 @@
 										<ul class="sub-menu">
 										<li><a href="bootcamp-cyber_security.php">Cyber Security</a></li>
 										<li><a href="#">Cloud Engineering</a></li>
-										<li><a href="#">AI/ Machine Learning</a></li>
+										<li><a href="bootcamp-artificial_intelligence.php">AI/ Machine Learning</a></li>
 										<li><a href="#">Data Science & Analytics</a></li>
 										<li><a href="#">Web Development</a></li>
-										<li><a href="#">Software Engineering</a></li>
+										<li><a href="bootcamp-software_engineering.php">Software Engineering</a></li>
 									</ul> 
 								</li>
 								<li><a href="index-2.php">Workforce Development</a></li>

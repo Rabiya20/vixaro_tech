@@ -357,7 +357,7 @@
 					</div>
 					<div class="col-md-8 heading-bx right">
 						<h2 class="title-head"> <span> Trainerfarm Offers</span> "Best-In-Class" <span> IT Certifications and is a Certified Training Partner for Microsoft, CompTIA, EC-Council and More</span></h2>
-						<p>Whether you're looking to expand your knowledge, develop and hone your skills, or increase your income, QuickStart offers industry-valued certifications in the latest emerging technologies. You can choose from...</p>
+						<p>Whether you're looking to expand your knowledge, develop and hone your skills, or increase your income, Trainerfarm offers industry-valued certifications in the latest emerging technologies. You can choose from...</p>
 						<br>
 						<div class="row">
 							<div class="col-md-6">

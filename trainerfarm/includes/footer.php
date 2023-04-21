@@ -89,8 +89,8 @@
                             <h5 class="footer-title">We're Here For You</h5>
 							<p><i class="fa fa-user"></i> Lifetime access for self-paced courses</p>
 							<p><i class="fa fa-user"></i> Business and team discounts available</p>
-							<p><i class="fa fa-user"></i> Sales: (866) 991-3924</p>
-							<p><i class="fa fa-user"></i> Support: (855) 800-8240</p>
+							<p><i class="fa fa-user"></i> Sales: 000-000-0000</p>
+							<p><i class="fa fa-user"></i> Support: 000-000-0000</p>
                             
 							<!-- <ul class="magnific-image">
 								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>

@@ -8,7 +8,7 @@
                 <div class="col-4 p-5">
                     <h1 class="text-white">Trainerfarm</h1>
                     <h3 class="text-white">Customer Success Stories</h3>
-                    <p class="text-white">Learn how QuickStart customers are using IT technical training, bootcamps, certifications, and our training platform to transform their career growth and meet their goals.</p><br>
+                    <p class="text-white">Learn how TrainerFarm customers are using IT technical training, bootcamps, certifications, and our training platform to transform their career growth and meet their goals.</p><br>
                     <a href="#bootcamps" class="btn btn-primary">Submit Your Success Story</a>
                 </div>
                 <div class="col-7"></div>

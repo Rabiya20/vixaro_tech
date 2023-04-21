@@ -140,6 +140,7 @@
 						<a href="index.php"><img src="assets/images/TF.png" alt=""></a>
 					</div>
 					<ul class="nav navbar-nav">
+						<li><a href="index.php">Home</a></li>
 						<li><a href="javascript:;">BootCamps <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>

@@ -277,7 +277,7 @@
                     <div class="col-md-8">
                         <div class="text-white">
                             <div class="container" style=" padding: 50px;">
-                                <h2>The QuickStart Team<br/></h2>
+                                <h2>The Trainerfarm Team<br/></h2>
 
                                 <h4>We have one of the strongest teams in the industry, building it by focusing on different departments in a sequence.</h4>
                                 <br>

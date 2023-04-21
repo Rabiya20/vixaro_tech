@@ -144,7 +144,7 @@
                    <img src="https://di3xp7dfi3cq.cloudfront.net/media/wysiwyg/infortis/ultimo/custom/uni-partners/student-support.png" style="height: 50px; width: 50px" alt="">
                    <br>
                    <h3 style="color: var(--blue-primary)">Marketing Support</h3>
-                   <p>The QuickStart marketing team will ensure that your branding guidelines and requirements are adhered to. We’ll promote our partnership and training opportunities through several channels and provide you with the content to do the same. Also, paid marketing costs are 100% covered by QuickStart!</p>
+                   <p>The TrainerFarm marketing team will ensure that your branding guidelines and requirements are adhered to. We’ll promote our partnership and training opportunities through several channels and provide you with the content to do the same. Also, paid marketing costs are 100% covered by QuickStart!</p>
                 </div>
             </div>
             <div class="row text-center">

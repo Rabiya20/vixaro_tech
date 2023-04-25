@@ -1,36 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- META ============================================= -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
 	
-	<!-- DESCRIPTION -->
-	<!-- <meta name="description" content="EduChamp : Education HTML Template" /> -->
-	
-	<!-- OG -->
-	<!-- <meta property="og:title" content="EduChamp : Education HTML Template" />
-	<meta property="og:description" content="EduChamp : Education HTML Template" />
-	<meta property="og:image" content="" />
-	<meta name="format-detection" content="telephone=no"> -->
-	
-	<!-- FAVICONS ICON ============================================= -->
 	<link rel="icon" href="assets/images/TF-short.png" type="image/TF-short.png" />
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/TF-short.png" /> -->
 	
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>Trainerfarm</title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.min.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 	
 	<!-- All PLUGINS CSS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/assets.css">
@@ -64,8 +47,6 @@
 	<!-- magnific-popup -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
-
-
     <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -78,9 +59,7 @@
 <body id="bg">
 <div class="page-wraper">
 <div id="loading-icon-bx"></div>
-<!-- Header Top ==== -->
 <header class="header rs-nav header-transparent">
-	<!-- top bar  -->
 	<div class="top-bar">
 		<div class="container">
 			<div class="row d-flex justify-content-between">
@@ -100,21 +79,18 @@
 			</div>
 		</div>
 	</div>
-	<!-- na bar  -->
+
 	<div class="sticky-header navbar-expand-lg">
 		<div class="menu-bar clearfix bg-light">
 			<div class="container clearfix">
-				<!-- Header Logo ==== -->
 				<div class="menu-logo">
 					<a href="index.php"><img src="assets/images/logo/TF.png" alt=""></a>
 				</div>
-				<!-- Mobile Nav Button ==== -->
 				<button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
 					<span></span>
 				</button>
-				<!-- Author Nav ==== -->
 				<div class="secondary-menu">
 					<div class="secondary-inner">
 						<ul>
@@ -153,42 +129,28 @@
 										<li><a href="bootcamp-software_engineering.php">Software Engineering</a></li>
 									</ul> 
 								</li>
-								<li><a href="index-2.php">Workforce Development</a></li>
-								<li><a href="index-2.php">Career Services</a></li>
-								<li><a href="index-2.php">Finance & Funding</a></li>
+								<li><a href="">Workforce Development</a></li>
+								<li><a href="">Career Services</a></li>
+								<li><a href="">Finance & Funding</a></li>
 							</ul>
 						</li>
 						<li><a href="javascript:;">Certifications <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<!-- <li><a href="javascript:;">About<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-										<li><a href="about-1.php">About 1</a></li>
-										<li><a href="about-2.php">About 2</a></li>
-									</ul> 
-								</li>-->
-								<li><a href="portfolio.php">Certifications By Topic</a></li>
-								<li><a href="profile.php">Certifications By Brand</a></li>
-								<li><a href="membership.php">Top 15 Certifications</a></li>
-								<li><a href="error-404.php">Guaranteed To Run</a></li>
+								<li><a href="certificate_by_topic.php">Certifications By Topic</a></li>
+								<li><a href="certificate_by_brand.php">Certifications By Brand</a></li>
+								<li><a href="top_certifications.php">Top 15 Certifications</a></li>
+								<li><a href="">Guaranteed To Run</a></li>
 							</ul>
 						</li>
 						<li class="add-mega-menu"><a href="javascript:;">Corporate Training <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="portfolio.php">Corporate & Business Training</a></li>
-								<li><a href="profile.php">State & Local Government/Education</a></li>
-								<li><a href="membership.php">Federal & DoD Training</a></li>
-								<li><a href="error-404.php">Unlimited Access Master Subscription</a></li>
-								<li><a href="error-404.php">Technology Apprentice Scholar Program</a></li>
+								<li><a href="">Corporate & Business Training</a></li>
+								<li><a href="">State & Local Government/Education</a></li>
+								<li><a href="">Federal & DoD Training</a></li>
+								<li><a href="">Unlimited Access Master Subscription</a></li>
+								<li><a href="">Technology Apprentice Scholar Program</a></li>
 							</ul>
 						</li>
-						<!-- for future use -->
-						<!-- <li><a href="javascript:;">Militery <i class="fa fa-chevron-down"></i></a>
-							<ul class="sub-menu">
-								<li> <a href="https://www.quickstart.com/army-cool/">Army Funded Training</a></li>
-								<li> <a href="https://www.quickstart.com/air-force-cool/">Air Force Funded Training</a></li>
-								<li> <a href="https://www.quickstart.com/mycaa/">MyCAA Funded Training</a></li>
-							</ul>
-						</li> -->
 						<li><a href="blogs.php">Blogs</a></li>
 						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
@@ -207,9 +169,7 @@
 						<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
-				<!-- Navigation Menu END ==== -->
 			</div>
 		</div>
 	</div>
-    </header>
-    <!-- Header Top END ==== -->
+</header>

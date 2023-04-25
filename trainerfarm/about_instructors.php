@@ -254,8 +254,8 @@
 
         <!-- large modal -->
         <div class="modal fade" id="instructor_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-            <br><br>
             <div class="modal-dialog modal-lg">
+                <br><br>
                 <div class="container">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -264,7 +264,7 @@
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body content">
+                        <div class="modal-body">
                             <div class="container">
                                 <form action="" method="post">
                                     <div class="row">
@@ -290,6 +290,12 @@
                                     <br>
                                     <div class="row">
                                         <div class="col">
+                                            <input type="text" class="form-control" placeholder="Course">
+                                        </div>
+                                    </div>
+                                    <!-- <br>
+                                    <div class="row">
+                                        <div class="col">
                                             <select name="course" id="course">
                                                 <option value="">IT</option>
                                                 <option value="">IT</option>
@@ -298,7 +304,7 @@
                                                 <option value="">IT</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <br>
                                     <div class="row">
                                         <div class="col">

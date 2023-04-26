@@ -64,9 +64,6 @@
                                 <h3>EC Council</h3>
                                 <ul>
                                     <li><a href="certificate-ethical_hacking.php">Certified Ethical Hacking (CEHv11)</a></li>
-                                    <!-- <li><a href="">EC-Council Certified Network Defender (CND) + Certification Exam Bundle</a></li>
-                                    <li><a href="">Computer Hacking Forensic Investigator (CHFI) + Certification Exam Bundle</a></li>
-                                    <li><a href="">Certified Chief Information Security Officer (CCISO) + Certification Exam Bundle</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -82,9 +79,6 @@
                                 <h3>Cisco</h3>
                                 <ul>
                                     <li><a href="certificate-cisco_network.php">Cisco Certified Network Associate v 1.0 (CCNA)</a></li>
-                                    <!-- <li><a href="">Implementing and Administering Cisco Solutions (CCNA v1.0)</a></li>
-                                    <li><a href="">Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)</a></li>
-                                    <li><a href="">Implementing and Operating Cisco Security Core Technologies v1.0 (SCOR)</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -99,9 +93,6 @@
                                 <ul>
                                     <li><a href="certificate-ms_fundamentals.php">Microsoft Azure Fundamentals (AZ-900)</a></li>
                                     <li><a href="certificate-ms_administrator.php">Microsoft Azure Administrator (AZ-104)</a></li>
-                                    <!-- <li><a href="">Designing Microsoft Azure Infrastructure Solutions (AZ-305)</a></li>
-                                    <li><a href="">Azure Security Engineer Certification: Microsoft Azure Security Technologies (AZ-500)</a></li>
-                                    <li><a href="">Microsoft 365 Enterprise Administrator: Identity and Services (MS-100)</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -116,12 +107,10 @@
                             <div class="col-9">
                                 <h3>CompTIA</h3>
                                 <ul>
-                                    <li><a href="">CompTIA ITF+</a></li>
-                                    <li><a href="">CompTIA A+ Certification: A Comprehensive Approach (Exams 220-1101 and 220-1102)</a></li>
-                                    <li><a href="">CompTIA Network+ (Exam N10-008) (ComptiaNet)</a></li>
-                                    <!-- <li><a href="">CompTIA Security+ (Exam SY0-601) (CompTiaSec-SY0-601)</a></li>
-                                    <li><a href="">CompTIA CySA+ Certification Course + Exam Bundle</a></li>
-                                    <li><a href="">CompTIA Pentest+ Certification Exam Bundle</a></li> -->
+                                    <li><a href="certificate-comptia_a.php">CompTIA A+ Certification: A Comprehensive Approach (Exams 220-1101 and 220-1102)</a></li>
+                                    <li><a href="certificate-comptia_cysa.php">CompTIA CySA+ Cybersecurity Analyst (CS0-002)</a></li>
+                                    <li><a href="certificate-comptia_network.php">CompTIA Network+ (Exam N10-008)</a></li>
+                                    <li><a href="certificate-comptia_security.php">CompTIA Security+ (Exam SY0-601)</a></li>
                                 </ul>
                             </div>
                         </div>

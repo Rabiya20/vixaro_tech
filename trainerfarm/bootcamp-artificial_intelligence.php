@@ -44,8 +44,7 @@
                             <br>
                             <h1 class="text-light">Artificial Intelligence Online and Part-Time</h1>
                             <br>
-                            <a href="" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
-                            <a href="" target="_blank" class="text-light"><i class="fa-solid fa-download"></i> Download Course Packet</a>
+                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
                             <br><br>
                             <ul style="padding-left: 10px;">
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
@@ -69,14 +68,14 @@
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <h5>14-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <h5>18-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
                         <h5>16-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -102,67 +101,20 @@
             </div>
         </section>
 
-        <section id="your_team_section" class="mb-5">
-            <div class="container">
-                <span class="section_title">YOUR TEAM</span>
-                <h3 class="text-primary">Our Artificial Intelligence Team</h3>
-                <div class="container">
-                    <div class="row" >
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card-body ">
-                                <div class=" card-container">
-                                    <div class="profile-shape">
-                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                    </div>
-                                    <h3>Muhammad Farhan</h3>
-                                    <p class="profile-title">Web Designer</p>
-                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card-body ">
-                                <div class=" card-container">
-                                    <div class="profile-shape">
-                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                    </div>
-                                    <h3>Muhammad Farhan</h3>
-                                    <p class="profile-title">Web Designer</p>
-                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="explore_bootcamp" class="mb-5">
             <div class="container">
                 <span class="section_title">EXPLORE BOOTCAMP</span>
                 <h3 class="text-primary">Questions? Get Answers</h3>
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-3">
                                 <img src="https://static.vecteezy.com/system/resources/previews/014/441/078/original/phone-call-icon-design-in-blue-circle-png.png" alt="">
                             </div>
-                            <div class="col-8">
-                                <h3>Schedule Admissions Call</h3>
+                            <div class="col-9">
+                                <h3>Contact Admission Consultant</h3>
                                 <p>1-on-1 call for quick answers about bootcamp</p>
                                 <a href="#" class="btn explore"><b>Schedule The Call</b></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="https://static.vecteezy.com/system/resources/previews/014/441/078/original/phone-call-icon-design-in-blue-circle-png.png" alt="">
-                            </div>
-                            <div class="col-8">
-                                <h3>Join the Open House</h3>
-                                <p>Meet the team, see the bootcamp breakdown</p>
-                                <a href="#" class="btn explore"><b>Join Open House</b></a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +187,6 @@
                         </div>
                     </div>
                     <br>
-                    <a href="" target="_blank" class="btn btn-primary text-light"><i class="fa-solid fa-download"></i> Download Course Packet</a>
                 </div>
             </div>
         </section>
@@ -308,40 +259,12 @@
             </div>
         </section>
 
-        <section id="how_to_enroll" class="mb-5">
-            <div class="container">
-                <span class="section_title">APPLICATION PROCESS</span>
-                <h3 class="text-primary">How to Enroll</h3>
-                <p class="text-secondary">We truly believe that anyone can learn to code, regardless of their professional background. After teaching many students, we have found that determination is the #1 factor to student success - NOT coding experience. That's why our admissions process does not include a coding challenge or technical assessment.</p>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h2>1. Explore <span style="font-size: 15px; font-weight: lighter">(optional)</span></h2>
-                        <p>Get quick review about Bootcamp</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h2>2. Apply</h2>
-                        <p>Ready to join? <a href="apply.php">Submit your application</a> and pick your start date to join.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h2>3. Interview</h2>
-                        <p>Meet an Admission Advisor to make sure you're ready for the challenges of the program. An acceptance decision will be made within 2-3 business days.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h2>4. Deposit to Enroll</h2>
-                        <p>If accepted, submit your deposit to officially save your seat and gain access to bootcamp-prep materials for your start date.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="what_are_you_waiting_for" class="mb-5 pt-5 pb-5"  style="padding:20px; text-align: center; background-image: url('https://images.pexels.com/photos/238118/pexels-photo-238118.jpeg?cs=srgb&dl=pexels-j%C3%A9shoots-238118.jpg&fm=jpg'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
             <div class="container">
                 <h1 class="text-primary">What are you waiting for?</h1>
                 <p>Let's get started.</p>
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
-                    <a href="" class="btn btn-primary" target="_blank">Apply Now</a>
+                    <a href="apply.php" class="btn btn-primary" target="_blank">Apply Now</a>
                 </div>
             </div>
         </section>

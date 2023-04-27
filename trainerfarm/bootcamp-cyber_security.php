@@ -33,6 +33,7 @@
 </style>
 <br><br><br><br>
     <div class="page-content">
+
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/bootcamps/cyber-cover.jpg);">
             <div class="container mt-5">
                 <div class="row align-items-center">
@@ -43,7 +44,7 @@
                             <br>
                             <h1 class="text-light">Cybersecurity Bootcamp Online Part-Time</h1>
                             <br>
-                            <a href="" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
+                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
                             <br><br>
                             <ul style="padding-left: 10px;">
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
@@ -67,14 +68,14 @@
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <h5>14-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
                         <h5>18-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
                         <h5>16-Apr-2023</h5>
-                        <a href="apply" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                        <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +168,6 @@
                             <input type="radio" id="tab-1" name="tabby-tabs" checked>
                             <label for="tab-1">PRECOURSE: (Weeks -2-0)</label>
                             <div class="tabby-content">
-                                <!-- <img src="http://i64.tinypic.com/20qrlc.png"/> -->
                                 <p>The recourse will include information on the program's schedule, expected technology stack, certification process, and graduation requirements. Additionally, you will be introduced to fundamental cyber security resources and will be required to complete reading and assignments aimed at familiarizing you with the framework and foundations of cyber security. Lastly, you will set up your virtual machine (VM) to get started.</p>
                             </div>
                         </div>
@@ -176,7 +176,6 @@
                             <input type="radio" id="tab-2" name="tabby-tabs">
                             <label for="tab-2">TRACK 1: CORE (Weeks 1-8)</label>
                             <div class="tabby-content">
-                                <!-- <img src="http://i63.tinypic.com/wtykg4.png"/> -->
                                 <p>The Core track focuses on building a strong foundation in various areas of cyber security. This track encompasses both hardware and software components, teaching you how to configure multiple operating systems, comprehend network architecture, and identify vulnerabilities and risks using basic principles.</p>
                                 <p><b>What you'll learn:</b><br>
                                 The fundamentals of cyber security cover various topics, such as controls, frameworks, benchmarks, virtual machines, threats, vulnerabilities, defenses, secure software, testing, and cryptography. As you learn about networking and data security, you can also build a Kali Linux machine, explore network configurations, firewall setup, and access control. Additionally, you can delve into viruses and ransom ware, intrusion detection, useful tools, introduction to embedded (control) systems, secure shell, mobile and endpoint security, virtual machines, malicious code, disaster recovery, and PowerShell. Incident identification and response, as well as technical and legal aspects of forensics, are also covered. By understanding resiliency, automation, and backups, you can gain essential and fundamental protection skills. Lastly, this learning experience will provide you with insight into what a career in cyber security looks like.</p>
@@ -187,7 +186,6 @@
                             <input type="radio" id="tab-3" name="tabby-tabs">
                             <label for="tab-3">Track 2: INTERMEDIATE (Weeks 9-16)</label>
                             <div class="tabby-content">
-                                <!-- <img src="http://i66.tinypic.com/wuhy7b.png"/> -->
                                 <p>Upon finishing this track, individuals will have the ability to showcase fundamental security competencies essential for setting up and adjusting systems to safeguard applications, networks, and devices. They will also possess the skills to conduct threat analysis and respond with appropriate mitigation techniques, take part in risk mitigation activities, and operate with an understanding of pertinent policies and regulations, which can be demonstrated to potential employers.</p>
                                 <p><b>What you'll learn:</b><br>
                                 You'll gain knowledge about security controls, attack tools, threats, indicators of compromise, and roles and responsibilities. Monitor networks, analyze various services for any signs of compromise, run scripts, use SIEM (Security Information and Event Management), and protect networks. Learn about forensic tools and techniques, understand detection and containment, examine indicators of compromise, collect digital evidence, and explore attacker lateral movement and pivoting. Develop intermediate incident response skills and effective recovery techniques. Understand how to conduct risk analysis and vulnerability assessment, and comprehend cyber security regulations. Learn about technical and non-technical controls, security and privacy relationships, and configuring and analyzing share permissions. Finally, explore cloud technologies and learn how to secure your cloud-based solutions with OWASP.</p>
@@ -282,7 +280,7 @@
                 <p>Let's get started.</p>
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
                     <p>Part-Time Remote Cybersecurity Bootcamp <span>(24 Weeks)</span></p>
-                    <a href="" class="btn btn-primary" target="_blank">Apply Now</a>
+                    <a href="apply.php" class="btn btn-primary" target="_blank">Apply Now</a>
                 </div>
             </div>
         </section>
@@ -332,85 +330,11 @@
             </div>
         </section>
 
-        <!-- <section id="faq" class="mb-5">
-            <div class="container">
-                <span class="section_title">FAQs</span>
-                <h3 class="text-primary">You've Got Questions We've Got Answers</h3>
-                <div class="col-lg-12 col-md-12">
-                    <div class="heading-bx left">
-                        <h2 class="m-b10 title-head">Frequently <span>Asked Questions (FAQs)</span></h2>
-                    </div>
-                    <div class="ttr-accordion m-b30 faq-bx" id="accordion1">
-                        <div class="panel">
-                            <div class="acod-head">
-                                <h6 class="acod-title"> 
-                                    <a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
-                                    Why won't my payment go through? </a> </h6>
-                            </div>
-                            <div id="faq1" class="acod-body collapse">
-                                <div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="acod-head">
-                                <h6 class="acod-title"> 
-                                    <a data-toggle="collapse" href="#faq2" class="collapsed" data-parent="#faq2">
-                                    How do I get a refund?</a> </h6>
-                            </div>
-                            <div id="faq2" class="acod-body collapse">
-                                <div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="acod-head">
-                                <h6 class="acod-title"> 
-                                    <a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
-                                    How do I redeem a coupon? </a> </h6>
-                            </div>
-                            <div id="faq3" class="acod-body collapse">
-                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="acod-head">
-                                <h6 class="acod-title"> 
-                                    <a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
-                                    Why aren't my courses showing in my account? </a> </h6>
-                            </div>
-                            <div id="faq4" class="acod-body collapse">
-                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="acod-head">
-                                <h6 class="acod-title"> 
-                                    <a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
-                                    Changing account name </a> </h6>
-                            </div>
-                            <div id="faq5" class="acod-body collapse">
-                                <div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <section id="apply">
             <div class="container text-center">
                 <a href="apply.php" class="btn btn-primary">APLLY NOW</a>
             </div>
         </section>
-
-        <!-- Video Modal -->
-        <!-- <div class="modal fade video_modal mt-3" id="video_modal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
-                    <iframe width="auto" height="400px" src="assets/videos/sample.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div> -->
     </div>
 <br>
 <script src="js2/jquery-3.3.1.min.js"></script>

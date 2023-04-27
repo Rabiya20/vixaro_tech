@@ -56,6 +56,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 </head>
+
 <body id="bg">
 <div class="page-wraper">
 <div id="loading-icon-bx"></div>
@@ -67,7 +68,7 @@
 					<ul>
 						<li><a href="faq-1.php"><i class="fa-regular fa-comment-dots"></i>Chat</a></li>
 						<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-						<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>Support@website.com</a></li>
+						<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>sales@trainerfarm.com</a></li>
 					</ul>
 				</div>
 				<div class="topbar-right">
@@ -91,17 +92,17 @@
 					<span></span>
 					<span></span>
 				</button>
+
 				<div class="secondary-menu">
 					<div class="secondary-inner">
 						<ul>
 							<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="javascript:;" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-							<!-- Search Button ==== -->
 							<li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li>
 						</ul>
 					</div>
 				</div>
+
 				<!-- Search Box ==== -->
 				<div class="nav-search-bar">
 					<form action="#">
@@ -110,62 +111,100 @@
 					</form>
 					<span id="search-remove"><i class="ti-close"></i></span>
 				</div>
+				
 				<!-- Navigation Menu ==== -->
 				<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
 					<div class="menu-logo">
 						<a href="index.php"><img src="assets/images/TF.png" alt=""></a>
 					</div>
 					<ul class="nav navbar-nav">
-						<li><a href="index.php">Home</a></li>
 						<li><a href="javascript:;">BootCamps <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
+								<!-- <li>
+									<a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu"> -->
 										<li><a href="bootcamp-cyber_security.php">Cyber Security</a></li>
-										<li><a href="#">Cloud Engineering</a></li>
-										<li><a href="bootcamp-artificial_intelligence.php">AI/ Machine Learning</a></li>
-										<li><a href="#">Data Science & Analytics</a></li>
-										<li><a href="#">Web Development</a></li>
 										<li><a href="bootcamp-software_engineering.php">Software Engineering</a></li>
-									</ul> 
-								</li>
-								<li><a href="">Workforce Development</a></li>
+										<li><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></li>
+										<li><a href="#">Cloud Computing</a></li>
+										<li><a href="#">Data Science</a></li>
+										<li><a href="#">Web Development</a></li>
+									<!-- </ul> 
+								</li> -->
+								<!-- <li><a href="">Workforce Development</a></li>
 								<li><a href="">Career Services</a></li>
-								<li><a href="">Finance & Funding</a></li>
+								<li><a href="">Finance & Funding</a></li> -->
 							</ul>
 						</li>
 						<li><a href="javascript:;">Certifications <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="certificate_by_topic.php">Certifications By Topic</a></li>
-								<li><a href="certificate_by_brand.php">Certifications By Brand</a></li>
-								<li><a href="top_certifications.php">Top 15 Certifications</a></li>
-								<li><a href="">Guaranteed To Run</a></li>
+								<li>
+									<a href="javascript:;">AWS<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-aws_practitioner.php">AWS Practitioner</a></li>
+										<li><a href="certificate-aws_architect.php">AWS Solution Architect</a></li>
+									</ul> 
+								</li>
+								<li>
+									<a href="javascript:;">Cisco<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-cisco.php">CCNA</a></li>
+									</ul> 
+								</li>
+								<li>
+									<a href="javascript:;">CompTIA<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-comptia_a.php">CompTIA A+</a></li>
+										<li><a href="certificate-comptia_network.php">CompTIA Network+</a></li>
+										<li><a href="certificate-comptia_security.php">CompTIA Security+</a></li>
+										<li><a href="certificate-comptia_cysa.php">CompTIA CYSA+</a></li>
+									</ul> 
+								</li>
+								<li>
+									<a href="javascript:;">EC-Council<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-ethical_hacking.php">Certified Ethical Hacking</a></li>
+									</ul> 
+								</li>
+								<li>
+									<a href="javascript:;">Microsoft<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-ms_administrator.php">Azure Administrator (AZ-104)</a></li>
+										<li><a href="certificate-ms_fundamentals.php">Azure Fundamentals (AZ-900)</a></li>
+									</ul> 
+								</li>
+								<li>
+									<a href="javascript:;">Axelos<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="certificate-itil.php">ITIL&reg; 4 Foundations Certification</a></li>
+									</ul> 
+								</li>
+								<!-- <li><a href="certificate_by_brand.php">Certifications By Brand</a></li> -->
 							</ul>
 						</li>
 						<li class="add-mega-menu"><a href="javascript:;">Corporate Training <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="">Corporate & Business Training</a></li>
-								<li><a href="">State & Local Government/Education</a></li>
-								<li><a href="">Federal & DoD Training</a></li>
-								<li><a href="">Unlimited Access Master Subscription</a></li>
-								<li><a href="">Technology Apprentice Scholar Program</a></li>
+								<li><a href="">Business Training</a></li>
+								<li><a href="">Career Services</a></li>
+								<li><a href="">Financing</a></li>
+								<li><a href="">Subscription</a></li>
 							</ul>
 						</li>
 						<li><a href="blogs.php">Blogs</a></li>
 						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
 								<li><a href="about_tf.php">About Trainerfarm</a></li>
-								<li><a href="about_instructors.php">Meet Our Instructors</a></li>
-								<li><a href="about_news.php">In The News</a></li>
-								<li><a href="about_partnerships.php">Become An Academic Partner</a></li>
-								<li><a href="careers.php">Join The Trainerfarm Team</a></li>
-								<li><a href="about_success_stories.php">Customer Success Stories</a></li>
+								<li><a href="about_instructors.php">Meet Our Team</a></li>
+								<!-- <li><a href="about_news.php">In The News</a></li>
+								<li><a href="about_partnerships.php">Become An Academic Partner</a></li> -->
+								<li><a href="careers.php">Join Trainerfarm</a></li>
+								<!-- <li><a href="about_success_stories.php">Customer Success Stories</a></li> -->
 							</ul>
 						</li>
 					</ul>
 					<div class="nav-social-link">
 						<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-						<a href="javascript:;"><i class="fa fa-google-plus"></i></a>
+						<!-- <a href="javascript:;"><i class="fa fa-google-plus"></i></a> -->
 						<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>

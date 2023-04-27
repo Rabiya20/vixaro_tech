@@ -30,7 +30,7 @@
 			<div class="container">
 				<ul class="list-inline">
 					<li><a href="#">Certifications</a></li>
-					<li>Certifications By Brand</li>
+					<li>Certifications</li>
 				</ul>
 			</div>
 		</div>
@@ -38,7 +38,7 @@
         <div class="content-block">
             <div class="container">
                 <div class="title">
-                    <h1>Certifications By Brand</h1>
+                    <h1>Certifications</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
@@ -50,7 +50,7 @@
                                 <h3>AWS</h3>
                                 <ul>
                                     <li><a href="certificate-aws_architect.php">Introduction to AWS Certified Solution Architect - Associate</a></li>
-                                    <li><a href="certificate-aws_cloud.php">AWS Cloud Practitioner Essentials + Certification Exam Bundle</a></li>
+                                    <li><a href="certificate-aws_practitioner.php">AWS Cloud Practitioner Essentials + Certification Exam Bundle</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="row">
                             <div class="col-3">
-                                <img class="logo" src="assets/images/logo/comptia-logo.png" alt="aws" srcset="">
+                                <img class="logo" src="assets/images/logo/Comptia_logo.png" alt="aws" srcset="">
                             </div>
                             <div class="col-9">
                                 <h3>CompTIA</h3>
@@ -118,10 +118,10 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="row">
                             <div class="col-3">
-                                <img class="logo" src="assets/images/logo/people_cert-logo.png" alt="aws" srcset="">
+                                <img class="logo" src="assets/images/logo/itil_axelos-logo.png" alt="aws" srcset="">
                             </div>
                             <div class="col-9">
-                                <h3>PeopleCert</h3>
+                                <h3>Axelos</h3>
                                 <ul>
                                     <li><a href="certificate-itil.php">ITIL&reg; 4 Foundations Certification</a></li>
                                 </ul>

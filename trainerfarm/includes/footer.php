@@ -10,7 +10,6 @@
 						<div class="pt-social-link">
 							<ul class="list-inline m-a0">
 								<li><a href="#" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="btn-link"><i class="fa fa-google-plus"></i></a></li>
 								<li><a href="#" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 						</div>
@@ -28,18 +27,6 @@
 							<img height="150px" width="250px" src="assets/images/payments.png" alt="logo">
 							<br><br>
 							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/partners.png" alt="logo"></a>
-                            
-							<!-- <div class="subscribe-form m-b20">
-								<form class="subscription-form" action="http://educhamp.themetrades.com/demo/assets/script/mailchamp.php" method="post">
-									<div class="ajax-message"></div>
-									<div class="input-group">
-										<input name="email" required="required"  class="form-control" placeholder="Your Email Address" type="email">
-										<span class="input-group-btn">
-											<button name="submit" value="Submit" type="submit" class="btn"><i class="fa fa-arrow-right"></i></button>
-										</span> 
-									</div>
-								</form>
-							</div> -->
                         </div>
                     </div>
 					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
@@ -48,13 +35,13 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Solutions</h5>
 									<ul>
-										<li><a href="#">Business & Teams</a></li>
-										<li><a href="#">Training Partners</a></li>
-										<li><a href="#">Azure Training</a></li>
-										<li><a href="#">Microsoft Training</a></li>
+										<li><a href="training_business.php">Business Training</a></li>
+										<!-- <li><a href="training_certificate.php">Certifications Training</a></li> -->
 										<li><a href="#">AWS Training</a></li>
-										<li><a href="#">ITIL Training</a></li>
+										<li><a href="#">Azure Training</a></li>
 										<li><a href="#">Cisco Training</a></li>
+										<li><a href="#">Microsoft Training</a></li>
+										<li><a href="#">ITIL Training</a></li>
 									</ul>
 								</div>
 							</div>
@@ -62,11 +49,8 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Company</h5>
 									<ul>
-										<li><a href="index.php">About TrainerFarm</a></li>
-										<li><a href="about-1.php">Partner With Us</a></li>
-										<li><a href="faq-1.php">Affiliate Program</a></li>
-										<li><a href="contact-1.php">Careers</a></li>
-										<li><a href="contact-1.php">In The News</a></li>
+										<li><a href="about_tf.php">About Us</a></li>
+										<li><a href="careers.php">Careers</a></li>
 									</ul>
 								</div>
 							</div>
@@ -74,11 +58,9 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Resource and Help</h5>
 									<ul>
-										<li><a href="courses.php">Contact Us</a></li>
-										<li><a href="courses-details.php">GGDPR Privacy Policy</a></li>
-										<li><a href="membership.php">Refund Policy</a></li>
-										<li><a href="profile.php">Blog</a></li>
-										<li><a href="profile.php">Customer Success Stories</a></li>
+										<li><a href="contact_us.php">Contact Us</a></li>
+										<li><a href="blogs.php">Blogs</a></li>
+										<li><a href="financing.php">Financing</a></li>
 									</ul>
 								</div>
 							</div>
@@ -87,21 +69,7 @@
 					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                         <div class="widget widget_gallery gallery-grid-4">
                             <h5 class="footer-title">We're Here For You</h5>
-							<p><i class="fa fa-user"></i> Lifetime access for self-paced courses</p>
-							<p><i class="fa fa-user"></i> Business and team discounts available</p>
 							<p><i class="fa fa-user"></i> Sales: 000-000-0000</p>
-							<p><i class="fa fa-user"></i> Support: 000-000-0000</p>
-                            
-							<!-- <ul class="magnific-image">
-								<li><a href="assets/images/gallery/pic1.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic1.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic2.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic2.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic3.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic3.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic4.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic4.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic5.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic5.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic6.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic6.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic7.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic7.jpg" alt=""></a></li>
-								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
-							</ul> -->
                         </div>
                     </div>
                 </div>

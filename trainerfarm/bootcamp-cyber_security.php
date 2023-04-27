@@ -44,22 +44,15 @@
                             <h1 class="text-light">Cybersecurity Bootcamp Online Part-Time</h1>
                             <br>
                             <a href="" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
-                            <a href="" target="_blank" class="text-light"><i class="fa-solid fa-download"></i> Download Course Packet</a>
                             <br><br>
                             <ul style="padding-left: 10px;">
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
                                 <li>Online Attendance</li>
                             </ul>
-                            <!-- <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
-                            <img src="assets/images/courses/cysa.png" alt="" style="width: 100px;"> -->
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 mb-3">
                         <img src="assets/images/bootcamps/cyber-cover.jpg" style="border-radius: 20px;" alt="" data-toggle="modal" data-target="#video_modal" data-video-link="" width="500" height="400" >
-                        <!-- <video class="video_modal_btn cta_disabled" data-toggle="modal" data-target="#video_modal" data-video-link="" width="500" height="400" autoplay loop>
-                            <source src="assets/videos/sample.mp4" type="video/mp4">
-                        </video> -->
-                        <!-- <div class="playpause" data-toggle="modal" data-target="#video_modal"></div> -->
                     </div>
                 </div>
             </div>
@@ -120,67 +113,20 @@
             </div>
         </section>
 
-        <section id="your_team_section" class="mb-5">
-            <div class="container">
-                <span class="section_title">YOUR TEAM</span>
-                <h3 class="text-primary">Our Cyber Security Team</h3>
-                <div class="container">
-                    <div class="row" >
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card-body ">
-                                <div class=" card-container">
-                                    <div class="profile-shape">
-                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                    </div>
-                                    <h3>Muhammad Farhan</h3>
-                                    <p class="profile-title">Web Designer</p>
-                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-12">
-                            <div class="card-body ">
-                                <div class=" card-container">
-                                    <div class="profile-shape">
-                                        <div class="profile-image" style="background-image: url('https://xp.io/storage/15pewlWA.jpg');"></div>
-                                    </div>
-                                    <h3>Muhammad Farhan</h3>
-                                    <p class="profile-title">Web Designer</p>
-                                    <p class="profile-description">M.S. in Cybersecurity - University of Maryland <br>B.S. in Finance - Citadel Military College of South Carolina</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="explore_bootcamp" class="mb-5">
             <div class="container">
                 <span class="section_title">EXPLORE BOOTCAMP</span>
                 <h3 class="text-primary">Questions? Get Answers</h3>
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-3">
                                 <img src="https://static.vecteezy.com/system/resources/previews/014/441/078/original/phone-call-icon-design-in-blue-circle-png.png" alt="">
                             </div>
-                            <div class="col-8">
-                                <h3>Schedule Admissions Call</h3>
+                            <div class="col-9">
+                                <h3>Contact Admission Consultant</h3>
                                 <p>1-on-1 call for quick answers about bootcamp</p>
                                 <a href="#" class="btn explore"><b>Schedule The Call</b></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="https://static.vecteezy.com/system/resources/previews/014/441/078/original/phone-call-icon-design-in-blue-circle-png.png" alt="">
-                            </div>
-                            <div class="col-8">
-                                <h3>Join the Open House</h3>
-                                <p>Meet the team, see the bootcamp breakdown</p>
-                                <a href="#" class="btn explore"><b>Join Open House</b></a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +138,7 @@
             <div class="container">
                 <span class="section_title">WHY US?</span>
                 <h3 class="text-primary">The TrainerFarm Difference</h3>
-                <p>By completing Coding TrainerFarm's Cybersecurity program, you'll stand out from other bootcamp graduates and be mission-ready for a challenging and rewarding career path from day one.</p>
+                <p>By completing TrainerFarm's Cybersecurity program, you'll stand out from other bootcamp graduates and be mission-ready for a challenging and rewarding career path from day one.</p>
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <h5 style="color: var(--blue-primary);">Gain a tactical advantage by preparing for the CySA+ certification exam.</h5>
@@ -252,15 +198,12 @@
                             <input type="radio" id="tab-4" name="tabby-tabs">
                             <label for="tab-4">Track 3: PROFESSIONAL (Weeks 17-24)</label>
                             <div class="tabby-content">
-                                <!-- <img src="http://i63.tinypic.com/kakc9i.png"/> -->
                                 <p>By the end of the program, students will have the skills to configure and implement threat intelligence, perform vulnerability assessments and mitigation, analyze data for continuous security monitoring, investigate possible indicators of compromise, utilize incident response protocols to mitigate risks, and conduct fundamental threat hunting. The program culminates with a second belt exam, and students will receive vouchers for the CompTIA Security+ and CySA+ exams.</p>
                                 <p><b>What you'll learn:</b> <br>
                                 In this track, you will acquire knowledge about ethical hacking, which includes penetration testing using tools such as Metasploitable2 and Eternal Blue. You will gain an understanding of the inner workings of search engines, WHOIS, DNS, nmap, dirbuster, gobuster, nikto, social engineering, specialized scanners, and SNB enumeration. Additionally, you will learn about proactive threat hunting and how to perform Local File Inclusion and Remote File Inclusion, SQL injection techniques and defenses, and how to hack and test mobile devices. You will also learn about countermeasures and how to create a buffer overflow attack, as well as how to enhance your knowledge of malware by using advanced techniques and tools. Finally, you will learn how to elevate privilege to fully exploit platforms, monitor the network, or access other systems during an attack, as well as how to use various sources for exploits, including password attacks.</p>
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <a href="" target="_blank" class="btn btn-primary text-light"><i class="fa-solid fa-download"></i> Download Course Packet</a>
                 </div>
             </div>
         </section>
@@ -329,92 +272,6 @@
                             </ul>
                         </div>
                     </div> 
-                </div>
-            </div>
-        </section>
-
-        <!-- <section id="weekly_schedule_section" class="mb-5">
-            <div class="container">
-                <span class="section_title">Support</span>
-                <h3 class="text-primary">Here to Support You</h3>
-            </div>
-        </section> -->
-
-        <!-- <section id="career_services" class="mb-2">
-            <div class="container">
-                <span class="section_title">CAREER SERVICES</span>
-                <h3 class="text-primary">Dedicated Cybersecurity Career Services</h3>
-                <p>We have had the privilege of helping over 13K&#43; students upgrade their careers &amp; their lives. In 16 weeks, all while learning the most-indemand STEM skills, you will be working on your job search for when graduation comes and goes.</p>
-                <p>Other bootcamps only give you career services for the ﬁrst 6 months after graduation. Our services team is there for you throughout your career, whether it's 6 months or 6 years down the line, because we are truly invested in your success.</p>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <img class="" src="https://cutecdn.codingdojo.com/svg_images/courses/no-expiration-icon.svg" alt="">
-                            </div>
-                            <div class="col-md-6">
-                                <h4>No Expiration Date</h4>
-                                <p>lifetime community + support</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2">
-                                <img class="" src="https://cutecdn.codingdojo.com/svg_images/courses/unlimited-support-icon.svg" alt="">
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Unlimited Support</h4>
-                                <p>starting day one</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2">
-                                <img class="" src="https://cutecdn.codingdojo.com/svg_images/courses/mentoring-icon.svg" alt="">
-                            </div>
-                            <div class="col-md-6">
-                                <h4>One on One</h4>
-                                <p>Career Service Manager Coaching</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <img src="assets/images/bootcamps/cyber-cover.jpg" class="career_services-img" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>   -->
-
-        <!-- <section id="tuition" class="mb-5">
-            <div class="container">
-                <span class="section_title">Payment</span>
-                <h3 class="text-primary">Tuition + Financing</h3>
-                <p>Not sure which financing option is right for you? Check out <a href="/financing" target="_blank">Financing 101</a> or <a href="javascript:void(0);" class="ada_cta_button cta_disabled">book a call with admissions</a>!</p>
-            </div>
-        </section>  -->
-
-        <section id="how_to_enroll" class="mb-5">
-            <div class="container">
-                <span class="section_title">APPLICATION PROCESS</span>
-                <h3 class="text-primary">How to Enroll</h3>
-                <p class="text-secondary">We truly believe that anyone can learn to code, regardless of their professional background. After teaching many students, we have found that determination is the #1 factor to student success - NOT coding experience. That's why our admissions process does not include a coding challenge or technical assessment.</p>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h2>1. Explore <span style="font-size: 15px; font-weight: lighter">(optional)</span></h2>
-                        <p>Get quick review about Bootcamp</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h2>2. Apply</h2>
-                        <p>Ready to join? <a href="apply.php">Submit your application</a> and pick your start date to join.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h2>3. Interview</h2>
-                        <p>Meet an Admission Advisor to make sure you're ready for the challenges of the program. An acceptance decision will be made within 2-3 business days.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h2>4. Deposit to Enroll</h2>
-                        <p>If accepted, submit your deposit to officially save your seat and gain access to bootcamp-prep materials for your start date.</p>
-                    </div>
                 </div>
             </div>
         </section>

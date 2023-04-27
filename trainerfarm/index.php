@@ -2,7 +2,7 @@
 <style>
 	.box{
 	width: 200px !important;
-    height: 210px !important;
+    height: 150px !important;
 }
 </style>
 <div class="page-content bg-white">
@@ -33,7 +33,7 @@
 					data-param9="" data-param10="" 
 					data-description="Science says that Women are generally happier">
 						<!-- MAIN IMAGE -->
-						<img src="assets/images/slider/slide1.jpg" alt="" 
+						<img src="assets/images/banner/home-bg.jpeg" alt="" 
 							data-bgposition="center center" 
 							data-bgfit="cover" 
 							data-bgrepeat="no-repeat" 
@@ -123,7 +123,7 @@
 		<div class="section-area content-inner service-info-bx">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
 								<img src="assets/images/banner/explore-bc.jpg" alt="">
@@ -132,13 +132,12 @@
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa fa-bank text-primary"></i>
 								</div>
-								<!-- <h4>University BootCamps</h4> -->
 								<h4></h4>
 								<a href="#bootcamps" class="btn radius-xl smooth-goto">Explore BootCamps</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6">
+					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="service-bx">
 							<div class="action-box">
 								<img src="assets/images/banner/explore-cert.jpg" alt="">
@@ -147,24 +146,8 @@
 								<div class="feature-box-sm radius bg-white">
 									<i class="fa-solid fa-certificate text-primary"></i>
 								</div>
-								<!-- <h4>Official Certifications</h4> -->
 								<h4></h4>
 								<a href="certifications.php" class="btn radius-xl">Explore Certifications</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<div class="service-bx m-b0">
-							<div class="action-box">
-								<img src="assets/images/banner/explore-tech.jpg" alt="">
-							</div>
-							<div class="info-bx text-center">
-								<div class="feature-box-sm radius bg-white">
-									<i class="fa-solid fa-network-wired text-primary"></i>
-								</div>
-								<!-- <h4>Technologies & Partners</h4> -->
-								<h4></h4>
-								<a href="certifications.php?view=byBrands" class="btn radius-xl">Explore Technologies</a>
 							</div>
 						</div>
 					</div>
@@ -184,70 +167,56 @@
 					<div class="container">
 						<div class="skills-flex-container">
 							<div class="row">
-								<div class="box col-md-3 col-sm-6">
+
+								<div class="box col-md-4 col-sm-6">
 									<a href="courses-aws.php">
 										<div class="image">
-											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="xd">
+											<img src="assets/images/logo/aws_logo.png" alt="xd">
 										</div>
 										<div class="title">AWS Certifications</div>
 									</a>
 								</div>
-								<div class="box col-md-3 col-sm-6">
+								<div class="box col-md-4 col-sm-6">
 									<a href="courses-microsoft.php">
 										<div class="image">
-											<img src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="figma">
+											<img src="assets/images/logo/ms_azure-logo.png" alt="figma">
 										</div>
 										<div class="title">Micosoft Assure</div>
 									</a>
 								</div>
-								<div class="box col-md-3 col-sm-6">
+								<div class="box col-md-4 col-sm-12">
 									<a href="courses-comptia.php">
 										<div class="image">
-											<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="html">
+											<img src="assets/images/logo/Comptia_logo.png" alt="html">
 										</div>
 										<div class="title">CompTIA Certifications</div>
 									</a>
 								</div>
-								<div class="box col-md-3 col-sm-6">
+							</div>
+							
+							<div class="row">
+								<div class="box col-md-4 col-sm-6">
 									<a href="courses-itil.php">
 										<div class="image">
-											<img src="https://seeklogo.com/images/I/itil-logo-569A84C737-seeklogo.com.png" alt="css">
+											<img src="assets/images/logo/itil_axelos-logo.png" alt="css">
 										</div>
 										<div class="title">ITIL Certifications</div>
 									</a>
 								</div>
-							</div>
-							<div class="row">
-								<div class="box col-md-3 col-sm-6">
+								<div class="box col-md-4 col-sm-6">
 									<a href="courses-cisco.php">
 										<div class="image">
-											<img src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="javascript">
+											<img src="assets/images/logo/cisco-logo.png" alt="javascript">
 										</div>
 										<div class="title">Cisco Certifications</div>
 									</a>
 								</div>
-								<div class="box col-md-3 col-sm-6">
-									<a href="courses-linux.php">
-										<div class="image">
-											<img src="assets/images/courses/linux.png" alt="photoshop">
-										</div>
-										<div class="title">Linux Foundation Certifications</div>
-									</a>
-								</div>
-								<div class="box col-md-3 col-sm-6">
+								<div class="box col-md-4 col-sm-12">
 									<a href="courses-ec_council.php">
 										<div class="image">
-											<img src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="illustrator">
+											<img src="assets/images/logo/Ec_Council_Logo.png" alt="illustrator">
 										</div>
 										<div class="title">EC-Council Certifications</div>
-									</a>
-								</div>
-								<div class="box col-md-3 col-sm-6">
-									<a href="courses-google.php">
-										<div class="image">
-											<img src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="premiere pro">
-										</div>
-										<div class="title">Google Cloud</div>
 									</a>
 								</div>
 							</div>
@@ -259,17 +228,6 @@
 		
 		<div class="section-area section-sp1">
 			<div class="container">
-				<!-- <div class="row">
-					<div class="col-lg-6">
-						<h2 class="title-head ">Winner of the 2022 EC-Council ATC Circle of <span class="text-primary">  Excellence Award</span></h2>
-						<p>Trainerfarm received this 2022 award from EC-Council, which highlights the top EC-Council training partners worldwide, who create a meaningful impact for their students.</p>
-					</div>
-					<div class="col-lg-6">
-						<h2 class="title-head ">Fortune Education Best Cybersecurity  <span class="text-primary">Bootcamps 2023</span></h2>
-						<p>The Trainerfarm Cybersecurity Bootcamp made the unranked list of Fortune Education's Best Cybersecurity Bootcamps 2023. This year, 23 other cybersecurity bootcamps were selected the listing.</p>
-					</div>
-				</div> 
-				<br>-->
 				<div class="row" style="margin-top: -100px">
 					<div class="col-lg-6 col-md-6 col-sm-12 bootcamp-btn">
 						<a href="#bootcamps" class="btn explore smooth-goto"><b>Explore BootCamps</b></a>
@@ -293,7 +251,7 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="row">
 									<div class="col-md-2 col-sm-3">
-										<img class="course-logo" src="assets/images/courses/ai.png" alt="">
+										<img class="course-logo" src="assets/images/logo/ai-logo.png" alt="">
 									</div>
 									<div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></div>
 								</div>
@@ -312,7 +270,7 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="row">
 									<div class="col-md-2 col-sm-3">
-										<img class="course-logo" src="assets/images/courses/cybersecurity.png" alt="">
+										<img class="course-logo" src="assets/images/logo/cybersecurity-logo.png" alt="">
 									</div>
 									<div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-cyber_security.php">Cybersecurity</a></div>
 								</div>
@@ -331,194 +289,20 @@
 							<div class="col-md-6 col-sm-12">
 								<div class="row">
 									<div class="col-md-2 col-sm-3">
-										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9 course-name"><p href="bootcamp-web_development.php">Web Development</p></div>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-12">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
 										<img class="course-logo" src="assets/images/courses/software.png" alt="">
 									</div>
 									<div class="col-md-6 col-sm-9 course-name"><a href="bootcamp-software_engineering.php">Software Engineering</a></div>
 								</div>	
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- <div class="section-area section-sp2" style="background-color: #fff;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 heading-bx right">
-					</div>
-					<div class="col-md-8 heading-bx right">
-						<h2 class="title-head"> <span> Trainerfarm Offers</span> "Best-In-Class" <span> IT Certifications and is a Certified Training Partner for Microsoft, CompTIA, EC-Council and More</span></h2>
-						<p>Whether you're looking to expand your knowledge, develop and hone your skills, or increase your income, Trainerfarm offers industry-valued certifications in the latest emerging technologies. You can choose from...</p>
-						<br>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/cybersecurity.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-cyber_sec.php"><h4>Cyber Security</h4></a></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/cloud.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-cloud_eng.php"><h4>Cloud Engineering</h4></a></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/networking.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-netwroking.php"><h4>Networking</h4></a></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/devops.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-devops.php"><h4>DevOps</h4></a></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/ai.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-artificial_intelligence.php"><h4>AI & ML</h4></a></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/datascience.png" alt="">
-									</div>
-									<div class="col-md-8"><a href="courses-data_sciece.php"><h4>Data Science & Analytics</h4></a></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2">
-										<img class="" src="assets/images/courses/pm.png" alt="">
-									</div>
-									<div class="col-md-6"><a href="courses-proj_management.php"><h4>Project Management</h4></a></div>
-								</div>
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-lg-6">
-								<a href="certifications.php" class="btn explore"><b>Explore Certifications</b></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<div class="section-area section-sp2" style="margin-bottom: -100px !important;">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 heading-bx left course-list">
-						<h2 class="title-head">IT emerging technologies refer to the latest and most promising technologies that are currently being developed or gaining widespread adoption in the field of <span>information technology (IT)</span></h2>
-						<p>We offer certifications in various IT fields like CompTIA, Microsoft, ITIL and many more.</p>
-						<br>
-						<div class="row course-list-row2">
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-12">
 								<div class="row">
 									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="">
+										<img class="course-logo" src="assets/images/courses/webdev.png" alt="">
 									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-microsoft.php"><h4>Microsoft</h4></a><span>Azure, Sharepoint, Windows</span></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2560px-AWS_Simple_Icons_AWS_Cloud.svg.png" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-aws.php"><h4>AWS</h4></a><span>Architecting, Cloud computing and much more</span></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row course-list-row2">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-google.php"><h4>Google Cloud</h4></a><span>Architect And Engineering Training</span></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://translatorswithoutborders.org/wp-content/uploads/2021/12/Cisco-logo.png" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-cisco.php"><h4>Cisco</h4></a><span>Cisco Cloud, CCNA, CCNP, And More</span></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row course-list-row2">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Comptia-logo.svg/1200px-Comptia-logo.svg.png" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-comptia.php"><h4>CompTIA</h4></a><span>Official A+,Network+ & Security+ Training</span></div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="assets/images/courses/linux.png" alt="">
-									</div>
-									<div class="col-md-8 col-sm-9"><a href="courses-linux.php"><h4>Linux Foundation</h4></a><span>Administration Course + CKA Certification Exam</span></div>
-								</div>								
-							</div>
-						</div>
-						<br>
-						<div class="row course-list-row2">
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-2 col-sm-3">
-										<img class="course-img" src="https://miro.medium.com/v2/resize:fit:1200/1*CMka7H5SkhUJNEjQhyrNZw.gif" alt="">
-									</div>
-									<div class="col-md-6 col-sm-9"><a href="courses-ec_council.php"><h4>EC-Council</h4></a><span>Certified Ethical Hacking</span></div>
+									<div class="col-md-6 col-sm-9 course-name"><p href="bootcamp-web_development.php">Web Development</p></div>
 								</div>
 							</div>
 						</div>
-						<br>
-						<div class="row exp-tech-btn">
-							<div class="col-lg-6">
-								<a href="certifications.php?view=byBrand" class="btn explore"><b>Explore Technologies</b></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 heading-bx left">
 					</div>
 				</div>
 			</div>
@@ -531,62 +315,8 @@
 				<h2 class="title-head text-uppercase text-light"><span>MEET OUR </span>TEAM</h2>
 				<p>TrainerFarm has great IT instructors who have a deep understanding of the subject matter they are teaching. They are up-to-date with the latest industry trends and technologies and have a track record of success in the field.</p>
 				<p>They can able to explain concepts in multiple ways and provide different types of materials and resources to support different learning styles.</p>
-				<!-- <div class="content-block">
-					<div class="section-area">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<img src="assets/images/icon/icon4.png" alt=""/>
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Instructors</h5>
-											<p>A brief introduction on Trainerfarm and our instructors and what makes them unique.</p>
-											<a href="">Watch Video ></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<img src="assets/images/icon/icon4.png" alt=""/>
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Kingster's Principle</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-											<a href="">Watch Video ></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<img src="assets/images/icon/icon4.png" alt=""/>
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Key Of Success</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-											<a href="">Watch Video ></a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
-									<div class="feature-container">
-										<div class="feature-md text-white m-b20">
-											<img src="assets/images/icon/icon4.png" alt=""/>
-										</div>
-										<div class="icon-content">
-											<h5 class="ttr-tilte">Our Philosophy</h5>
-											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
-											<a href="">Watch Video ></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				<br>
+				<a href="meet_our_team.php" class="float-right btn btn-primary">Meet Our Team</a>
 			</div>
 		</div>
 	</div>

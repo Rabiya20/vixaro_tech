@@ -1,8 +1,7 @@
 <?php include('includes/header.php'); ?>
 <br><br><br><br>
-<!-- Content -->
 <div class="page-content bg-white">
-    <!-- inner page banner -->
+
     <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner1.jpg);">
         <div class="container mt-5">
             <div class="row align-items-center">
@@ -30,7 +29,6 @@
         </div>
     </div>
 
-    <!-- Breadcrumb row -->
     <div class="breadcrumb-row">
         <div class="container">
             <ul class="list-inline">
@@ -40,15 +38,13 @@
         </div>
     </div>
 
-    <!-- Breadcrumb row END -->
     <div class="content-block">
         <div class="section-area section-sp1">
             <div class="container">
                 <div class="row">
-                    <!-- left part start -->
                     <div class="col-lg-8 col-xl-8 col-md-7">
-                        <!-- blog grid -->
                         <div id="blog-grid" class="ttr-blog-grid-3 row">
+
                             <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
                                 <div class="recent-news">
                                     <div class="action-box">
@@ -56,18 +52,17 @@
                                     </div>
                                     <div class="info-bx">
                                         <ul class="media-post">
-                                            <!-- <li><a href="#"><i class="fa fa-calendar"></i>Jan 02 2019</a></li> -->
                                             <li><i class="fa fa-user"></i> By Andrew Simmon</li>
                                         </ul>
                                         <h5 class="post-title"><a href="blog-cyber_security.php">Cybersecurity in 2023: Trends and Predictions</a></h5>
                                         <p>As we enter a new era of digital transformation, the importance of cybersecurity is more critical...</p>
                                         <div class="post-extra">
                                             <a href="blog-cyber_security.php" class="btn-link">READ MORE</a>
-                                            <!-- <a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>20 Comment</a> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
                                 <div class="recent-news">
                                     <div class="action-box">
@@ -75,18 +70,17 @@
                                     </div>
                                     <div class="info-bx">
                                         <ul class="media-post">
-                                            <!-- <li><a href="#"><i class="fa fa-calendar"></i>Feb 05 2019</a></li> -->
                                             <li><i class="fa fa-user"></i> By Michelle Rez</li>
                                         </ul>
                                         <h5 class="post-title"><a href="blog-business_intelligence.php">Business Intelligence and it's Benefit for Organization</a></h5>
                                         <p>Business intelligence (BI) is a term that describes the processes, technologies, and tools used...</p>
                                         <div class="post-extra">
                                             <a href="blog-business_intelligence.php" class="btn-link">READ MORE</a>
-                                            <!-- <a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>14 Comment</a> -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
                                 <div class="recent-news">
                                     <div class="action-box">
@@ -94,30 +88,79 @@
                                     </div>
                                     <div class="info-bx">
                                         <ul class="media-post">
-                                            <!-- <li><a href="#"><i class="fa fa-calendar"></i>April 14 2019</a></li> -->
                                             <li><i class="fa fa-user"></i> By Qurat Ul Ain</li>
                                         </ul>
                                         <h5 class="post-title"><a href="blog-career_bootcamps.php">Increase career through BootCamps</a></h5>
                                         <p>If you're looking to jumpstart your career in IT, bootcamps can be a great way to gain the skills...</p>
                                         <div class="post-extra">
                                             <a href="blog-career_bootcamps.php" class="btn-link">READ MORE</a>
-                                            <!-- <a href="#" class="comments-bx"><i class="fa fa-comments-o"></i>23 Comment</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
+                                <div class="recent-news">
+                                    <div class="action-box">
+                                        <img src="assets/images/blog/blog4.jpg" alt="">
+                                    </div>
+                                    <div class="info-bx">
+                                        <ul class="media-post">
+                                            <li><i class="fa fa-user"></i> By Andrew Simmon</li>
+                                        </ul>
+                                        <h5 class="post-title"><a href="blog-cyber_defence.php">Cyber Defense in Depth</a></h5>
+                                        <p>In today's digital world, cyber threats are constantly evolving, and organizations need to have a robust cyber defense strategy to...</p>
+                                        <div class="post-extra">
+                                            <a href="blog-cyber_defence.php" class="btn-link">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
+                                <div class="recent-news">
+                                    <div class="action-box">
+                                        <img src="assets/images/blog/blog5.jpg" alt="">
+                                    </div>
+                                    <div class="info-bx">
+                                        <ul class="media-post">
+                                            <li><i class="fa fa-user"></i> By Andrew Simmon</li>
+                                        </ul>
+                                        <h5 class="post-title"><a href="blog-data_science.php">Data science in 2023</a></h5>
+                                        <p>Data science has become an essential field in the technology industry in recent years. With the rise of big...</p>
+                                        <div class="post-extra">
+                                            <a href="blog-data_science.php" class="btn-link">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post action-card col-xl-6 col-lg-6 col-md-12 col-xs-12 m-b40">
+                                <div class="recent-news">
+                                    <div class="action-box">
+                                        <img src="assets/images/blog/blog6.jpg" alt="">
+                                    </div>
+                                    <div class="info-bx">
+                                        <ul class="media-post">
+                                            <li><i class="fa fa-user"></i> By Andrew Simmon</li>
+                                        </ul>
+                                        <h5 class="post-title"><a href="blog-cloud_computing.php">Cloud Computing and Cybersecurity</a></h5>
+                                        <p>Cloud computing has revolutionized the way businesses store, manage and access their...</p>
+                                        <div class="post-extra">
+                                            <a href="blog-cloud_computing.php" class="btn-link">READ MORE</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- blog grid END -->
                         <!-- Pagination -->
                         <div id="pagination" class="pagination-bx rounded-sm gray clearfix">
                             <button class="previous btn prev"><i class="ti-arrow-left"></i> Prev</button>
                             <button class="next btn">Next <i class="ti-arrow-right"></i></button>
                         </div>
-                        <!-- Pagination END -->
                     </div>
                     
-                    <!-- left part END -->
                     <!-- Side bar start -->
                     <div class="col-lg-4 col-xl-4 col-md-5 sticky-top">
                         <aside class="side-bar sticky-top">
@@ -157,53 +200,6 @@
                                     </form>
                                 </div>
                             </div>
-                            <!-- <div class="widget recent-posts-entry">
-                                <h6 class="widget-title">Recent Posts</h6>
-                                <div class="widget-post-bx">
-                                    <div class="widget-post clearfix">
-                                        <div class="ttr-post-media"> <img src="assets/images/blog/recent-blog/pic1.jpg"
-                                                width="200" height="143" alt=""> </div>
-                                        <div class="ttr-post-info">
-                                            <div class="ttr-post-header">
-                                                <h6 class="post-title"><a href="blog-details.html">This Story Behind
-                                                        Education Will Haunt You Forever.</a></h6>
-                                            </div>
-                                            <ul class="media-post">
-                                                <li><a href="#"><i class="fa fa-calendar"></i>Oct 23 2019</a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i>15 Comment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="widget-post clearfix">
-                                        <div class="ttr-post-media"> <img src="assets/images/blog/recent-blog/pic2.jpg"
-                                                width="200" height="160" alt=""> </div>
-                                        <div class="ttr-post-info">
-                                            <div class="ttr-post-header">
-                                                <h6 class="post-title"><a href="blog-details.html">What Will Education
-                                                        Be Like In The Next 50 Years?</a></h6>
-                                            </div>
-                                            <ul class="media-post">
-                                                <li><a href="#"><i class="fa fa-calendar"></i>May 14 2019</a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i>23 Comment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="widget-post clearfix">
-                                        <div class="ttr-post-media"> <img src="assets/images/blog/recent-blog/pic3.jpg"
-                                                width="200" height="160" alt=""> </div>
-                                        <div class="ttr-post-info">
-                                            <div class="ttr-post-header">
-                                                <h6 class="post-title"><a href="blog-details.html">Eliminate Your Fears
-                                                        And Doubts About Education.</a></h6>
-                                            </div>
-                                            <ul class="media-post">
-                                                <li><a href="#"><i class="fa fa-calendar"></i>June 12 2019</a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i>27 Comment</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                             <div class="widget widget-newslatter">
                                 <h6 class="widget-title">Newsletter</h6>
                                 <div class="news-box">
@@ -219,35 +215,6 @@
                                     </form>
                                 </div>
                             </div>
-                            <!-- <div class="widget widget_gallery gallery-grid-4">
-                                <h6 class="widget-title">Our Gallery</h6>
-                                <ul>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic2.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic1.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic5.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic7.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic8.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic9.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic3.jpg" alt=""></a></div>
-                                    </li>
-                                    <li>
-                                        <div><a href="#"><img src="assets/images/gallery/pic4.jpg" alt=""></a></div>
-                                    </li>
-                                </ul>
-                            </div> -->
                             <div class="widget widget_tag_cloud">
                                 <h6 class="widget-title">Tags</h6>
                                 <div class="tagcloud">
@@ -273,7 +240,6 @@
                             </div>
                         </aside>
                     </div>
-                    <!-- Side bar END -->
                 </div>
             </div>
         </div>
@@ -283,7 +249,6 @@
         <div class="container mt-5 pb-5">
             <div class="row">
                 <div class="col-md-4 col-sm-12"></div>
-
                 <div class="col-md-8 col-sm-12">
                     <div class="">
                         <br><br>
@@ -304,5 +269,4 @@
         </div>
     </div>
 </div>
-<!-- Left & right section END -->
 <?php include('includes/footer.php'); ?>

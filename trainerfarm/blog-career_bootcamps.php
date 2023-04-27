@@ -21,6 +21,9 @@
     h2{
         border-bottom: 3px solid var(--orange-primary);
     }
+    .main-heading{
+        color: var(--blue-primary);
+    }
 </style>
 <br><br><br><br>
 <!-- Content -->
@@ -39,7 +42,7 @@
                         <a href="javascript:;" class="btn radius-xl btn_hvr">Learn More <i
                                 class="fa fa-chevron-right"></i></a>
                         <ul class="btn_hvr_list">
-                            <li><a href="certifications">Learn About Certifications</a></li>
+                            <li><a href="certifications.php">Learn About Certifications</a></li>
                             <li><a href="index.php#bootcamps">Learn About Bootcamps</a></li>
                         </ul>
                         <a href="#" class="btn radius-xl" data-toggle="modal" data-target="#instructor_modal">Explore Plans</a>
@@ -71,7 +74,7 @@
                 <div class="row">
                     <!-- right part start -->
                     <div class="col-lg-8 col-xl-8 col-md-7">
-                        <h1>Increase career through BootCamps</h1>
+                        <h1 class="main-heading">Increase career through BootCamps</h1>
                         <h5 class="text-primary">Written by Qurat Ul Ain</h5>
                        
                         <div class="blog-img" style="background-image: url('assets/images/blog/blog3.jpg');  background-repeat: no-repeat; background-size: cover;"></div>

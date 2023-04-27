@@ -95,87 +95,9 @@
                             <aside class="side-bar sticky-top">
                                 <div class="mt-5">
                                     <h1 class="price text-right">$2,995.00/Seat</h1>
-                                    <!-- contact modal -->
-                                    <a href="#" class="btn-block btn radius-xl" data-toggle="modal" data-target="#contact_modal">Request Class Schedule</a>
-                                    <br>
-                                    <h2 class="text-secondary">More Information:</h2>
-                                    <p><b>Learning Style: </b>Virtual</p>
-                                    <p><b>Provider: </b>EC-Council</p>
-                                    <p><b>Difficulty: </b>Intermediate</p>
-                                    <p><b>Course Duration: </b>5 Days</p>
-                                    <br>
-                                    <h2 class="price">Need Training for 5 or More People?</h2>
-                                    <h6 class="price">Customized to your team's need:</h6>
-                                    <br>
-                                    <div class="list">
-                                        <ul>
-                                            <li>Annual Subscriptions</li>
-                                            <li>Private Training</li>
-                                            <li>Flexible Pricing</li>
-                                            <li>Enterprise LMS</li>
-                                            <li>Dedicated Customer Success Manager</li>
-                                        </ul>
-                                    </div>
+                                    <a href="enroll.php" class="btn-block btn radius-xl">Enroll Now</a>
                                 </div>
                             </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-         <!-- contact modal -->
-         <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <br><br>
-                <div class="container">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h2 class="modal-title" id="myModalLabel">Contact Us</h2>
-                            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-                                <form action="" method="post">
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="First name">
-                                        </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Last name">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="email" class="form-control" placeholder="Email Address">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="phone" class="form-control" placeholder="Phone Number">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <textarea name="comments" class="form-control" id="" cols="30" rows="4" placeholder="Your Comments..."></textarea>
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>

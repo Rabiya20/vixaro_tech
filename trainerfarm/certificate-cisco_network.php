@@ -88,25 +88,6 @@
                                 <div class="mt-5">
                                     <h1 class="price text-right">$4,195.00/Seat</h1>
                                     <a href="enroll.php" class="btn btn-primary btn-block">Enroll Now</a>
-                                    <br>
-                                    <h2 class="text-secondary">More Information:</h2>
-                                    <p><b>Learning Style: </b>Virtual</p>
-                                    <p><b>Provider: </b>Cisco</p>
-                                    <p><b>Difficulty: </b>Intermediate</p>
-                                    <p><b>Course Duration: </b>5 Days</p>
-                                    <br>
-                                    <h2 class="price">Need Training for 5 or More People?</h2>
-                                    <h6 class="price">Customized to your team's need:</h6>
-                                    <br>
-                                    <div class="list">
-                                        <ul>
-                                            <li>Annual Subscriptions</li>
-                                            <li>Private Training</li>
-                                            <li>Flexible Pricing</li>
-                                            <li>Enterprise LMS</li>
-                                            <li>Dedicated Customer Success Manager</li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </aside>
                         </div>

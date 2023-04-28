@@ -59,8 +59,8 @@
 
     <!-- chat_modal modal -->
     <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
-            <br><br>
             <div class="container">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -102,9 +102,9 @@
     </div>
 
      <!-- ask_ques_modal modal -->
-     <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
-            <br><br>
             <div class="container">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -160,9 +160,9 @@
     </div>
 
      <!-- email_modal modal -->
-     <div class="modal fade" id="email_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal fade" id="email_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
-            <br><br>
             <div class="container">
                 <div class="modal-content">
                     <div class="modal-header">

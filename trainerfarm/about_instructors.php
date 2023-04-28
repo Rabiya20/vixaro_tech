@@ -135,8 +135,8 @@
 
         <!-- large modal -->
         <div class="modal fade" id="instructor_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <br><br><br><br><br>
             <div class="modal-dialog modal-lg">
-                <br><br>
                 <div class="container">
                     <div class="modal-content">
                         <div class="modal-header">

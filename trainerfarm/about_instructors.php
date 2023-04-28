@@ -18,107 +18,9 @@
                             <div class="mb-5"></div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12 instructor-slider">
-                        <!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-md-12 mb-3">
-                                            <div class="card instructors-card">
-                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Mr. Ali</h4>
-                                                    <p class="card-text">Developer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-12 mb-3">
-                                            <div class="card instructors-card">
-                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Mr. Ali</h4>
-                                                    <p class="card-text">Developer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-12 mb-3">
-                                            <div class="card instructors-card">
-                                                <img class="img-fluid instructors-pic" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Mr. Ali</h4>
-                                                    <p class="card-text">Developer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="cards">
-                            <div class="outer">
-                                <div class="card" style="--delay:-1;">
-                                    <div class="content">
-                                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFIvBPH9fIMQZis4SHYTuv485uqr38bg1VQ&usqp=CAU"></div>
-                                        <div class="details">
-                                            <span class="name">Iron Man</span>
-                                            <p>Frontend Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" style="--delay:0;">
-                                    <div class="content">
-                                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIMYmBQyoz9BWjEiMi5XipSPOmhamZUyI1gQ&usqp=CAU" alt=""></div>
-                                        <div class="details">
-                                            <span class="name">Spider Man</span>
-                                            <p>Full-stack Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" style="--delay:1;">
-                                    <div class="content">
-                                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe2k6vsAWhq5UPsCW58Q2RSCKqPxMDq75wfg&usqp=CAU" alt=""></div>
-                                        <div class="details">
-                                            <span class="name">Venom</span>
-                                            <p>Tester</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" style="--delay:2;">
-                                    <div class="content">
-                                        <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStwJX81iy7cnzgclyjTKlNnDlzIzPN1KSIgA&usqp=CAU" alt=""></div>
-                                        <div class="details">
-                                            <span class="name">Batman</span>
-                                            <p>Backend Developer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card" style="--delay:2;">
-                                    <div class="content">
-                                        <div class="img"><img src="https://static.rogerebert.com/uploads/review/primary_image/reviews/great-movie-superman-1978/EB20101104REVIEWS08101109987AR.jpg" alt=""></div>
-                                        <div class="details">
-                                            <span class="name">Superman</span>
-                                            <p>Youtuber</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
                 </div>
             </div>
         </div>
-
-
-        
-
 
 		<div class="breadcrumb-row">
 			<div class="container">
@@ -139,27 +41,6 @@
                         </div>
                     </div>
                     <p>Our team is comprised of individuals with a wide range of backgrounds and skill sets, from creative thinkers and problem solvers, to technical experts and project managers. We pride ourselves on our ability to collaborate effectively and leverage our collective strengths to deliver outstanding results for our clients.</p>
-                    <!-- <div class="row text-center">
-                        <div class="col-md-1">
-                        </div>
-                        <div class="col-md-2">
-                            <p>Cybersecurity <br> Cloud Engineering <br> Data Science</p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>DevOps <br> Networking <br> AI/Machine Learning</p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>Web Development <br> Project Management <br> Ethical Hacking</p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>Amazon Web Services <br> Microsoft Technologies <br> Cisco & NetApp Hacking</p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>CompTIA <br> Kubernetes <br> Emerging Technologies</p>
-                        </div>
-                        <div class="col-md-1">
-                        </div>
-                    </div> -->
                 </div>
             </div>
 			
@@ -293,19 +174,6 @@
                                             <input type="text" class="form-control" placeholder="Course">
                                         </div>
                                     </div>
-                                    <!-- <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <select name="course" id="course">
-                                                <option value="">IT</option>
-                                                <option value="">IT</option>
-                                                <option value="">IT</option>
-                                                <option value="">IT</option>
-                                                <option value="">IT</option>
-                                            </select>
-                                        </div>
-                                    </div> -->
-                                    <br>
                                     <div class="row">
                                         <div class="col">
                                             <input type="url" class="form-control" placeholder="LinkedIn Profile URL">
@@ -345,7 +213,6 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            <!-- <button type="button" class="btn btn-primary">Submit</button> -->
                         </div>
                     </div>
                 </div>

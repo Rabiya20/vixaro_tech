@@ -13,7 +13,7 @@
     <div class="breadcrumb-row">
         <div class="container">
             <ul class="list-inline">
-                <li><a href="#">About Us</a></li>
+                <li>About Us</a></li>
                 <li>Join The Trainerfarm Team</li>
             </ul>
         </div>

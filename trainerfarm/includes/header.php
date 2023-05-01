@@ -120,20 +120,12 @@
 					<ul class="nav navbar-nav">
 						<li><a href="javascript:;">BootCamps <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<!-- <li>
-									<a href="javascript:;">IT Bootcamp Program<i class="fa fa-angle-right"></i></a>
-									<ul class="sub-menu"> -->
-										<li><a href="bootcamp-cyber_security.php">Cyber Security</a></li>
-										<li><a href="bootcamp-software_engineering.php">Software Engineering</a></li>
-										<li><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></li>
-										<li><a href="#">Cloud Computing</a></li>
-										<li><a href="#">Data Science</a></li>
-										<li><a href="#">Web Development</a></li>
-									<!-- </ul> 
-								</li> -->
-								<!-- <li><a href="">Workforce Development</a></li>
-								<li><a href="">Career Services</a></li>
-								<li><a href="">Finance & Funding</a></li> -->
+								<li><a href="bootcamp-cyber_security.php">Cyber Security</a></li>
+								<li><a href="bootcamp-software_engineering.php">Software Engineering</a></li>
+								<li><a href="bootcamp-artificial_intelligence.php">Artificial Intelligence</a></li>
+								<li><a href="#">Cloud Computing</a></li>
+								<li><a href="#">Data Science</a></li>
+								<li><a href="#">Web Development</a></li>
 							</ul>
 						</li>
 						<li><a href="javascript:;">Certifications <i class="fa fa-chevron-down"></i></a>
@@ -179,15 +171,14 @@
 										<li><a href="certificate-itil.php">ITIL&reg; 4 Foundations Certification</a></li>
 									</ul> 
 								</li>
-								<!-- <li><a href="certificate_by_brand.php">Certifications By Brand</a></li> -->
 							</ul>
 						</li>
 						<li class="add-mega-menu"><a href="javascript:;">Corporate Training <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="">Business Training</a></li>
-								<li><a href="">Career Services</a></li>
-								<li><a href="">Financing</a></li>
-								<li><a href="">Subscription</a></li>
+								<li><a href="corporate-business_training.php">Business Training</a></li>
+								<li><a href="corporate-career_service.php">Career Services</a></li>
+								<li><a href="corporate-financing.php">Financing</a></li>
+								<li><a href="corporate-subscription.php">Subscription</a></li>
 							</ul>
 						</li>
 						<li><a href="blogs.php">Blogs</a></li>
@@ -195,16 +186,12 @@
 							<ul class="sub-menu">
 								<li><a href="about_tf.php">About Trainerfarm</a></li>
 								<li><a href="about_instructors.php">Meet Our Team</a></li>
-								<!-- <li><a href="about_news.php">In The News</a></li>
-								<li><a href="about_partnerships.php">Become An Academic Partner</a></li> -->
 								<li><a href="careers.php">Join Trainerfarm</a></li>
-								<!-- <li><a href="about_success_stories.php">Customer Success Stories</a></li> -->
 							</ul>
 						</li>
 					</ul>
 					<div class="nav-social-link">
 						<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-						<!-- <a href="javascript:;"><i class="fa fa-google-plus"></i></a> -->
 						<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>

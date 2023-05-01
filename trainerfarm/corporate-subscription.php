@@ -55,11 +55,11 @@
                 <p>TrainerFarm training subscriptions include resources and tools to help learners prepare for certification exams, which can increase their chances of passing the exam and obtaining the certification.</p>
             </div>
 
+            <h1 class="text-primary">Included In Subscription</h1>
             <section class="skills">
                 <div class="container">
                     <div class="skills-flex-container">
                         <div class="row">
-
                             <div class="box col-md-4 col-sm-6">
                                 <a href="courses-aws.php">
                                     <div class="image">

@@ -58,10 +58,10 @@
                                     <h4 class="profile-title">Managing Director</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
-                                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/in/andrew-simmon-266260269/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="col-6">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details">Details</button>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details1">Details</button>
                                         </div>
                                     </div>
                                     <br>
@@ -78,10 +78,10 @@
                                     <h4 class="profile-title">Manager Training Operations</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
-                                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/in/michelle-rez-a62516269/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="col-6">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details">Details</button>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details2">Details</button>
                                         </div>
                                     </div>
                                     <br>
@@ -98,10 +98,10 @@
                                     <h4 class="profile-title">Sale Specialist Training</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
-                                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/in/qurat-ul-ain-9a7900249/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="col-6">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details">Details</button>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details3">Details</button>
                                         </div>
                                     </div>
                                     <br>
@@ -118,10 +118,10 @@
                                     <h4 class="profile-title">Sale Specialist Training</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
-                                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/company/trainerfarm/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="col-6">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details">Details</button>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details4">Details</button>
                                         </div>
                                     </div>
                                     <br>
@@ -197,19 +197,86 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade instructor_details" id="instructor_details" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade instructor_details" id="instructor_details1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="container" style="padding: 30px !important;">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Intructor Details</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h2>Name: </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto accusantium magni voluptas facilis deserunt tempore, repellendus tempora consequatur doloribus delectus rerum natus quasi commodi, quis asperiores, eum deleniti id animi.</p>
+                            <h2>Andrew Simmons</h2>
+                            <p><i>Managing Director</i></p>
+                            <p>Andrew has strong interpersonal skills, technical knowledge of LMS software suites, experience in distance education methodologies and instructional design processes, and be an experienced manager. He has a solid understanding, experience, and academic background in online and videoconferencing instructional course design.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade instructor_details" id="instructor_details2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="container" style="padding: 30px !important;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Michelle Rez</h2>
+                            <p><i>Training Operations Manager</i></p>
+                            <p>Michelle is responsible for improving the productivity of the organization's student. This position assesses company-wide developmental needs to drive training initiatives and identifies and arranges suitable training solutions for students.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade instructor_details" id="instructor_details3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="container" style="padding: 30px !important;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Qurat Ul Ain</h2>
+                            <p><i>Sales Specialist Training</i></p>
+                            <p>Excellent communication and presentation skills, with the ability to articulate complex ideas in a clear and concise manner. She has an ability to work independently and as part of a team, with strong collaboration and interpersonal skills.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade instructor_details" id="instructor_details4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="container" style="padding: 30px !important;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Muhammad Tariq Abid</h2>
+                            <p><i>Sales Specialist Training</i></p>
+                            <p>Excellent communication and presentation skills, with the ability to articulate complex ideas in a clear and concise manner. She has an ability to work independently and as part of a team, with strong collaboration and interpersonal skills.</p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>

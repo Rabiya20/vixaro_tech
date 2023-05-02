@@ -96,8 +96,8 @@
 				<div class="secondary-menu">
 					<div class="secondary-inner">
 						<ul>
-							<li><a href="javascript:;" class="btn-link"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="javascript:;" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100090736585618" target="_blank" class="btn-link"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/trainerfarm/" target="_blank" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
 							<li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li>
 						</ul>
 					</div>
@@ -191,8 +191,8 @@
 						</li>
 					</ul>
 					<div class="nav-social-link">
-						<a href="javascript:;"><i class="fa fa-facebook"></i></a>
-						<a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+						<a href="https://www.facebook.com/profile.php?id=100090736585618" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.linkedin.com/company/trainerfarm/" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>

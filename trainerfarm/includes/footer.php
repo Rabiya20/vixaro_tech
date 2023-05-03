@@ -69,7 +69,8 @@
 					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                         <div class="widget widget_gallery gallery-grid-4">
                             <h5 class="footer-title">We're Here For You</h5>
-							<p><i class="fa fa-user"></i> Sales: 000-000-0000</p>
+							<p><i class="fa fa-user"></i> Sales: +(202) 946-5008</p>
+							<p>Address: 114 Birchwood Park Drive, Syosset, 11791</p>
                         </div>
                     </div>
                 </div>

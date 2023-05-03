@@ -25,10 +25,9 @@
 </style>
 <br><br><br><br>
     <div class="page-content">
-        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/bg2.jpg);">
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/certificate_bg/bg-aws_architect.jpg);">
             <div class="container mt-5">
                 <div class="page-banner-entry">
-                    <img class="logo" src="assets/images/logo/aws-logo.png" alt="aws">
                     <h1 class="text-light">Introduction to AWS Certified Solution Architect - Associate</h1>
 				 </div>
             </div>
@@ -80,8 +79,17 @@
                         <div class="col-lg-4 col-xl-4 col-md-5 sticky-top">
                             <aside class="side-bar sticky-top">
                                 <div class="mt-5">
-                                    <h1 class="price text-right">$9.99/-</h1>
+                                    <h1 class="price text-right">$995.00</h1>
                                     <a href="enroll.php" class="btn btn-primary btn-block">Enroll Now</a>
+                                    <br>
+                                    <h4 class="text-secondary" style="padding-left: 30px;">More Information:</h4>
+                                    <ul style="list-style: none; padding-left: 30px;">
+                                        <li class="text-secondary">Learning Style: Virtual</li>
+                                        <li class="text-secondary">Provider: Amazon Web Services</li>
+                                        <li class="text-secondary">Difficulty: Intermediate</li>
+                                        <li class="text-secondary">Course Duration: 5 Days</li>
+                                        <li class="text-secondary">Certificate Exam: MCQ, Drag and drop</li>
+                                    </ul>
                                 </div>
                             </aside>
                         </div>

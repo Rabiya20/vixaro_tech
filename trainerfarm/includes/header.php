@@ -140,7 +140,7 @@
 								<li>
 									<a href="javascript:;">Cisco<i class="fa fa-angle-right"></i></a>
 									<ul class="sub-menu">
-										<li><a href="certificate-cisco.php">CCNA</a></li>
+										<li><a href="certificate-cisco_network.php">CCNA</a></li>
 									</ul> 
 								</li>
 								<li>

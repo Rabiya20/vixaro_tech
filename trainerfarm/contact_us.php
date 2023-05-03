@@ -39,7 +39,7 @@
                 <div class="col-md-3 col-sm-6 box">
                     <i class="fa-solid fa-phone"></i>
                     <h3>Sale/Support</h3>
-                    <a href="tel:+92 000-000-0000">000-000-0000</a>
+                    <a href="tel:+(202) 946-5008">(202) 946-5008</a>
                 </div>
                 <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#chat_modal">
                     <i class="fa-solid fa-comments"></i>

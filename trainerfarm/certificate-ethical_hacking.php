@@ -29,10 +29,9 @@
 </style>
 <br><br><br><br>
     <div class="page-content">
-        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/bg2.jpg);">
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/certificate_bg/bg-ethical_hacking.jpg);">
             <div class="container mt-5">
                 <div class="page-banner-entry">
-                    <img class="logo" src="assets/images/logo/ethical_hacking.png" alt="aws">
                     <h1 class="text-light">Certified Ethical Hacking (CEHv12)</h1>
 				 </div>
             </div>
@@ -94,8 +93,17 @@
                         <div class="col-lg-4 col-xl-4 col-md-5 sticky-top">
                             <aside class="side-bar sticky-top">
                                 <div class="mt-5">
-                                    <h1 class="price text-right">$2,995.00/Seat</h1>
+                                    <h1 class="price text-right">$2,995.00</h1>
                                     <a href="enroll.php" class="btn-block btn radius-xl">Enroll Now</a>
+                                    <br>
+                                    <h4 class="text-secondary" style="padding-left: 30px;">More Information:</h4>
+                                    <ul style="list-style: none; padding-left: 30px;">
+                                        <li class="text-secondary">Learning Style: Virtual</li>
+                                        <li class="text-secondary">Provider: EC-Council</li>
+                                        <li class="text-secondary">Difficulty: Intermediate</li>
+                                        <li class="text-secondary">Course Duration: 5 Days</li>
+                                        <li class="text-secondary">Certificate Exam: MCQ, Drag and drop, Best Match, Simulations</li>
+                                    </ul>
                                 </div>
                             </aside>
                         </div>

@@ -10,7 +10,7 @@
     h3{
         color: var(--blue-primary);
     }
-    i{
+    .icon{
         color: var(--orange-primary);
         font-size: 25px;
     }
@@ -37,20 +37,20 @@
         <div class="content-block mt-5 mb-5">
             <div class="row">
                 <div class="col-md-3 col-sm-6 box">
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-phone icon"></i>
                     <h3>Sale/Support</h3>
                     <a href="tel:+(202) 946-5008">(202) 946-5008</a>
                 </div>
                 <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#chat_modal">
-                    <i class="fa-solid fa-comments"></i>
+                    <i class="fa-solid fa-comments icon"></i>
                     <h3>Chat with Us</h3>
                 </div>
                 <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#ask_ques_modal">
-                    <i class="fa-solid fa-question"></i>
+                    <i class="fa-solid fa-question icon"></i>
                     <h3>Ask a Question</h3>
                 </div>
                 <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#email_modal">
-                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-envelope icon"></i>
                     <h3>Email Support</h3>
                 </div>
             </div>

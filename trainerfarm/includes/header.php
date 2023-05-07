@@ -66,15 +66,15 @@
 			<div class="row d-flex justify-content-between">
 				<div class="topbar-left">
 					<ul>
-						<li><a href="faq-1.php"><i class="fa-regular fa-comment-dots"></i>Chat</a></li>
-						<li><a href="faq-1.php"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
-						<li><a href="javascript:;"><i class="fa fa-envelope-o"></i>sales@trainerfarm.com</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#chat_modal"><i class="fa-regular fa-comment-dots"></i>Chat</a></li>
+						<li><a href="#"  data-toggle="modal" data-target="#ask_ques_modal"><i class="fa fa-question-circle"></i>Ask a Question</a></li>
+						<li><a href="mailto:sales@trainerfarm.com"><i class="fa fa-envelope-o"></i>sales@trainerfarm.com</a></li>
+						<li><a href="tel:+(202) 946-5008"><i class="fa fa-phone"></i>(202) 946-5008</a></li>
 					</ul>
 				</div>
 				<div class="topbar-right">
 					<ul>
-						<li><a href="login.php">Login</a></li>
-						<li><a href="register.php">Register</a></li>
+						<li><a href="panel/login.php"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp; Login</a></li>
 					</ul>
 				</div>
 			</div>
@@ -98,7 +98,7 @@
 						<ul>
 							<li><a href="https://www.facebook.com/profile.php?id=100090736585618" target="_blank" class="btn-link"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://www.linkedin.com/company/trainerfarm/" target="_blank" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
-							<li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li>
+							<!-- <li class="search-btn"><button id="quik-search-btn" type="button" class="btn-link"><i class="fa fa-search"></i></button></li> -->
 						</ul>
 					</div>
 				</div>
@@ -198,4 +198,106 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- chat_modal modal -->
+    <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
+        <div class="modal-dialog modal-lg">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">Chat with Us</h2>
+                        <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h3 class="text-primary">Kindly Drop Your Message Here!!</h3>
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea class="form-control" placeholder="Message..."></textarea>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- ask_ques_modal modal -->
+    <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
+        <div class="modal-dialog modal-lg">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">Ask a Question</h2>
+                        <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form action="" method="post">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="phone" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea class="form-control" placeholder="Your Comments..."></textarea>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>

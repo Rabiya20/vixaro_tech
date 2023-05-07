@@ -5,7 +5,7 @@
     <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
         <div class="container mt-5">
             <div class="page-banner-entry">
-                <h1 class="text-light">Career Services</h1>
+                <h1 class="text-light">TrainerFarm Career Services</h1>
                 <br>
             </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-xl-8 col-md-7">
-                       <h1 class="text-primary">TrainerFarm Career Services</h1>
+                       <h1 class="text-primary">Career Services</h1>
                        <img src="assets/images/banner/bg-2.jpg" alt="">
                        <br><br>
                        <p>Career counseling is a crucial component of IT career services. This service can help individuals assess their skills and interests, identify potential career paths in the IT industry, and develop a career plan. Job search assistance is another important service, which includes job postings, job matching, and referrals to potential employers.</p>

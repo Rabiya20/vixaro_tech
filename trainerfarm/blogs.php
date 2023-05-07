@@ -12,13 +12,11 @@
                         <br>
                         <h5 class="text-light">Improve your knowledge by reading blogs</h5>
                         <br>
-                        <a href="javascript:;" class="btn radius-xl btn_hvr">Learn More <i
-                                class="fa fa-chevron-right"></i></a>
+                        <a href="javascript:;" class="btn radius-xl btn_hvr">Learn More <i class="fa fa-chevron-right"></i></a>
                         <ul class="btn_hvr_list">
-                            <li><a href="certifications">Learn About Certifications</a></li>
+                            <li><a href="certifications.php">Learn About Certifications</a></li>
                             <li><a href="index.php#bootcamps">Learn About Bootcamps</a></li>
                         </ul>
-                        <a href="#" class="btn radius-xl" data-toggle="modal" data-target="#instructor_modal">Explore Plans</a>
                         <div class="mb-5"></div>
                     </div>
                 </div>
@@ -193,6 +191,7 @@
                                                 <option value="3">Web Development</option>
                                                 <option value="4">Data Science</option>
                                                 <option value="5">AI/Machine Learning</option>
+                                                <option value="6">Software Engineering</option>
                                             </select>
                                         </div>
                                         <br>
@@ -254,13 +253,11 @@
                         <br><br>
                         <h1 class="text-light">Achieve Your Career Growth & IT Workforce Readiness Today.</h1>
                         <br>
-                        <a href="javascript:;" class="btn radius-xl btn_hvr">Learn More <i
-                                class="fa fa-chevron-right"></i></a>
+                        <a href="javascript:;" class="btn radius-xl btn_hvr">Learn More <i class="fa fa-chevron-right"></i></a>
                         <ul class="btn_hvr_list">
-                            <li><a href="certifications">Learn About Certifications</a></li>
+                            <li><a href="certifications.php">Learn About Certifications</a></li>
                             <li><a href="index.php#bootcamps">Learn About Bootcamps</a></li>
                         </ul>
-                        <a href="#" class="btn radius-xl" data-toggle="modal" data-target="#instructor_modal">Explore Plans</a>
                         <div class="pb-5"></div>
                         <div class="pb-5"></div>
                     </div>

@@ -1,35 +1,35 @@
 <?php include('includes/header.php'); ?>
 <style>
-.img img{
-  height: 100% !important;
-  width: 100% !important;
-  border-radius: 0% !important;
-}
-.payment-list{
-    padding: 20px !important;
-}
-.payment-list li{
-    list-style: none !important;
-    color: #fff !important;
-}
-.payment-list h2{
-    color: var(--white-primary) !important;
-}
-.payment-list p, #how_to_enroll h2, #how_to_enroll a,
-#weekly_activities h4{
-    color: var(--orange-primary) !important;
-}
-@media screen and (max-width: 767px) {
     .img img{
-        height: 200px !important;
-        width: 100% !important;
-        border-radius: 0% !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0% !important;
     }
-}
-#how_to_enroll h2{
-    border-bottom: 2px solid var(--blue-primary);
-    width: 50%;
-}
+    .payment-list{
+        padding: 20px !important;
+    }
+    .payment-list li{
+        list-style: none !important;
+        color: #fff !important;
+    }
+    .payment-list h2{
+        color: var(--white-primary) !important;
+    }
+    .payment-list p, #how_to_enroll h2, #how_to_enroll a,
+    #weekly_activities h4{
+        color: var(--orange-primary) !important;
+    }
+    @media screen and (max-width: 767px) {
+        .img img{
+            height: 200px !important;
+            width: 100% !important;
+            border-radius: 0% !important;
+        }
+    }
+    #how_to_enroll h2{
+        border-bottom: 2px solid var(--blue-primary);
+        width: 50%;
+    }
 </style>
 <br><br><br><br>
     <div class="page-content">
@@ -44,7 +44,7 @@
                             <br>
                             <h1 class="text-light">Cybersecurity Bootcamp Online Part-Time</h1>
                             <br>
-                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
+                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Enroll Today</a>
                             <br><br>
                             <ul style="padding-left: 10px;">
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
@@ -64,17 +64,16 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <h3>NEXT PROGRAM DATES</h3>
-                        <a href="#program_date_list" target="_blank" rel="noopener noreferrer">More Dates</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>14-Apr-2023</h5>
+                        <h5>22<sup>nd</sup> May 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>18-Apr-2023</h5>
+                        <h5>12<sup>th</sup> June 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
-                        <h5>16-Apr-2023</h5>
+                        <h5>17<sup>th</sup> July 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>
@@ -91,14 +90,6 @@
                 <p class="disclaimer">*Bureau of Labor Statistics, U.S. Department of Labor, Occupational Outlook Handbook, Information Security Analysts, at <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" target="_blank">https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</a> (visited February 7, 2023). This data represents national figures and is not based on school-specific information. Conditions in your area may vary.</p>
                 <div class="row" style="background-image: url('assets/images/bootcamps/cyber-cover.jpg'); background-size: cover; background-repeat: no-repeat;">
                     <div class="col-4">
-                        <!-- <ul style="margin-top: 200px;">
-                            <li class="badge-list"> 
-                                <img src="assets/images/courses/security.png" alt="" style="width: 100px;">
-                            </li>
-                            <li class="badge-list">
-                                <img src="assets/images/courses/cysa.png" alt="" style="width: 100px;">
-                            </li>
-                        </ul> -->
                     </div>
                     <div class="col-8" style="background-color: var(--blue-primary);">
                         <div class="section-list">
@@ -127,7 +118,7 @@
                             <div class="col-9">
                                 <h3>Contact Admission Consultant</h3>
                                 <p>1-on-1 call for quick answers about bootcamp</p>
-                                <a href="#" class="btn explore"><b>Schedule The Call</b></a>
+                                <a href="#" class="btn explore" data-toggle="modal" data-target="#schedule_modal"><b>Schedule The Call</b></a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +271,7 @@
                 <p>Let's get started.</p>
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
                     <p>Part-Time Remote Cybersecurity Bootcamp <span>(24 Weeks)</span></p>
-                    <a href="apply.php" class="btn btn-primary" target="_blank">Apply Now</a>
+                    <a href="apply.php" class="btn btn-primary" target="_blank">Enroll Now</a>
                 </div>
             </div>
         </section>
@@ -332,11 +323,39 @@
 
         <section id="apply">
             <div class="container text-center">
-                <a href="apply.php" class="btn btn-primary">APLLY NOW</a>
+                <a href="apply.php" class="btn btn-primary">Ernoll Now</a>
             </div>
         </section>
     </div>
 <br>
+ <!-- Modal -->
+    <div class="modal fade schedule_modal" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <br><br><br>
+        <div class="modal-dialog" role="document">
+            <div class="container" style="padding: 30px !important;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Schedule a Call</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="search" method="post" class="mb-3">
+                            <input name="fullname" class="form-control" placeholder="First name" type="text"><br>
+                            <input name="phone" class="form-control" placeholder="Phone Number" type="tel"><br>
+                            <input name="email" class="form-control" placeholder="Email" type="email"><br>
+                            <br>
+                            <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="js2/jquery-3.3.1.min.js"></script>
 <script src="js2/popper.min.js"></script>
 <script src="js2/bootstrap.min.js"></script>

@@ -75,7 +75,7 @@
                                         <div class="profile-image" style="background-image: url('assets/images/instructors/ins2.png');"></div>
                                     </div>
                                     <h3>Michelle Rez</h3>
-                                    <h4 class="profile-title">Manager Training Operations</h4>
+                                    <h4 class="profile-title">Training Operations Manager</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
                                             <a href="https://www.linkedin.com/in/michelle-rez-a62516269/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -95,7 +95,7 @@
                                         <div class="profile-image" style="background-image: url('assets/images/instructors/ins3.jpg');"></div>
                                     </div>
                                     <h3>Qurat Ul Ain</h3>
-                                    <h4 class="profile-title">Sale Specialist Training</h4>
+                                    <h4 class="profile-title">Sales Specialist Training</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
                                             <a href="https://www.linkedin.com/in/qurat-ul-ain-9a7900249/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -115,7 +115,7 @@
                                         <div class="profile-image" style="background-image: url('assets/images/instructors/ins4.png');"></div>
                                     </div>
                                     <h3>Muhammad Tariq Abid</h3>
-                                    <h4 class="profile-title">Sale Specialist Training</h4>
+                                    <h4 class="profile-title">Sales Specialist Training</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
                                             <a href="https://www.linkedin.com/company/trainerfarm/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -276,7 +276,7 @@
                         <div class="modal-body">
                             <h2>Muhammad Tariq Abid</h2>
                             <p><i>Sales Specialist Training</i></p>
-                            <p>Excellent communication and presentation skills, with the ability to articulate complex ideas in a clear and concise manner. She has an ability to work independently and as part of a team, with strong collaboration and interpersonal skills.</p>
+                            <p>Excellent communication and presentation skills, with the ability to articulate complex ideas in a clear and concise manner. He has an ability to work independently and as part of a team, with strong collaboration and interpersonal skills.</p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>

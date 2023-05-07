@@ -40,13 +40,14 @@
                     <div class="col-md-8 col-sm-12">
                         <div class="text-light">
                             <br><br>
-                            <h3 class="text-light">ONLINE / PART-TIME</h3>
+                            <h3 class="text-light">Online / Full-Time / Part-Time</h3>
                             <br>
                             <h1 class="text-light">Artificial Intelligence Online and Part-Time</h1>
                             <br>
-                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
+                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Enroll Today</a>
                             <br><br>
                             <ul style="padding-left: 10px;">
+                                <li><span>Full-Time</span> | <span>14 Weeks</span> | <span>40 hours/wk</span></li>
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
                                 <li>Online Attendance</li>
                             </ul>
@@ -64,17 +65,16 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <h3>NEXT PROGRAM DATES</h3>
-                        <a href="#program_date_list" target="_blank" rel="noopener noreferrer">More Dates</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>14-Apr-2023</h5>
+                        <h5>22<sup>nd</sup> May 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>18-Apr-2023</h5>
+                        <h5>12<sup>th</sup> June 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
-                        <h5>16-Apr-2023</h5>
+                        <h5>17<sup>th</sup> July 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                             <div class="col-9">
                                 <h3>Contact Admission Consultant</h3>
                                 <p>1-on-1 call for quick answers about bootcamp</p>
-                                <a href="#" class="btn explore"><b>Schedule The Call</b></a>
+                                <a href="#" class="btn explore" data-toggle="modal" data-target="#schedule_modal"><b>Schedule The Call</b></a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                     <div class="tabs">
                         <div class="tabby-tab">
                             <input type="radio" id="tab-1" name="tabby-tabs" checked>
-                            <label for="tab-1">Week 1 - 2:</label>
+                            <label for="tab-1">Week 1 - 2</label>
                             <div class="tabby-content">
                                 <p>Many AI and ML processes today depend on Python, a programming language used by developers to create automated solutions. Students grow familiar with Python as a general-purpose code. They'll also learn how to identify and navigate Python libraries — and use the modules inside — to source code that can expedite complicated, code-dependent projects.</p>
                                 <br>
@@ -162,7 +162,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-2" name="tabby-tabs">
-                            <label for="tab-2">Week 3 - 6:</label>
+                            <label for="tab-2">Week 3 - 6</label>
                             <div class="tabby-content">
                                 <p>This hands-on module sees students create their first AI models, and test those models against real industry benchmarks to determine their effectiveness.</p>
                             </div>
@@ -170,7 +170,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-3" name="tabby-tabs">
-                            <label for="tab-3">Week 7 - 8:</label>
+                            <label for="tab-3">Week 7 - 8</label>
                             <div class="tabby-content">
                                 <p>This two-part track immerses students in neural networks — computer systems meant to process data similarly to the human brain. You'll learn the characteristics that separate a standard system from a neural network, and how you can begin creating a neural network for use in a business environment.</p>
                             </div>
@@ -178,7 +178,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-4" name="tabby-tabs">
-                            <label for="tab-4">Week 9 - 14:</label>
+                            <label for="tab-4">Week 9 - 14</label>
                             <div class="tabby-content">
                                <p>Engineers and developers use Natural Language Processing (NLP) to create systems dependent on human speech patterns. In this module, you’ll learn how to integrate NLP best practices to create systems that can process, and respond, to human language input.</p>
                                <br>
@@ -194,7 +194,7 @@
         <section id="weekly_activities" class="mb-5">
             <div class="container" class="mb-5">
                 <span class="section_title">TYPICAL WEEK</span>
-                <h3 class="text-primary">Our Part-Time Format</h3>
+                <h3 class="text-primary">Our Part-Time / Full-Time Format</h3>
                 <div class="owl-carousel owl-1 mb-3">
 
                     <div class="media-29101 d-md-flex w-100" id="second_tab">
@@ -264,7 +264,7 @@
                 <h1 class="text-primary">What are you waiting for?</h1>
                 <p>Let's get started.</p>
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
-                    <a href="apply.php" class="btn btn-primary" target="_blank">Apply Now</a>
+                    <a href="apply.php" class="btn btn-primary" target="_blank">Enroll Now</a>
                 </div>
             </div>
         </section>
@@ -296,11 +296,39 @@
 
         <section id="apply">
             <div class="container text-center">
-                <a href="apply.php" class="btn btn-primary">APLLY NOW</a>
+                <a href="apply.php" class="btn btn-primary">Enroll Now</a>
             </div>
         </section>
     </div>
 <br>
+ <!-- Modal -->
+    <div class="modal fade schedule_modal" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <br><br><br>
+        <div class="modal-dialog" role="document">
+            <div class="container" style="padding: 30px !important;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Schedule a Call</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="search" method="post" class="mb-3">
+                            <input name="fullname" class="form-control" placeholder="First name" type="text"><br>
+                            <input name="phone" class="form-control" placeholder="Phone Number" type="tel"><br>
+                            <input name="email" class="form-control" placeholder="Email" type="email"><br>
+                            <br>
+                            <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="js2/jquery-3.3.1.min.js"></script>
 <script src="js2/popper.min.js"></script>
 <script src="js2/bootstrap.min.js"></script>

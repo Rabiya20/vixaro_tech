@@ -10,7 +10,7 @@
 	<link rel="icon" href="assets/images/TF-short.png" type="image/TF-short.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
-	<title>Trainerfarm</title>
+	<title>TrainerFarm</title>
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -168,7 +168,7 @@
 								<li>
 									<a href="javascript:;">Axelos<i class="fa fa-angle-right"></i></a>
 									<ul class="sub-menu">
-										<li><a href="certificate-itil.php">ITIL&reg; 4 Foundations Certification</a></li>
+										<li><a href="certificate-itil.php">ITIL&reg; 4 Foundation Certification</a></li>
 									</ul> 
 								</li>
 							</ul>
@@ -184,9 +184,9 @@
 						<li><a href="blogs.php">Blogs</a></li>
 						<li><a href="javascript:;">About Us <i class="fa fa-chevron-down"></i></a>
 							<ul class="sub-menu">
-								<li><a href="about_tf.php">About Trainerfarm</a></li>
+								<li><a href="about_tf.php">About TrainerFarm</a></li>
 								<li><a href="about_instructors.php">Meet Our Team</a></li>
-								<li><a href="careers.php">Join Trainerfarm</a></li>
+								<li><a href="careers.php">Join TrainerFarm</a></li>
 							</ul>
 						</li>
 					</ul>

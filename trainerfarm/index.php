@@ -159,7 +159,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 heading-bx left">
-						<h2 class="title-head">IT Bootcamps and Certifications</h2>
+						<h2 class="title-head">IT Bootcamps and Certifications</h2><br><br>
 						<p>We Offer Over <b>20+ different <span style="color: var(--orange-primary)">IT Training Courses</span></b></p>
 					</div>
 				</div>
@@ -173,7 +173,7 @@
 										<div class="image">
 											<img src="assets/images/logo/aws_logo.png" alt="xd">
 										</div>
-										<div class="title">AWS Certifications</div>
+										<div class="title">AWS Certification</div>
 									</a>
 								</div>
 								<div class="box col-md-4 col-sm-6">
@@ -181,7 +181,7 @@
 										<div class="image">
 											<img src="assets/images/logo/ms_azure-logo.png" alt="figma">
 										</div>
-										<div class="title">Micosoft Assure</div>
+										<div class="title">Micosoft Azure Certification</div>
 									</a>
 								</div>
 								<div class="box col-md-4 col-sm-12">
@@ -189,7 +189,7 @@
 										<div class="image">
 											<img src="assets/images/logo/Comptia_logo.png" alt="html">
 										</div>
-										<div class="title">CompTIA Certifications</div>
+										<div class="title">CompTIA Certification</div>
 									</a>
 								</div>
 							</div>
@@ -200,7 +200,7 @@
 										<div class="image">
 											<img src="assets/images/logo/itil_axelos-logo.png" alt="css">
 										</div>
-										<div class="title">ITIL Certifications</div>
+										<div class="title">ITIL Certification</div>
 									</a>
 								</div>
 								<div class="box col-md-4 col-sm-6">
@@ -208,7 +208,7 @@
 										<div class="image">
 											<img src="assets/images/logo/cisco-logo.png" alt="javascript">
 										</div>
-										<div class="title">Cisco Certifications</div>
+										<div class="title">Cisco Certification</div>
 									</a>
 								</div>
 								<div class="box col-md-4 col-sm-12">
@@ -216,7 +216,7 @@
 										<div class="image">
 											<img src="assets/images/logo/Ec_Council_Logo.png" alt="illustrator">
 										</div>
-										<div class="title">EC-Council Certifications</div>
+										<div class="title">EC-Council Certification</div>
 									</a>
 								</div>
 							</div>
@@ -227,23 +227,20 @@
 		</div>
 		
 		<div class="section-area section-sp1">
-			<div class="container">
-				<div class="row" style="margin-top: -100px">
+				<div class="row" style="margin-top: -100px; margin-bottom: -100px">
 					<div class="col-lg-6 col-md-6 col-sm-12 bootcamp-btn">
 						<a href="#bootcamps" class="btn explore smooth-goto"><b>Explore BootCamps</b></a>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 certification-btn">
 						<a href="certifications.php" class="btn explore"><b>Explore Certifications</b></a>
 					</div>
 				</div>
-			</div>
 		</div>
 
-		<div id="bootcamps" class="section-area section-sp2 bg-fix ovbl-dark" style="background-image:url(assets/images/background/bg1.jpg);">
+		<div id="bootcamps" class="section-area section-sp2 bg-fix ovbl-dark" style="margin-top: -50px; background-image:url(assets/images/background/bg1.jpg);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-white heading-bx left">
 						<h2 class="title-head text-uppercase">IT bootcamps are intensive, short-term training programs that focus on teaching technical skills in <span>information technology (IT)</span> in a condensed period of time</h2>
+						<br><br>
 						<p>TrainerFarm IT bootcamps are often used by individuals who are looking to transition into a new career in IT or by working professionals who want to enhance their existing IT skills. Bootcamps cover a wide range of IT-related topics, including programming, web development, cybersecurity, data analysis, and cloud computing.</p>
 					</div>
 					<div class="col-md-12 text-white heading-bx left course-list">
@@ -316,7 +313,7 @@
 				<p>TrainerFarm has great IT instructors who have a deep understanding of the subject matter they are teaching. They are up-to-date with the latest industry trends and technologies and have a track record of success in the field.</p>
 				<p>They can able to explain concepts in multiple ways and provide different types of materials and resources to support different learning styles.</p>
 				<br>
-				<a href="meet_our_team.php" class="float-right btn btn-primary">Meet Our Team</a>
+				<a href="about_instructors.php" class="float-right btn btn-primary">Meet Our Team</a>
 			</div>
 		</div>
 	</div>

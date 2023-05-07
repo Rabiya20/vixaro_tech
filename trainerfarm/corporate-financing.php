@@ -5,7 +5,7 @@
     <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
         <div class="container mt-5">
             <div class="page-banner-entry">
-                <h1 class="text-light">Financing</h1>
+                <h1 class="text-light">TrainerFarm Financing</h1>
                 <br>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#schedule_modal">Schedule a Call</button>
             </div>
@@ -22,7 +22,7 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm Financing</h1>
+            <h1 class="text-primary">Financing</h1>
             <img src="assets/images/banner/bg-3.jpg" alt="">
             <br><br>
             <p>Financing in TrainerFarm bootcamp refers to the options available to students to pay for their bootcamp education. Bootcamps are short-term, intensive training programs designed to prepare students for a career in a specific field, such as web development, data science, or cybersecurity.</p>

@@ -1,35 +1,35 @@
 <?php include('includes/header.php'); ?>
 <style>
-.img img{
-  height: 100% !important;
-  width: 100% !important;
-  border-radius: 0% !important;
-}
-.payment-list{
-    padding: 20px !important;
-}
-.payment-list li{
-    list-style: none !important;
-    color: #fff !important;
-}
-.payment-list h2{
-    color: var(--white-primary) !important;
-}
-.payment-list p, #how_to_enroll h2, #how_to_enroll a,
-#weekly_activities h4, #curriculum h3, #curriculum h4{
-    color: var(--orange-primary) !important;
-}
-@media screen and (max-width: 767px) {
     .img img{
-        height: 200px !important;
-        width: 100% !important;
-        border-radius: 0% !important;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0% !important;
     }
-}
-#how_to_enroll h2{
-    border-bottom: 2px solid var(--blue-primary);
-    width: 50%;
-}
+    .payment-list{
+        padding: 20px !important;
+    }
+    .payment-list li{
+        list-style: none !important;
+        color: #fff !important;
+    }
+    .payment-list h2{
+        color: var(--white-primary) !important;
+    }
+    .payment-list p, #how_to_enroll h2, #how_to_enroll a,
+    #weekly_activities h4, #curriculum h3, #curriculum h4{
+        color: var(--orange-primary) !important;
+    }
+    @media screen and (max-width: 767px) {
+        .img img{
+            height: 200px !important;
+            width: 100% !important;
+            border-radius: 0% !important;
+        }
+    }
+    #how_to_enroll h2{
+        border-bottom: 2px solid var(--blue-primary);
+        width: 50%;
+    }
 </style>
 <br><br><br><br>
     <div class="page-content">
@@ -40,14 +40,15 @@
                     <div class="col-md-8 col-sm-12">
                         <div class="text-light">
                             <br><br>
-                            <h3 class="text-light">ONLINE / PART-TIME</h3>
+                            <h3 class="text-light">ONLINE / PART-TIME / FULL-TIME</h3>
                             <br>
-                            <h1 class="text-light">Software Engineering Online and Part-Time</h1>
+                            <h1 class="text-light">Software Engineering Online</h1>
                             <br>
-                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Apply Today</a>
+                            <a href="apply.php" target="_blank" class="btn radius-xl btn_hvr">Enroll Today</a>
 
                             <br><br>
                             <ul style="padding-left: 10px;">
+                                <li><span>Full-Time</span> | <span>14 Weeks</span> | <span>40 hours/wk</span></li>
                                 <li><span>Part-Time</span> | <span>24 Weeks</span> | <span>25 hours/wk</span></li>
                                 <li>Online Attendance</li>
                             </ul>
@@ -65,17 +66,16 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <h3>NEXT PROGRAM DATES</h3>
-                        <a href="#program_date_list" target="_blank" rel="noopener noreferrer">More Dates</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>14-Apr-2023</h5>
+                        <h5>22<sup>nd</sup> May 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>18-Apr-2023</h5>
+                        <h5>12<sup>th</sup> June 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
-                        <h5>16-Apr-2023</h5>
+                        <h5>17<sup>th</sup> July 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                             <div class="col-9">
                                 <h3>Contact Admission Consultant</h3>
                                 <p>1-on-1 call for quick answers about bootcamp</p>
-                                <a href="#" class="btn explore"><b>Schedule The Call</b></a>
+                                <a href="#" class="btn explore" data-toggle="modal" data-target="#schedule_modal"><b>Schedule The Call</b></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     <div class="tabs">
                         <div class="tabby-tab">
                             <input type="radio" id="tab-1" name="tabby-tabs" checked>
-                            <label for="tab-1">The basics (2 weeks):</label>
+                            <label for="tab-1">The basics (2 weeks)</label>
                             <div class="tabby-content">
                                 <p>In order to prepare for a boot camp, it's important to develop computer literacy skills and gain knowledge of fundamental programming concepts. This includes learning how to use basic programming tools, as well as applying algorithmic thinking to understand skills such as variables, arrays, conditionals, functions, and loops. Additionally, it's important to build up cognitive processing stamina and resilience, as these skills will be necessary for the rigor and intensity of a boot camp. By focusing on these areas, you'll be better equipped to succeed in a boot camp and walk away with a strong foundation in computer literacy and programming concepts.</p>
                                 <br>
@@ -166,7 +166,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-2" name="tabby-tabs">
-                            <label for="tab-2">WEEK 1-2(Web Fundamentals):</label>
+                            <label for="tab-2">WEEK 1-2 (Web Fundamentals)</label>
                             <div class="tabby-content">
                                 <p>In this module you'll acquire the fundamentals of front-end web development and create your initial user interfaces using HTML, CSS, and JavaScript!</p>
                                 <br>
@@ -181,7 +181,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-3" name="tabby-tabs">
-                            <label for="tab-3">WEEK 3-6(Python Full Stack)</label>
+                            <label for="tab-3">WEEK 3-6 (Python Full Stack)</label>
                             <div class="tabby-content">
                                 <p>Python is a highly sought-after programming language in various industries, being preferred by major companies like Instagram, YouTube, and Spotify. Its versatility, flexibility, and user-friendly basics distinguish it from other programming languages, making it a popular choice for web development, data science, machine learning, scientific computing, and cloud infrastructure applications.</p>
                                 <br>
@@ -194,7 +194,7 @@
 
                         <div class="tabby-tab">
                             <input type="radio" id="tab-4" name="tabby-tabs">
-                            <label for="tab-4">WEEK 7-10(JavaScript Full Stack)</label>
+                            <label for="tab-4">WEEK 7-10 (JavaScript Full Stack)</label>
                             <div class="tabby-content">
                                 <p>The JavaScript stack is a popular, versatile full-stack framework that is well-suited for developing dynamic websites and applications. It is a free and open-source technology stack that provides developers with a streamlined and structured approach to building JavaScript-based web applications quickly. An advantage of using the JavaScript stack is that it is a single-language that can be used across multiple application levels, making it an efficient and contemporary approach to web development.</p>
                                 <br>
@@ -240,7 +240,7 @@
         <section id="weekly_activities" class="mb-5">
             <div class="container" class="mb-5">
                 <span class="section_title">TYPICAL WEEK</span>
-                <h3 class="text-primary">Our Part-Time Format</h3>
+                <h3 class="text-primary">Our Full-Time/Part-Time Format</h3>
                 <div class="owl-carousel owl-1 mb-3">
 
                     <div class="media-29101 d-md-flex w-100" id="second_tab">
@@ -310,7 +310,7 @@
                 <h1 class="text-primary">What are you waiting for?</h1>
                 <p>Let's get started.</p>
                 <div style="background-color: var(--blue-primary); color:var(--white-primary); border-radius: 20px; padding: 20px;">
-                    <a href="apply.php" class="btn btn-primary" target="_blank">Apply Now</a>
+                    <a href="apply.php" class="btn btn-primary" target="_blank">Enroll Now</a>
                 </div>
             </div>
         </section>
@@ -357,11 +357,39 @@
 
         <section id="apply">
             <div class="container text-center">
-                <a href="apply.php" class="btn btn-primary">APLLY NOW</a>
+                <a href="apply.php" class="btn btn-primary">Enroll Now</a>
             </div>
         </section>
     </div>
 <br>
+<!-- Modal -->
+    <div class="modal fade schedule_modal" id="schedule_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <br><br><br>
+        <div class="modal-dialog" role="document">
+            <div class="container" style="padding: 30px !important;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Schedule a Call</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="search" method="post" class="mb-3">
+                            <input name="fullname" class="form-control" placeholder="First name" type="text"><br>
+                            <input name="phone" class="form-control" placeholder="Phone Number" type="tel"><br>
+                            <input name="email" class="form-control" placeholder="Email" type="email"><br>
+                            <br>
+                            <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="js2/jquery-3.3.1.min.js"></script>
 <script src="js2/popper.min.js"></script>
 <script src="js2/bootstrap.min.js"></script>

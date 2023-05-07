@@ -1,3 +1,15 @@
+<style>
+    .owl-nav{
+        margin-bottom: -50px !important;
+    }
+    .owl-carousel .owl-stage-outer {
+    padding: 29px 10px;
+    height: auto !important;
+    }
+    .heading-bx.left .title-head {
+        margin-bottom: -30px !important;
+    }
+</style>
 <div class="container rounded section-area section-sp2">
     <div class="row">
         <div class="col-md-12 heading-bx left">
@@ -87,7 +99,7 @@
                 <div class="d-flex flex-row profile pt-4 mt-auto"> 
                     <img src="assets/images/testimonials/pro-4.jpg" alt="" class="rounded-circle"> 
                     <div class="d-flex flex-column pl-2"> 
-                        <div class="name"></div> 
+                        <div class="name">Zainab Shah</div> 
                     </div> 
                 </div> 
             </div> 

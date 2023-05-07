@@ -4,7 +4,7 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
             <div class="container mt-5">
                 <div class="page-banner-entry">
-                    <h1 class="text-light">About Trainerfarm</h1>
+                    <h1 class="text-light">About TrainerFarm</h1>
 				 </div>
             </div>
         </div>
@@ -13,7 +13,7 @@
 			<div class="container">
 				<ul class="list-inline">
 					<li><a href="#">About Us</a></li>
-					<li>About Trainerfarm</li>
+					<li>About TrainerFarm</li>
 				</ul>
 			</div>
 		</div>

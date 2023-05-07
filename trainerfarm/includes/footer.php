@@ -14,7 +14,7 @@
 							</ul>
 						</div>
 						<div class="pt-btn-join">
-							<a href="#" class="btn ">Register/Sign-in</a>
+							<a href="panel/login.php"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp; Login</a>
 						</div>
 					</div>
 				</div>
@@ -25,8 +25,6 @@
                         <div class="widget">
                             <h5 class="footer-title">Online IT Certification Courses & Training Programs</h5>
 							<img height="150px" width="250px" src="assets/images/payments.png" alt="logo">
-							<br><br>
-							<a href="index.php" class="text-light"><img height="50px" width="150px" src="assets/images/partners.png" alt="logo"></a>
                         </div>
                     </div>
 					<div class="col-12 col-lg-5 col-md-7 col-sm-12">
@@ -35,13 +33,13 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">Solutions</h5>
 									<ul>
-										<li><a href="training_business.php">Business Training</a></li>
-										<!-- <li><a href="training_certificate.php">Certifications Training</a></li> -->
-										<li><a href="#">AWS Training</a></li>
-										<li><a href="#">Azure Training</a></li>
-										<li><a href="#">Cisco Training</a></li>
-										<li><a href="#">Microsoft Training</a></li>
-										<li><a href="#">ITIL Training</a></li>
+										<li><a href="corporate-business_training.php">Business Training</a></li>
+										<li><a href="courses-aws.php">AWS Training</a></li>
+										<li><a href="courses-cisco.php">Cisco Training</a></li>
+										<li><a href="courses-comptia.php">CompTIA Training</a></li>
+										<li><a href="courses-ec_council.php">EC Council Training</a></li>
+										<li><a href="courses-itil.php">Axelos Training</a></li>
+										<li><a href="courses-microsoft.php">Microsoft Azure Training</a></li>
 									</ul>
 								</div>
 							</div>
@@ -60,7 +58,7 @@
 									<ul>
 										<li><a href="contact_us.php">Contact Us</a></li>
 										<li><a href="blogs.php">Blogs</a></li>
-										<li><a href="financing.php">Financing</a></li>
+										<li><a href="corporate-financing.php">Financing</a></li>
 									</ul>
 								</div>
 							</div>
@@ -69,7 +67,7 @@
 					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                         <div class="widget widget_gallery gallery-grid-4">
                             <h5 class="footer-title">We're Here For You</h5>
-							<p><i class="fa fa-user"></i> Sales: +(202) 946-5008</p>
+							<p><i class="fa fa-user"></i> Sales: (202) 946-5008</p>
 							<p>Address: 114 Birchwood Park Drive, Syosset, 11791</p>
                         </div>
                     </div>

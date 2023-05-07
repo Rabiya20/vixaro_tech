@@ -63,7 +63,7 @@
                             <div class="col-9">
                                 <h3>EC Council</h3>
                                 <ul>
-                                    <li><a href="certificate-ethical_hacking.php">Certified Ethical Hacking (CEHv11)</a></li>
+                                    <li><a href="certificate-ethical_hacking.php">Certified Ethical Hacking (CEHv12)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                             <div class="col-9">
                                 <h3>Axelos</h3>
                                 <ul>
-                                    <li><a href="certificate-itil.php">ITIL&reg; 4 Foundations Certification</a></li>
+                                    <li><a href="certificate-itil.php">ITIL&reg; 4 Foundation Certification</a></li>
                                 </ul>
                             </div>
                         </div>

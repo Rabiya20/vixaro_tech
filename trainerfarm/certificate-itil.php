@@ -32,7 +32,7 @@
         <div class="page-banner ovbl-dark" style="background-image:url(assets/images/certificate_bg/bg-itil.jpg);">
             <div class="container mt-5">
                 <div class="page-banner-entry">
-                    <h1 class="text-light">ITIL&reg; 4 Foundations Certification</h1>
+                    <h1 class="text-light">ITIL&reg; 4 Foundation Certification</h1>
 				 </div>
             </div>
         </div>
@@ -40,9 +40,9 @@
 		<div class="breadcrumb-row">
 			<div class="container">
 				<ul class="list-inline">
-					<li><a href="#">Certifications</a></li>
+					<li><a href="certifications.php">Certifications</a></li>
 					<li>PeopleCert</li>
-                    <li>ITIL&reg; 4 Foundations Certification</li>
+                    <li>ITIL&reg; 4 Foundation Certification</li>
 				</ul>
 			</div>
 		</div>

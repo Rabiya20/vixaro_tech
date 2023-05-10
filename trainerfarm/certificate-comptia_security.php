@@ -91,7 +91,7 @@
                             <aside class="side-bar sticky-top">
                                 <div class="mt-5">
                                     <h1 class="price text-right">$3,295.00</h1>
-                                    <a href="enroll.php" class="btn-block btn radius-xl">Enroll Now</a>
+                                    <a href="apply.php" class="btn-block btn radius-xl">Enroll Now</a>
                                     <br>
                                     <h4 class="text-secondary" style="padding-left: 30px;">More Information:</h4>
                                     <ul style="list-style: none; padding-left: 30px;">

@@ -1,3 +1,6 @@
+<?php 
+include("config.php"); 
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,23 +36,28 @@
               <h4 style="color: var(--blue-primary);" class="text-center">Sign In</h4>
             </div>
 
-            <form action="#" method="post">
+            <form action="loginprocess.php" method="POST">
               <div class="form-group first">
                 <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" name="username">
 
               </div>
+
               <div class="form-group last mb-4">
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" name="password">
-                
               </div>
               
               <div class="d-flex mb-5 align-items-center">
                 <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password?</a></span> 
               </div>
 
-              <input type="submit" value="Log In" class="btn btn-block btn-primary">
+              <?php if(isset($_REQUEST["err"])) $msg="Invalid Username or Password"; ?>
+              <p style="color:red;"><b>
+                <?php if(isset($msg)){ echo $msg; } ?>
+              </b></p>
+
+              <input type="submit" name="submit" value="Log In" class="btn btn-block btn-primary">
             </form>
             </div>
           </div>

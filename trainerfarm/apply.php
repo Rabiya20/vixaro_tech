@@ -1,5 +1,5 @@
-<?php
-
-$loginURL = 'panel/login.php';
-header('Location: '.$loginURL); 
+<?php 
+session_start ();
+if(!isset($_SESSION["login"]))
+	header("location:panel/login.php"); 
 ?>

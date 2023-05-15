@@ -13,7 +13,7 @@ if(!isset($_SESSION["login"]))
 			<div class="db-breadcrumb">
 				<h4 class="breadcrumb-title">Dashboard</h4>
 				<ul class="db-breadcrumb-list">
-					<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+				<li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
 					<li>Dashboard</li>
 				</ul>
 			</div>	
@@ -23,7 +23,7 @@ if(!isset($_SESSION["login"]))
 					<div class="widget-card widget-bg1">					 
 						<div class="wc-item">
 							<h4 class="wc-title">
-								Total Frofit
+								Total Profit
 							</h4>
 							<span class="wc-des">
 								All Customs Value
@@ -125,8 +125,7 @@ if(!isset($_SESSION["login"]))
 				</div>
 			</div>
 			<!-- Card END -->
-			<div class="row">
-				<!-- Your Profile Views Chart -->
+			<!-- <div class="row">
 				<div class="col-lg-8 m-b30">
 					<div class="widget-box">
 						<div class="wc-title">
@@ -137,7 +136,6 @@ if(!isset($_SESSION["login"]))
 						</div>
 					</div>
 				</div>
-				<!-- Your Profile Views Chart END-->
 				<div class="col-lg-4 m-b30">
 					<div class="widget-box">
 						<div class="wc-title">
@@ -352,7 +350,7 @@ if(!isset($_SESSION["login"]))
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</main>
 <?php include("includes/footer.php"); ?>	

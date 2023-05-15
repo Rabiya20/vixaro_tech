@@ -3250,3 +3250,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 		padding: 15px 15px 0 15px;
 	}
 }
+
+.teacher-dropdown select,
+.teacher-dropdown option {
+	color: #000 !important;
+}

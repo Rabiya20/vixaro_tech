@@ -41,20 +41,46 @@
 		                </a>
 		                <ul>
 		                	<li>
-		                		<a href="certifications.php" class="ttr-material-button"><span class="ttr-label">All Courses</span></a>
+		                		<a href="course_list.php" class="ttr-material-button"><span class="ttr-label">All Courses</span></a>
 		                	</li>
 		                	<li>
                             <?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
-		                		<a href="mailbox-compose.html" class="ttr-material-button"><span class="ttr-label">Add Course</span></a>
+		                		<a href="course_add.php" class="ttr-material-button"><span class="ttr-label">Add New Course</span></a>
                             <?php } elseif($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
-                                <a href="mailbox-read.html" class="ttr-material-button"><span class="ttr-label">Edit Course</span></a>
+                                <a href="course_list_teacher.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>
                             <?php } else{ ?>
-		                		<a href="mailbox-compose.html" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>                                    
+		                		<a href="course_list_student.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>                                    
                             <?php } ?>
                             </li>
 		                </ul>
 		            </li>
+					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
 					<li>
+						<a href="#" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-user"></i></span>
+		                	<span class="ttr-label">Student Management</span>
+		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+		                </a>
+		                <ul>
+		                	<li><a href="students_list.php" class="ttr-material-button"><span class="ttr-label">All Students</span></a></li>
+		                	<li><a href="students_add.php" class="ttr-material-button"><span class="ttr-label">Add New Student</span></a></li>
+						</ul>
+					</li>
+					<?php } ?>
+					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
+					<li>
+						<a href="#" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-blackboard"></i></span>
+		                	<span class="ttr-label">Teacher Management</span>
+		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+		                </a>
+		                <ul>
+		                	<li><a href="teacher_list.php" class="ttr-material-button"><span class="ttr-label">All Teachers</span></a></li>
+		                	<li><a href="teacher_add.php" class="ttr-material-button"><span class="ttr-label">Add New Teacher</span></a></li>
+						</ul>
+					</li>
+					<?php } ?>
+					<!-- <li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-calendar"></i></span>
 		                	<span class="ttr-label">Calendar</span>
@@ -68,26 +94,26 @@
 		                		<a href="list-view-calendar.html" class="ttr-material-button"><span class="ttr-label">List View</span></a>
 		                	</li>
 		                </ul>
-		            </li>
-					<li>
+		            </li> -->
+					<!-- <li>
 						<a href="bookmark.html" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
 		                	<span class="ttr-label">Bookmarks</span>
 		                </a>
-		            </li>
-					<li>
+		            </li> -->
+					<!-- <li>
 						<a href="review.html" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-comments"></i></span>
 		                	<span class="ttr-label">Review</span>
 		                </a>
-		            </li>
-					<li>
+		            </li> -->
+					<!-- <li>
 						<a href="add-listing.html" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-layout-accordion-list"></i></span>
 		                	<span class="ttr-label">Add listing</span>
 		                </a>
-		            </li>
-					<li>
+		            </li> -->
+					<!-- <li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-user"></i></span>
 		                	<span class="ttr-label">My Profile</span>
@@ -101,7 +127,7 @@
 		                		<a href="teacher-profile.html" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
 		                	</li>
 		                </ul>
-		            </li>
+		            </li> -->
 		            <li class="ttr-seperate"></li>
 				</ul>
 				<!-- sidebar menu end -->

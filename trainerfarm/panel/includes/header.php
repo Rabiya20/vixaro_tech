@@ -37,11 +37,14 @@
 	
 	<!-- SHORTCODES ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">
-	
+	<link href="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/datatables.min.css" rel="stylesheet"/>
+ 
+<script src="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/datatables.min.js"></script>
+
 	<!-- STYLESHEETS ============================================= -->
+	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/dashboard.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	
 </head>
 <body class="ttr-opened-sidebar ttr-pinned-sidebar">

@@ -36,7 +36,7 @@
 					<li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-book"></i></span>
-		                	<span class="ttr-label">Courses</span>
+		                	<span class="ttr-label">Course Management</span>
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
@@ -45,8 +45,9 @@
 		                	</li>
 		                	<li>
                             <?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
+								<a href="course_category_list.php" class="ttr-material-button"><span class="ttr-label">Course Categories</span></a>                                    
 		                		<a href="course_add.php" class="ttr-material-button"><span class="ttr-label">Add New Course</span></a>
-                            <?php } elseif($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
+								<?php } elseif($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
                                 <a href="course_list_teacher.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>
                             <?php } else{ ?>
 		                		<a href="course_list_student.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>                                    

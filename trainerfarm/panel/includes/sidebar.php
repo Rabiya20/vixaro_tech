@@ -45,7 +45,7 @@
 		                	</li>
 		                	<li>
                             <?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
-								<a href="course_category_list.php" class="ttr-material-button"><span class="ttr-label">Course Categories</span></a>                                    
+								<a href="course_category_list.php" class="ttr-material-button"><span class="ttr-label">Course Category List</span></a>                                    
 		                		<a href="course_add.php" class="ttr-material-button"><span class="ttr-label">Add New Course</span></a>
 								<?php } elseif($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
                                 <a href="course_list_teacher.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>

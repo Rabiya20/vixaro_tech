@@ -7,11 +7,9 @@ if(!isset($_SESSION["login"]))
 
 	$course_category_res = "SELECT *
 	FROM course_category cc
-	WHERE cc.status = 1
 	ORDER BY cc.id";
 
     $course_category_list = mysqli_query($conn, $course_category_res);
-
 ?>
 <?php include("includes/header.php"); ?>
 <?php include("includes/sidebar.php"); ?>
@@ -26,6 +24,10 @@ if(!isset($_SESSION["login"]))
 					<li>Course Category List</li>
 				</ul>
 			</div>
+
+			<?php if($msg != ''){ ?>
+				<div class='alert-success' style="padding:10px;"><?php echo $msg; ?></div>
+			<?php } ?>
 
             <a href="course_category_add.php" class="btn btn-primary text-light">Add Course Category</a><br><br>
 
@@ -46,8 +48,8 @@ if(!isset($_SESSION["login"]))
 						<td><?php echo $i++; ?></td>
 						<td><?php echo $row['name']; ?></td>
 						<td><?php echo $row['provided_by']; ?></td>
-						<td><?php echo $row['course_status']==1 ? 'Active' : 'Inactive'; ?></td>
-						<td><a href="course_category_add.php?id=<?php echo $row['id']; ?>">Edit</a></td>
+						<td><?php echo $row['status']==1 ? 'Active' : 'Inactive'; ?></td>
+						<td><a href="course_category_edit.php?id=<?php echo $row['id']; ?>">Edit</a></td>
 					</tr>
 					<?php } ?>
         		</tbody>

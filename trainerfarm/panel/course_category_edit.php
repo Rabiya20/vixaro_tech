@@ -8,7 +8,7 @@ if(!isset($_SESSION["login"]))
     $msg = '';
 	$course_category_id = $_GET['id'];
 	if(!empty($course_category_id)){
-		$course_cat_record = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.status = 1 AND cc.id = '$course_category_id'");
+		$course_cat_record = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.id = '$course_category_id'");
 		$cc_row = mysqli_fetch_assoc($course_cat_record);
 	}
 	// posting data (insert)
@@ -17,7 +17,7 @@ if(!isset($_SESSION["login"]))
 		$provided_by = $_POST['provided_by'];
 		$status = $_POST['status'];
 
-		$course_cat_name_check = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.status = 1 AND cc.name = '$name' AND cc.provided_by = '$provided_by'");
+		$course_cat_name_check = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.name = '$name' AND cc.provided_by = '$provided_by'");
 		if (mysqli_num_rows($course_cat_name_check) > 0){
 			$msg = 'This Category Already Exist.';
 		}else{
@@ -42,14 +42,14 @@ if(!isset($_SESSION["login"]))
 				<h4 class="breadcrumb-title">Courses</h4>
 				<ul class="db-breadcrumb-list">
 					<li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-					<li>Add New Course</li>
+					<li>Add New Course Category</li>
 				</ul>
 			</div>	
 			<div class="row">
 				<div class="col-lg-12 m-b30">
 					<div class="widget-box">
 						<div class="wc-title">
-							<h4>Add New Course</h4>
+							<h4>Add New Course Category</h4>
 						</div>
                         
 						<div class="widget-inner">
@@ -80,13 +80,14 @@ if(!isset($_SESSION["login"]))
 										</div>
 									</div>
 									
-									<div class="form-group col-6">
-										<label class="col-form-label">Course Status</label>
-										<div>
-											<select name="status" id="status">
-												<option value="1">Active</option>
-												<option value="2">Inactive</option>
-											</select>
+									<div class="form-group col-6 mb-2">
+										<div class="form-check">
+											<input type="radio" class="form-check-input" name="status" value="1" <?php echo $cc_row['status'] == 1 ? 'checked' : ''; ?>>Active
+											<label class="form-check-label" for="radio1"></label>
+										</div>
+										<div class="form-check">
+											<input type="radio" class="form-check-input" name="status" value="2" <?php echo $cc_row['status'] == 2 ? 'checked' : ''; ?>>Inactive
+											<label class="form-check-label" for="radio2"></label>
 										</div>
 									</div>
 

@@ -6,8 +6,13 @@ if(!isset($_SESSION["login"]))
 	header("location:login.php"); 
 
 	$msg = '';
-    // posting data (insert)
-    if(!empty($_POST)){
+	$user_id = $_GET['id'];
+	if(!empty($user_id)){
+		$user_record = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_id = '$user_id' AND u.user_type_id = '3'");
+		$u_row = mysqli_fetch_assoc($user_record);
+	}
+
+	if(!empty($_POST)){
         $user_name = $_POST['user_name'];
         $user_password = $_POST['user_password'];
         $user_fullname = $_POST['user_fullname'];
@@ -16,15 +21,15 @@ if(!isset($_SESSION["login"]))
         $country = $_POST['country'];
         $city = $_POST['city'];
         $linkedin = $_POST['linkedin'];
+        $user_status = $_POST['user_status'];
 
         $user_name_check = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_name = '$user_name' AND u.user_type_id = '3'");
         if (mysqli_num_rows($user_name_check) > 0){
             $msg = 'This Username Already Exist.';
         }else{
-            $insert = "INSERT INTO `users` (`user_name`, `user_password`, `user_fullname`, `phone`, `email`, `linkedin`, `country`, `city`, `user_type_id`, `user_status`)
-			VALUES ('$user_name', '$user_password', '$user_fullname', '$phone', '$email', '$linkedin', '$country', '$city', '3', '1')";
+            $insert = "UPDATE `users` SET `user_name` = '$user_name',`user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city' `user_status`='$user_status', WHERE u.user_id = '$user_id'";
             if(mysqli_query($conn, $insert)){
-                $msg = "Student Inserted Successfully.";
+                $msg = "Student Updated Successfully.";
             } else{
                 echo "ERROR: Could not able to execute $insert. " . mysqli_error($conn);
             }
@@ -33,6 +38,7 @@ if(!isset($_SESSION["login"]))
 ?>
 <?php include("includes/header.php"); ?>
 <?php include("includes/sidebar.php"); ?>
+
 	<!--Main container start -->
 	<main class="ttr-wrapper">
 		<div class="container-fluid">
@@ -40,7 +46,7 @@ if(!isset($_SESSION["login"]))
 				<h4 class="breadcrumb-title">Student Management</h4>
 				<ul class="db-breadcrumb-list">
 					<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-					<li>Add Student</li>
+					<li>Edit Student</li>
 				</ul>
 			</div>	
 			<div class="row">
@@ -66,31 +72,31 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Full Name</label>
 										<div class="col-sm-7">
-											<input name="user_fullname" class="form-control" type="text" value="">
+											<input name="user_fullname" class="form-control" type="text" value="<?php echo $u_row['user_fullname']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Username</label>
 										<div class="col-sm-7">
-											<input name="user_name" class="form-control" type="text" value="">
+											<input name="user_name" class="form-control" <?php !empty($u_row['user_name']) ? 'disabled' : ''; ?> type="text" value="<?php echo $u_row['user_name']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Phone No.</label>
 										<div class="col-sm-7">
-											<input name="phone" class="form-control" type="text" value="">
+											<input name="phone" class="form-control" type="text" value="<?php echo $u_row['phone']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Email Address</label>
 										<div class="col-sm-7">
-											<input name="email" class="form-control" type="text" value="">
+											<input name="email" class="form-control" type="text" value="<?php echo $u_row['email']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Password</label>
 										<div class="col-sm-7">
-											<input name="user_password" class="form-control" type="text" value="">
+											<input name="user_password" class="form-control" type="text" value="<?php echo $u_row['password']; ?>">
 										</div>
 									</div>
 
@@ -102,13 +108,13 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Country</label>
 										<div class="col-sm-7">
-											<input name="country" class="form-control" type="text" value="">
+											<input name="country" class="form-control" type="text" value="<?php echo $u_row['country']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">City</label>
 										<div class="col-sm-7">
-											<input name="city" class="form-control" type="text" value="">
+											<input name="city" class="form-control" type="text" value="<?php echo $u_row['city']; ?>">
 										</div>
 									</div>
 
@@ -123,7 +129,22 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Linkedin</label>
 										<div class="col-sm-7">
-											<input name="linkedin" class="form-control" type="text" value="">
+											<input name="linkedin" class="form-control" type="text" value="<?php echo $u_row['linkedin']; ?>">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<label class="col-sm-2 col-form-label">Status</label>
+									<div class="col-sm-7">
+										<div class="form-group col-6 mb-2">
+											<div class="form-check">
+												<input type="radio" class="form-check-input" name="user_status" value="1" <?php echo $u_row['user_status'] == 1 ? 'checked' : ''; ?>>Active
+												<label class="form-check-label" for="radio1"></label>
+											</div>
+											<div class="form-check">
+												<input type="radio" class="form-check-input" name="user_status" value="2" <?php echo $u_row['user_status'] == 2 ? 'checked' : ''; ?>>Inactive
+												<label class="form-check-label" for="radio2"></label>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -131,7 +152,7 @@ if(!isset($_SESSION["login"]))
 									<div class="col-sm-2">
 									</div>
 									<div class="col-sm-7">
-										<button type="submit" class="btn"><span class="ttr-icon"><i class="ti-save"></i></span> Save</button>
+										<button type="submit" class="btn">Save changes</button>
 									</div>
 								</div>
 							</form>
@@ -141,4 +162,4 @@ if(!isset($_SESSION["login"]))
 			</div>
 		</div>
 	</main>
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>	

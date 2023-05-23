@@ -60,6 +60,10 @@ include("config.php");
               </b></p>
 
               <input type="submit" name="submit" value="Log In" class="btn btn-block btn-primary">
+
+              <br>
+              <p class="text-center">New Here?</p>
+              <a href="register.php" class="btn btn-block btn-primary text-light" style="text-decoration: none; padding-top: 12px;">Register</a>
             </form>
             </div>
           </div>

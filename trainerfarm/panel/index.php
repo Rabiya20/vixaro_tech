@@ -4,6 +4,28 @@ include("includes/config.php");
 
 if(!isset($_SESSION["login"]))
 	header("location:login.php"); 
+
+	$course_res = "SELECT COUNT(*) as count FROM course c
+    WHERE c.course_status = 1";
+    $course_count = mysqli_query($conn, $course_res);
+	$c_count = mysqli_fetch_assoc($course_count);
+
+	$teacher_res = "SELECT COUNT(*) as count FROM users u
+    INNER JOIN user_type ut ON ut.user_type_id = u.user_type_id
+    WHERE ut.user_type_id = 2 AND u.user_status = 1 AND ut.user_type_status = 1";
+    $teacher_count = mysqli_query($conn, $teacher_res);
+	$t_count = mysqli_fetch_assoc($teacher_count);
+
+	$student_res = "SELECT COUNT(*) as count FROM users u
+    INNER JOIN user_type ut ON ut.user_type_id = u.user_type_id
+    WHERE ut.user_type_id = 2 AND u.user_status = 1 AND ut.user_type_status = 1";
+    $student_count = mysqli_query($conn, $student_res);
+	$s_count = mysqli_fetch_assoc($student_count);
+
+	$enroll_res = "SELECT COUNT(*) as count FROM student_register";
+    $enroll_count = mysqli_query($conn, $enroll_res);
+	$e_count = mysqli_fetch_assoc($enroll_count);
+	
 ?>
 <?php include("includes/header.php"); ?>
 <?php include("includes/sidebar.php"); ?>
@@ -22,104 +44,36 @@ if(!isset($_SESSION["login"]))
 				<div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
 					<div class="widget-card widget-bg1">					 
 						<div class="wc-item">
-							<h4 class="wc-title">
-								Total Profit
-							</h4>
-							<span class="wc-des">
-								All Customs Value
-							</span>
-							<span class="wc-stats">
-								$<span class="counter">18</span>M 
-							</span>		
-							<div class="progress wc-progress">
-								<div class="progress-bar" role="progressbar" style="width: 78%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<span class="wc-progress-bx">
-								<span class="wc-change">
-									Change
-								</span>
-								<span class="wc-number ml-auto">
-									78%
-								</span>
-							</span>
+							<h4 class="wc-title">Total Courses</h4><br>
+							<span class="wc-des">Overall courses we provide</span>
+							<span class="wc-stats counter"><span class="counter"><?php echo intval($c_count['count']) ?? 0; ?></span></span>
 						</div>				      
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
 					<div class="widget-card widget-bg2">					 
 						<div class="wc-item">
-							<h4 class="wc-title">
-								 New Feedbacks
-							</h4>
-							<span class="wc-des">
-								Customer Review
-							</span>
-							<span class="wc-stats counter">
-								120 
-							</span>		
-							<div class="progress wc-progress">
-								<div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<span class="wc-progress-bx">
-								<span class="wc-change">
-									Change
-								</span>
-								<span class="wc-number ml-auto">
-									88%
-								</span>
-							</span>
+							<h4 class="wc-title">Total Teacher</h4><br>
+							<span class="wc-des">We have team of teachers</span>
+							<span class="wc-stats counter"><span class="counter"><?php echo intval($t_count['count']) ?? 0; ?></span></span>
 						</div>				      
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
 					<div class="widget-card widget-bg3">					 
 						<div class="wc-item">
-							<h4 class="wc-title">
-								New Orders 
-							</h4>
-							<span class="wc-des">
-								Fresh Order Amount 
-							</span>
-							<span class="wc-stats counter">
-								772 
-							</span>		
-							<div class="progress wc-progress">
-								<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<span class="wc-progress-bx">
-								<span class="wc-change">
-									Change
-								</span>
-								<span class="wc-number ml-auto">
-									65%
-								</span>
-							</span>
+							<h4 class="wc-title">Total Students</h4><br>
+							<span class="wc-des">Students are registered in our portal</span>
+							<span class="wc-stats counter"><span class="counter"><?php echo intval($s_count['count']) ?? 0; ?></span></span>
 						</div>				      
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
 					<div class="widget-card widget-bg4">					 
 						<div class="wc-item">
-							<h4 class="wc-title">
-								New Users 
-							</h4>
-							<span class="wc-des">
-								Joined New User
-							</span>
-							<span class="wc-stats counter">
-								350 
-							</span>		
-							<div class="progress wc-progress">
-								<div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-							</div>
-							<span class="wc-progress-bx">
-								<span class="wc-change">
-									Change
-								</span>
-								<span class="wc-number ml-auto">
-									90%
-								</span>
-							</span>
+							<h4 class="wc-title">Students Enrolled</h4><br>
+							<span class="wc-des">Students are learning</span>
+							<span class="wc-stats counter"><span class="counter"><?php echo intval($e_count['count']) ?? 0; ?></span></span>
 						</div>				      
 					</div>
 				</div>

@@ -1,27 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- META ============================================= -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-	<meta name="robots" content="" />
-	
-	<!-- DESCRIPTION -->
-	<meta name="description" content="EduChamp : Education HTML Template" />
-	
-	<!-- OG -->
-	<meta property="og:title" content="EduChamp : Education HTML Template" />
-	<meta property="og:description" content="EduChamp : Education HTML Template" />
-	<meta property="og:image" content="" />
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- FAVICONS ICON ============================================= -->
-	<link rel="icon" href="../error-404.html" type="image/x-icon" />
-    <!-- tab icon -->
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" /> -->
-	
+	<link rel="icon" href="assets/images/logo/tf-icon.ico" type="image/tf-icon.ico" />
+    
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>TrainerFarm | Panel </title>
 	
@@ -39,8 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">
 	<link href="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/datatables.min.css" rel="stylesheet"/>
  
-<script src="https://cdn.datatables.net/v/dt/dt-1.13.4/b-2.3.6/datatables.min.js"></script>
-
 	<!-- STYLESHEETS ============================================= -->
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">

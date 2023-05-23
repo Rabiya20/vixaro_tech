@@ -7,7 +7,7 @@
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
 	
-	<link rel="icon" href="assets/images/TF-short.png" type="image/TF-short.png" />
+	<link rel="icon" href="assets/images/logo/tf-icon.ico" type="image/tf-icon.ico" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>TrainerFarm</title>
@@ -75,6 +75,7 @@
 				<div class="topbar-right">
 					<ul>
 						<li><a href="panel/login.php"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp; Login</a></li>
+						<li><a href="panel/register.php"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp; Register</a></li>
 					</ul>
 				</div>
 			</div>

@@ -364,7 +364,7 @@ Theme Version:	1.0.0
 					if(!checkSelectorExistence('.counter')){return;}
 					 jQuery('.counter').counterUp({
 						delay: 10,
-						time: 3000
+						time: 500
 					});	
 				}
 				

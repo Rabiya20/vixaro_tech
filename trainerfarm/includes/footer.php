@@ -15,6 +15,7 @@
 						</div>
 						<div class="pt-btn-join">
 							<a href="panel/login.php"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp; Login</a>
+							<a href="panel/register.php">&nbsp;&nbsp; Register</a>
 						</div>
 					</div>
 				</div>

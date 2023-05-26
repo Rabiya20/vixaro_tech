@@ -3,16 +3,28 @@
         margin: 0px 24px !important; 
     }    
 </style>
+<?php
+if($_SESSION['user_type_id'] == 2){
+	$my_course_res = "SELECT c . * 
+	FROM course c
+	WHERE c.teacher_id = '".$_SESSION['user_id']."'
+	AND c.course_status = 1
+	ORDER BY c.course_name";
+}elseif($_SESSION['user_type_id'] == 3){
+	$my_course_res = "SELECT sc . * , c.*
+	FROM student_course sc
+	LEFT JOIN course c ON c.course_id = sc.course_id
+	WHERE sc.student_id = '".$_SESSION['user_id']."'
+	ORDER BY joined_at";
+}
+	$my_course_list = mysqli_query($conn, $my_course_res);
+?>
     <!-- Left sidebar menu start -->
 	<div class="ttr-sidebar">
 		<div class="ttr-sidebar-wrapper content-scroll">
 			<!-- side menu logo start -->
 			<div class="ttr-sidebar-logo">
 				<a href="#"><img alt="" src="assets/images/logo/TF.png" width="122" height="27"></a>
-				<!-- <div class="ttr-sidebar-pin-button" title="Pin/Unpin Menu">
-					<i class="material-icons ttr-fixed-icon">gps_fixed</i>
-					<i class="material-icons ttr-not-fixed-icon">gps_not_fixed</i>
-				</div> -->
 				<div class="ttr-sidebar-toggle-button">
 					<i class="ti-arrow-left"></i>
 				</div>
@@ -27,12 +39,6 @@
 		                	<span class="ttr-label">Dashborad</span>
 		                </a>
 		            </li>
-					<!-- <li>
-						<a href="courses.html" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-book"></i></span>
-		                	<span class="ttr-label">Courses</span>
-		                </a>
-		            </li> -->
 					<li>
 						<a href="#" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-book"></i></span>
@@ -41,16 +47,12 @@
 		                </a>
 		                <ul>
 		                	<li>
-		                		<a href="course_list.php" class="ttr-material-button"><span class="ttr-label">All Courses</span></a>
-		                	</li>
-		                	<li>
                             <?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
-								<a href="course_category_list.php" class="ttr-material-button"><span class="ttr-label">Course Category List</span></a>                                    
+								<a href="course_category_list.php" class="ttr-material-button"><span class="ttr-label">Course Category List</span></a>
+		                		<a href="course_list.php" class="ttr-material-button"><span class="ttr-label">All Courses</span></a>
 		                		<a href="course_add.php" class="ttr-material-button"><span class="ttr-label">Add New Course</span></a>
-								<?php } elseif($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
-                                <a href="course_list_teacher.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>
-                            <?php } else{ ?>
-		                		<a href="course_list_student.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>                                    
+								<?php } else{ ?>
+		                		<a href="my_courses.php" class="ttr-material-button"><span class="ttr-label">My Courses</span></a>                                    
                             <?php } ?>
                             </li>
 		                </ul>
@@ -81,54 +83,33 @@
 						</ul>
 					</li>
 					<?php } ?>
-					<!-- <li>
+					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
+					<li>
 						<a href="#" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-calendar"></i></span>
-		                	<span class="ttr-label">Calendar</span>
+							<span class="ttr-icon"><i class="ti-blackboard"></i></span>
+		                	<span class="ttr-label">Assignment Management</span>
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
-		                	<li>
-		                		<a href="basic-calendar.html" class="ttr-material-button"><span class="ttr-label">Basic Calendar</span></a>
-		                	</li>
-		                	<li>
-		                		<a href="list-view-calendar.html" class="ttr-material-button"><span class="ttr-label">List View</span></a>
-		                	</li>
-		                </ul>
-		            </li> -->
-					<!-- <li>
-						<a href="bookmark.html" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
-		                	<span class="ttr-label">Bookmarks</span>
-		                </a>
-		            </li> -->
-					<!-- <li>
-						<a href="review.html" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-comments"></i></span>
-		                	<span class="ttr-label">Review</span>
-		                </a>
-		            </li> -->
-					<!-- <li>
-						<a href="add-listing.html" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-layout-accordion-list"></i></span>
-		                	<span class="ttr-label">Add listing</span>
-		                </a>
-		            </li> -->
-					<!-- <li>
+		                	<li><a href="assignment_list.php" class="ttr-material-button"><span class="ttr-label">All Assignments</span></a></li>
+		                	<li><a href="assignment_add.php" class="ttr-material-button"><span class="ttr-label">Add New Assignment</span></a></li>
+						</ul>
+					</li>
+					<?php } ?>
+					<?php if(($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher') || ($_SESSION['user_type_id'] == 3 && $_SESSION['user_type_name'] == 'student')){ ?>
+					<li>
 						<a href="#" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-user"></i></span>
-		                	<span class="ttr-label">My Profile</span>
+							<span class="ttr-icon"><i class="ti-blackboard"></i></span>
+		                	<span class="ttr-label">My Assignments</span>
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
-		                	<li>
-		                		<a href="user-profile.html" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
-		                	</li>
-		                	<li>
-		                		<a href="teacher-profile.html" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
-		                	</li>
-		                </ul>
-		            </li> -->
+							<?php while($row = mysqli_fetch_assoc($my_course_list)){ ?>
+		                		<li><a href="course_assignment.php?id=<?php echo $row['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row['course_name']; ?></span></a></li>
+							<?php } ?>
+						</ul>
+					</li>
+					<?php } ?>
 		            <li class="ttr-seperate"></li>
 				</ul>
 				<!-- sidebar menu end -->

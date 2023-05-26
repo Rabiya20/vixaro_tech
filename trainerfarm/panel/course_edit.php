@@ -34,7 +34,7 @@ if(!isset($_SESSION["login"]))
 		$course_week = $_POST['course_week'];
         $course_price = $_POST['course_price'];
 		
-        $course_name_check = mysqli_query($conn, "SELECT * FROM course c WHERE c.course_name = '$course_name' AND c.course_category_id = '$course_category_id' AND c.course_status = '$course_status'");
+        $course_name_check = mysqli_query($conn, "SELECT * FROM course c WHERE c.course_name = '$course_name' AND c.course_category_id = '$course_category_id' AND c.course_status = '$course_status' AND c.course_id != '$course_id'");
         if (mysqli_num_rows($course_name_check) > 0){
             $msg = 'This Course Already Exist.';
         }else{

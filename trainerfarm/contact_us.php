@@ -34,6 +34,13 @@
         </div>
     </div>
     <div class="container">
+        <?php ?>
+        <div class="alert alert-success alert-dismissible mt-3">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> Your form has been submitted, we'll get back to you soon :)
+        </div>
+        <?php ?>
+
         <div class="content-block mt-5 mb-5">
             <div class="row">
                 <div class="col-md-3 col-sm-6 box">
@@ -45,7 +52,7 @@
                     <i class="fa-solid fa-comments icon"></i>
                     <h3>Chat with Us</h3>
                 </div>
-                <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#ask_ques_modal">
+                <div class="col-md-3 col-sm-6 box" data-toggle="modal" data-target="#ask_ques_modal_2">
                     <i class="fa-solid fa-question icon"></i>
                     <h3>Ask a Question</h3>
                 </div>
@@ -72,7 +79,7 @@
                     <div class="modal-body">
                         <div class="container">
                             <h3 class="text-primary">Kindly Drop Your Message Here!!</h3>
-                            <form action="" method="post">
+                            <form id="chat_form" action="notification_submit.php" method="POST">
                                 <div class="row">
                                     <div class="col">
                                         <input type="email" class="form-control" placeholder="Email Address">
@@ -87,7 +94,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
+                                        <input type="submit" name="chat_form" class="btn btn-primary form-control" placeholder="Submit">
                                     </div>
                                 </div>
                             </form>
@@ -101,8 +108,8 @@
         </div>
     </div>
 
-     <!-- ask_ques_modal modal -->
-    <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+     <!-- ask_ques_modal_2 modal -->
+    <!-- <div class="modal fade" id="ask_ques_modal_2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
             <div class="container">
@@ -152,12 +159,12 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" name="ques_form" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
      <!-- email_modal modal -->
     <div class="modal fade" id="email_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -173,7 +180,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="container">
-                            <form action="" method="post">
+                            <form action="notification_submit.php" method="POST">
                                 <div class="row">
                                     <div class="col">
                                         <label for="">Full Name:</label>
@@ -204,7 +211,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="submit" class="btn btn-primary form-control" placeholder="Send">
+                                        <input type="submit" name="support_form" class="btn btn-primary form-control" placeholder="Send">
                                     </div>
                                 </div>
                             </form>
@@ -218,4 +225,29 @@
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function(){	
+	$("#chat_form").submit(function(event){
+		submitForm();
+		return false;
+	});
+});
+
+function submitForm(){
+	 $.ajax({
+		type: "POST",
+		url: "notification_submit.php",
+		cache:false,
+		data: $('form#chat_form').serialize(),
+		success: function(response){
+			// $("#contact").html(response)
+            alert("success");
+			$("#chat_modal").modal('hide');
+		},
+		error: function(){
+			alert("Error");
+		}
+	});
+}
+</script>
 <?php include('includes/footer.php'); ?>

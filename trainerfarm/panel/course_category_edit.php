@@ -17,7 +17,7 @@ if(!isset($_SESSION["login"]))
 		$provided_by = $_POST['provided_by'];
 		$status = $_POST['status'];
 
-		$course_cat_name_check = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.name = '$name' AND cc.provided_by = '$provided_by'");
+		$course_cat_name_check = mysqli_query($conn, "SELECT * FROM course_category cc WHERE cc.name = '$name' AND cc.provided_by = '$provided_by' AND cc.id != '$course_category_id'");
 		if (mysqli_num_rows($course_cat_name_check) > 0){
 			$msg = 'This Category Already Exist.';
 		}else{

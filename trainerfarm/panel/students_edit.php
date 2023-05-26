@@ -23,14 +23,17 @@ if(!isset($_SESSION["login"]))
         $linkedin = $_POST['linkedin'];
         $user_status = $_POST['user_status'];
 
-        $user_name_check = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_name = '$user_name' AND u.user_type_id = '3'");
+		$query = "SELECT * FROM users u WHERE u.user_id != '$user_id' AND u.user_name = '$user_name' AND u.user_type_id = '3'";
+        $user_name_check = mysqli_query($conn, $query);
         if (mysqli_num_rows($user_name_check) > 0){
+			exit($query);
             $msg = 'This Username Already Exist.';
         }else{
-            $insert = "UPDATE `users` SET `user_name` = '$user_name',`user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city' `user_status`='$user_status', WHERE u.user_id = '$user_id'";
+            $insert = "UPDATE `users` SET `user_name` = '$user_name',`user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city', `user_status`='$user_status' WHERE `user_id` = '$user_id'";
             if(mysqli_query($conn, $insert)){
                 $msg = "Student Updated Successfully.";
             } else{
+				exit($insert);
                 echo "ERROR: Could not able to execute $insert. " . mysqli_error($conn);
             }
         }
@@ -78,19 +81,19 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Username</label>
 										<div class="col-sm-7">
-											<input name="user_name" class="form-control" <?php !empty($u_row['user_name']) ? 'disabled' : ''; ?> type="text" value="<?php echo $u_row['user_name']; ?>">
+											<input name="user_name" class="form-control" <?php echo !empty($u_row['user_name']) ? 'readonly' : ''; ?> type="text" value="<?php echo $u_row['user_name']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Phone No.</label>
 										<div class="col-sm-7">
-											<input name="phone" class="form-control" type="text" value="<?php echo $u_row['phone']; ?>">
+											<input name="phone" class="form-control" type="tel" value="<?php echo $u_row['phone']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Email Address</label>
 										<div class="col-sm-7">
-											<input name="email" class="form-control" type="text" value="<?php echo $u_row['email']; ?>">
+											<input name="email" class="form-control" type="email" value="<?php echo $u_row['email']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">

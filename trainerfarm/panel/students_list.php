@@ -9,7 +9,7 @@ if(!isset($_SESSION["login"]))
 	FROM users u
 	LEFT JOIN student_course sc ON sc.student_id = u.user_id
 	LEFT JOIN course c ON sc.course_id = c.course_id
-	WHERE u.user_status =1 AND u.user_type_id = '3'
+	WHERE u.user_type_id = '3'
 	GROUP BY u.user_id";
 
     $student_list = mysqli_query($conn, $student_res);
@@ -38,6 +38,7 @@ if(!isset($_SESSION["login"]))
 						<th>Student Joined Date</th>
 						<th>Student Enrolled Courses</th>
 						<th>Student Status</th>
+						<th>Student Active</th>
 						<th>Action</th>
             		</tr>
         		</thead>
@@ -50,6 +51,7 @@ if(!isset($_SESSION["login"]))
 						<td><?php echo !empty($row['joined_at']) ? date("d M Y", strtotime($row['joined_at'])) : ''; ?></td>
 						<td><?php echo $row['courses']; ?></td>
 						<td><?php echo !empty($row['current_status']) ? $row['current_status'] : 'Registered'; ?></td>
+						<td><?php echo $row['user_status']==1 ? 'Active' : 'Inactive'; ?></td>
 						<td><a href="students_edit.php?id=<?php echo $row['user_id']; ?>">Edit</a></td>
 					</tr>
 					<?php } ?>

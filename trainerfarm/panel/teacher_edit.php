@@ -23,11 +23,11 @@ if(!isset($_SESSION["login"]))
         $linkedin = $_POST['linkedin'];
         $user_status = $_POST['user_status'];
 
-        $user_name_check = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_name = '$user_name' AND u.user_type_id = '2'");
+        $user_name_check = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_id != '$user_id' AND u.user_name = '$user_name' AND u.user_type_id = '2'");
         if (mysqli_num_rows($user_name_check) > 0){
             $msg = 'This Username Already Exist.';
         }else{
-            $insert = "UPDATE `users` SET `user_name` = '$user_name',`user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city' `user_status`='$user_status', WHERE u.user_id = '$user_id'";
+            $insert = "UPDATE `users` SET `user_name` = '$user_name',`user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city', `user_status`='$user_status' WHERE `user_id` = '$user_id'";
             if(mysqli_query($conn, $insert)){
                 $msg = "Teacher Updated Successfully.";
             } else{
@@ -80,14 +80,14 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group col-6">
 										<label class="col-form-label">Teacher Userame</label>
 										<div>
-											<input class="form-control" type="text" name="user_name" value="<?php echo $u_row['user_name']; ?>">
+											<input class="form-control" type="text" name="user_name" value="<?php echo $u_row['user_name']; ?>" <?php echo !empty($u_row['user_name']) ? 'readonly' : ''; ?>>
 										</div>
 									</div>
 
 									<div class="form-group col-6">
 										<label class="col-form-label">Teacher Phone/Cell</label>
 										<div>
-											<input class="form-control" type="text" name="phone" value="<?php echo $u_row['phone']; ?>">
+											<input class="form-control" type="tel" name="phone" value="<?php echo $u_row['phone']; ?>">
 										</div>
 									</div>
 									
@@ -100,7 +100,7 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group col-6">
 										<label class="col-form-label">Teacher Email</label>
 										<div>
-											<input class="form-control" type="text" name="email" value="<?php echo $u_row['email']; ?>">
+											<input class="form-control" type="email" name="email" value="<?php echo $u_row['email']; ?>">
 										</div>
 									</div>
 

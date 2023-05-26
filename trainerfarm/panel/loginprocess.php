@@ -17,6 +17,7 @@ if(isset($_POST['submit']))
         $row = mysqli_fetch_assoc($result);
         if ($row['user_name'] == $username && $row['user_password'] == $password) {
             $_SESSION["login"]          = "1";
+            $_SESSION['user_id']      = $row['user_id'];
             $_SESSION['user_name']      = $row['user_name'];
             $_SESSION['user_fullname']  = $row['user_fullname'];
             $_SESSION['user_type_id']   = $row['user_type_id'];

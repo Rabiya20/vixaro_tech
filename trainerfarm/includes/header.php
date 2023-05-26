@@ -52,6 +52,10 @@
     <link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" href="assets/css/style2.css">
 
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
+
 	<!-- STYLESHEETS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">

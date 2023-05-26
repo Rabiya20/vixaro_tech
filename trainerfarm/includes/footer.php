@@ -69,7 +69,8 @@
                         <div class="widget widget_gallery gallery-grid-4">
                             <h5 class="footer-title">We're Here For You</h5>
 							<p><i class="fa fa-user"></i> Sales: (202) 946-5008</p>
-							<p>Address: 114 Birchwood Park Drive, Syosset, 11791</p>
+							<p>US Address: 114 Birchwood Park Drive, Syosset, 11791</p>
+							<p>PK Address: 1st Floor, FL 4/4 , Block 5 Rashid Minhas Rd, Gulshan-e-Iqbal, Karachi</p>
                         </div>
                     </div>
                 </div>
@@ -296,6 +297,8 @@ $(document).ready(function() {
     });
 });
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
 </body>
-
 </html>

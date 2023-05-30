@@ -35,7 +35,7 @@
     </div>
     <div class="container">
         <?php ?>
-        <div class="alert alert-success alert-dismissible mt-3">
+        <div class="alert alert-success alert-dismissible mt-3 d-none">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
             <strong>Success!</strong> Your form has been submitted, we'll get back to you soon :)
         </div>
@@ -79,28 +79,23 @@
                     <div class="modal-body">
                         <div class="container">
                             <h3 class="text-primary">Kindly Drop Your Message Here!!</h3>
-                            <form id="chat_form" action="notification_submit.php" method="POST">
+                            <form id="chat_form" method="POST">
                                 <div class="row">
                                     <div class="col">
-                                        <input type="email" class="form-control" placeholder="Email Address">
+                                        <input type="email" class="form-control user_email" placeholder="Email Address">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <textarea class="form-control" placeholder="Message..."></textarea>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="submit" name="chat_form" class="btn btn-primary form-control" placeholder="Submit">
+                                        <textarea class="form-control user_message" placeholder="Message..."></textarea>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary chat_modal_form">Submit</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -109,7 +104,7 @@
     </div>
 
      <!-- ask_ques_modal_2 modal -->
-    <!-- <div class="modal fade" id="ask_ques_modal_2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal fade" id="ask_ques_modal_2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
             <div class="container">
@@ -125,46 +120,41 @@
                             <form action="" method="post">
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="First name">
+                                        <input type="text" class="form-control user_name" placeholder="First name">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Last name">
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="email" class="form-control" placeholder="Email Address">
+                                        <input type="text" class="form-control user_surname" placeholder="Last name">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="phone" class="form-control" placeholder="Phone Number">
+                                        <input type="email" class="form-control user_email" placeholder="Email Address">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <textarea class="form-control" placeholder="Your Comments..."></textarea>
+                                        <input type="phone" class="form-control user_phone" placeholder="Phone Number">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
+                                        <textarea class="form-control user_message" placeholder="Your Comments..."></textarea>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary ask_ques_modal_2_form">Submit</button>
                         <button type="button" name="ques_form" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
      <!-- email_modal modal -->
     <div class="modal fade" id="email_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -180,44 +170,39 @@
                     </div>
                     <div class="modal-body">
                         <div class="container">
-                            <form action="notification_submit.php" method="POST">
+                            <form id="support_form" method="POST">
                                 <div class="row">
                                     <div class="col">
                                         <label for="">Full Name:</label>
-                                        <input type="text" class="form-control" placeholder="Your full name">
+                                        <input type="text" class="form-control user_name" placeholder="Your full name">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
                                         <label for="">Email Address:</label>
-                                        <input type="email" class="form-control" placeholder="Your Email Address">
+                                        <input type="email" class="form-control user_email" placeholder="Your Email Address">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
                                         <label for="">Phone Number:</label>
-                                        <input type="phone" class="form-control" placeholder="Your Phone Number">
+                                        <input type="phone" class="form-control user_phone" placeholder="Your Phone Number">
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col">
                                         <label for="">Put Your Comments Here:</label>
-                                        <textarea class="form-control" placeholder="Your Comments..."></textarea>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="submit" name="support_form" class="btn btn-primary form-control" placeholder="Send">
+                                        <textarea class="form-control user_message" placeholder="Your Comments..."></textarea>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="modal-footer">
+                        <button type="button" class="btn btn-primary email_modal_form">Send</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
@@ -225,29 +210,88 @@
         </div>
     </div>
 </div>
-<script>
-$(document).ready(function(){	
-	$("#chat_form").submit(function(event){
-		submitForm();
-		return false;
-	});
-});
-
-function submitForm(){
-	 $.ajax({
-		type: "POST",
-		url: "notification_submit.php",
-		cache:false,
-		data: $('form#chat_form').serialize(),
-		success: function(response){
-			// $("#contact").html(response)
-            alert("success");
-			$("#chat_modal").modal('hide');
-		},
-		error: function(){
-			alert("Error");
-		}
-	});
-}
-</script>
+<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.chat_modal_form', function (e) {
+            var user_name = $('.user_name').val();
+            var user_surname = $('.user_surname').val();
+            var user_email = $('.user_email').val();
+            var user_phone = $('.user_phone').val();
+            var user_message = $('.user_message').val();
+            var notification_type  = 'Chat';
+            
+            $.ajax({
+                url: 'notification_submit.php',
+                type: 'POST',
+                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                success: function(data) {
+                    // alert('email_modal_form');
+			        $('.alert-dismissible').removeClass('d-none');
+                    $("#chat_modal").modal('hide');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error.');
+                    console.error(xhr);
+                }
+            });
+        });
+    });
+</script> 
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.ask_ques_modal_2_form', function (e) {
+            var user_name = $('.user_name').val();
+            var user_surname = $('.user_surname').val();
+            var user_email = $('.user_email').val();
+            var user_phone = $('.user_phone').val();
+            var user_message = $('.user_message').val();
+            var notification_type  = 'Ask a Question';
+            
+            $.ajax({
+                url: 'notification_submit.php',
+                type: 'POST',
+                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                success: function(data) {
+                    // alert('email_modal_form');
+			        $('.alert-dismissible').removeClass('d-none');
+                    $("#ask_ques_modal_2").modal('hide');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error.');
+                    console.error(xhr);
+                }
+            });
+        });
+    });
+</script> 
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.email_modal_form', function (e) {
+            var user_name = $('.user_name').val();
+            var user_surname = $('.user_surname').val();
+            var user_email = $('.user_email').val();
+            var user_phone = $('.user_phone').val();
+            var user_message = $('.user_message').val();
+            var notification_type  = 'Email Support';
+            
+            $.ajax({
+                url: 'notification_submit.php',
+                type: 'POST',
+                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                success: function(data) {
+                    // alert('email_modal_form');
+			        $('.alert-dismissible').removeClass('d-none');
+                    $("#email_modal").modal('hide');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error.');
+                    console.error(xhr);
+                }
+            });
+        });
+    });
+</script> 
 <?php include('includes/footer.php'); ?>

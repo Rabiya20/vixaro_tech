@@ -63,7 +63,7 @@ if(!isset($_SESSION["login"]))
 					<div class="widget-card widget-bg3">					 
 						<div class="wc-item">
 							<h4 class="wc-title">Total Students</h4><br>
-							<span class="wc-des">Students are registered in our portal</span>
+							<span class="wc-des">Students registered in our portal</span>
 							<span class="wc-stats counter"><span class="counter"><?php echo intval($s_count['count']) ?? 0; ?></span></span>
 						</div>				      
 					</div>

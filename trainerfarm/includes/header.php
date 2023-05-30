@@ -205,7 +205,7 @@
 	</div>
 
 	<!-- chat_modal modal -->
-    <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <!-- <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
             <div class="container">
@@ -246,10 +246,53 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+	<!-- chat_modal modal -->
+    <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
+        <div class="modal-dialog modal-lg">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">Chat with Us</h2>
+                        <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <h3 class="text-primary">Kindly Drop Your Message Here!!</h3>
+                            <form method="POST">
+                                <input type="hidden" class="form-control chat_modal_user_name" value="">
+                                <input type="hidden" class="form-control chat_modal_user_surname" value="">
+                                <input type="hidden" class="form-control chat_modal_user_phone" value="">
+
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="form-control chat_modal_user_email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea class="form-control chat_modal_user_message" placeholder="Message..."></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary chat_modal_form">Send</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-     <!-- ask_ques_modal modal -->
-    <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <!-- ask_ques_modal modal -->
+    <!-- <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <br><br><br><br><br>
         <div class="modal-dialog modal-lg">
             <div class="container">
@@ -304,5 +347,115 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+	<!-- ask_ques_modal modal -->
+    <div class="modal fade" id="ask_ques_modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <br><br><br><br><br>
+        <div class="modal-dialog modal-lg">
+            <div class="container">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="myModalLabel">Ask a Question</h2>
+                        <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <form method="post">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control ask_ques_modal_user_name" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control ask_ques_modal_user_surname" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="form-control ask_ques_modal_user_email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="phone" class="form-control ask_ques_modal_user_phone" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea class="form-control ask_ques_modal_user_message" placeholder="Your Comments..."></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary ask_ques_modal_form">Submit</button>
+                        <button type="button" name="ques_form" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
+<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.chat_modal_form', function (e) {
+            var user_name           = $('.chat_modal_user_name').val();
+            var user_surname        = $('.chat_modal_user_surname').val();
+            var user_email          = $('.chat_modal_user_email').val();
+            var user_phone          = $('.chat_modal_user_phone').val();
+            var user_message        = $('.chat_modal_user_message').val();
+            var notification_type   = 'Chat';
+            
+            $.ajax({
+                url: 'notification_submit.php',
+                type: 'POST',
+                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                success: function(data) {
+                    alert('chat_modal_form');
+			        $('.alert-dismissible').removeClass('d-none');
+                    $("#chat_modal").modal('hide');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error.');
+                    console.error(xhr);
+                }
+            });
+        });
+    });
+</script>
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.ask_ques_modal_form', function (e) {
+            var user_name               = $('.ask_ques_modal_user_name').val();
+            var user_surname            = $('.ask_ques_modal_user_surname').val();
+            var user_email              = $('.ask_ques_modal_user_email').val();
+            var user_phone              = $('.ask_ques_modal_user_phone').val();
+            var user_message            = $('.ask_ques_modal_user_message').val();
+            var notification_type       = 'Ask a Question';
+            
+            $.ajax({
+                url: 'notification_submit.php',
+                type: 'POST',
+                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                success: function(data) {
+                    alert('ask_ques_modal_form');
+			        $('.alert-dismissible').removeClass('d-none');
+                    $("#ask_ques_modal").modal('hide');
+                },
+                error: function(xhr, status, error) {
+                    alert('Error.');
+                    console.error(xhr);
+                }
+            });
+        });
+    });
+</script> 

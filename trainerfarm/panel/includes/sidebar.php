@@ -105,7 +105,7 @@ if($_SESSION['user_type_id'] == 2){
 		                </a>
 		                <ul>
 							<?php while($row = mysqli_fetch_assoc($my_course_list)){ ?>
-		                		<li><a href="course_assignment.php?id=<?php echo $row['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row['course_name']; ?></span></a></li>
+		                		<li><a href="assignment_course.php?id=<?php echo $row['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row['course_name']; ?></span></a></li>
 							<?php } ?>
 						</ul>
 					</li>

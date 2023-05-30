@@ -39,10 +39,9 @@ include("config.php");
             </div>
 
             <form action="loginprocess.php" method="POST">
-              <div class="form-group first">
+              <div class="form-group first mb-4">
                 <label for="username">Username</label>
                 <input type="text" class="form-control" id="username" name="username">
-
               </div>
 
               <div class="form-group last mb-4">

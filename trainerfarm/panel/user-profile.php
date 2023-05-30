@@ -1,3 +1,46 @@
+<?php 
+session_start ();
+include("includes/config.php");
+
+if(!isset($_SESSION["login"]))
+	header("location:login.php"); 
+
+	$msg = $err = '';
+	$user_id = $_SESSION['user_id'];
+	if(!empty($user_id)){
+		$user_record = mysqli_query($conn, "SELECT * FROM users u WHERE u.user_id = '$user_id'");
+		$u_row = mysqli_fetch_assoc($user_record);
+	}
+
+	if(!empty($_POST)){
+		$old_pass = $u_row['user_password'];
+		// echo '<pre>'; print_r($_POST);
+		if($old_pass === $_POST['current_pass']){
+			$user_password = $_POST['user_password'];
+			$user_fullname = $_POST['user_fullname'];
+			$phone = $_POST['phone'];
+			$email = $_POST['email'];
+			$country = $_POST['country'];
+			$city = $_POST['city'];
+			$linkedin = $_POST['linkedin'];			
+			
+			$insert = "UPDATE `users` SET `user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city' WHERE `user_id` = '$user_id'";
+
+			if(mysqli_query($conn, $insert)){
+				$msg .= "Profile Updated Successfully.";
+				echo $msg;
+				// exit($insert);
+			} else{
+				echo "ERROR: Could not able to execute $insert. " . mysqli_error($conn);
+				exit($insert);
+			}
+		}
+		else{
+			$err .= "Current password doesn't match.";
+			// exit($err);
+		}
+    }
+?>
 <?php include('includes/header.php'); ?>
 <?php include('includes/sidebar.php'); ?>
 	<!--Main container start -->
@@ -15,10 +58,22 @@
 				<div class="col-lg-12 m-b30">
 					<div class="widget-box">
 						<div class="wc-title">
-							<h4>User Profile</h4>
+							<h4>Edit My Profile</h4>
 						</div>
 						<div class="widget-inner">
-							<form class="edit-profile m-b30">
+							<?php if($msg != ''){ ?>
+								<div class='alert alert-success alert-dismissible mt-3' style="padding:10px;">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<?php echo $msg; ?>
+								</div>
+							<?php } ?>
+							<?php if($err != ''){ ?>
+								<div class='alert alert-danger alert-dismissible mt-3' style="padding:10px;">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<?php echo $err; ?>
+								</div>
+							<?php } ?>
+							<form class="edit-profile m-b30" method="POST">
 								<div class="">
 									<div class="form-group row">
 										<div class="col-sm-10  ml-auto">
@@ -28,26 +83,19 @@
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Full Name</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="Mark Andre">
+										<input name="user_fullname" class="form-control" type="text" value="<?php echo $u_row['user_fullname']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Occupation</label>
+										<label class="col-sm-2 col-form-label">Designation</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="CTO">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Company Name</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="text" value="EduChamp">
-											<span class="help">If you want your invoices addressed to a company. Leave blank to use your full name.</span>
+											<input name="user_name" readonly class="form-control" type="text" value="<?php echo $u_row['user_name']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Phone No.</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="+120 012345 6789">
+											<input name="phone" class="form-control" type="tel" value="<?php echo $u_row['phone']; ?>">
 										</div>
 									</div>
 									
@@ -59,27 +107,15 @@
 										</div>
 									</div>
 									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Address</label>
+										<label class="col-sm-2 col-form-label">Country</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="5-S2-20 Dummy City, UK">
+											<input name="country" class="form-control" type="text" value="<?php echo $u_row['country']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">City</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="US">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">State</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="text" value="California">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Postcode</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="text" value="000702">
+											<input name="city" class="form-control" type="text" value="<?php echo $u_row['city']; ?>">
 										</div>
 									</div>
 
@@ -94,42 +130,17 @@
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Linkedin</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="www.linkedin.com">
+											<input name="linkedin" class="form-control" type="text" value="<?php echo $u_row['linkedin']; ?>">
 										</div>
 									</div>
 									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Facebook</label>
+										<label class="col-sm-2 col-form-label">Email Address</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="text" value="www.facebook.com">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Twitter</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="text" value="www.twitter.com">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Instagram</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="text" value="www.instagram.com">
+											<input name="email" class="form-control" type="email" value="<?php echo $u_row['email']; ?>">
 										</div>
 									</div>
 								</div>
-								<div class="">
-									<div class="">
-										<div class="row">
-											<div class="col-sm-2">
-											</div>
-											<div class="col-sm-7">
-												<button type="reset" class="btn">Save changes</button>
-												<button type="reset" class="btn-secondry">Cancel</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</form>
-							<form class="edit-profile">
+								
 								<div class="">
 									<div class="form-group row">
 										<div class="col-sm-10 ml-auto">
@@ -139,19 +150,13 @@
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">Current Password</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="password" value="">
+											<input class="form-control" type="password" value="" name="current_pass">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label class="col-sm-2 col-form-label">New Password</label>
 										<div class="col-sm-7">
-											<input class="form-control" type="password" value="">
-										</div>
-									</div>
-									<div class="form-group row">
-										<label class="col-sm-2 col-form-label">Re Type Password</label>
-										<div class="col-sm-7">
-											<input class="form-control" type="password" value="">
+											<input class="form-control" type="password" value="" name="user_password">
 										</div>
 									</div>
 								</div>
@@ -159,16 +164,14 @@
 									<div class="col-sm-2">
 									</div>
 									<div class="col-sm-7">
-										<button type="reset" class="btn">Save changes</button>
+										<button type="submit" class="btn btn-primary">Save changes</button>
 										<button type="reset" class="btn-secondry">Cancel</button>
 									</div>
 								</div>
-									
 							</form>
 						</div>
 					</div>
 				</div>
-				<!-- Your Profile Views Chart END-->
 			</div>
 		</div>
 	</main>

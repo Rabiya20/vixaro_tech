@@ -27,7 +27,7 @@ if(!isset($_SESSION["login"]))
 				</ul>
 			</div>
 
-            <a href="course_add.php" class="btn btn-primary text-light">Add Course</a><br><br>
+            <a href="assignment_add.php" class="btn btn-primary text-light">Add Assignment</a><br><br>
 
 			<table id="example" class="table table-striped table-bordered" style="width:100%">
         		<thead>

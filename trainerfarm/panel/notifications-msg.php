@@ -7,7 +7,7 @@ if(!isset($_SESSION["login"]))
 
 	$notification_res = "SELECT n.* 
 	FROM notifications n
-	WHERE n.notification_type = 'Email Support'
+	WHERE n.notification_type = 'chat'
 	ORDER BY n.updated_at DESC";
 
     $notification_list = mysqli_query($conn, $notification_res);
@@ -23,17 +23,15 @@ if(!isset($_SESSION["login"]))
 				<ul class="db-breadcrumb-list">
 				<li>
 					<a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-					<li>Contact/Support - Notifications</li>
+					<li>Chat Notifications</li>
 				</ul>
 			</div>
 
 			<table id="example" class="table table-striped table-bordered" style="width:100%">
-			<thead>
+        		<thead>
 					<tr>
 						<th>S. No.</th>
-						<th>Sender Full Name</th>
 						<th>Sender Email</th>
-						<th>Sender Phone Number</th>
 						<th>Sender Message</th>
 						<th>Time</th>
             		</tr>
@@ -43,9 +41,7 @@ if(!isset($_SESSION["login"]))
 					while($row = mysqli_fetch_assoc($notification_list)){ ?>				
 					<tr>
 						<td><?php echo $i++; ?></td>
-						<td><?php echo $row['user_name']; ?></td>
 						<td><?php echo $row['user_email']; ?></td>
-						<td><?php echo $row['user_phone']; ?></td>
 						<td><?php echo $row['user_message']; ?></td>
 						<td><?php echo date("d-M-Y", strtotime($row['updated_at']))." at ".date("h:i A", strtotime($row['updated_at'])); ?></td>
 					</tr>

@@ -1,3 +1,16 @@
+<?php 
+session_start ();
+include("includes/config.php");
+
+if(!isset($_SESSION["login"]))
+	header("location:login.php"); 
+
+	$user_id = $_SESSION['user_id'];
+	if(!empty($user_id)){
+		$user_SESSION = mysqli_query($conn, "SELECT user_fullname FROM users u WHERE u.user_id = '$user_id'");
+		$user_fullname = mysqli_fetch_assoc($user_SESSION);
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +72,7 @@
 				<!-- header right menu start -->
 				<ul class="ttr-header-navigation">
 					<li>
-						<a class="ttr-material-button text-light"><?php echo $_SESSION['user_fullname']; ?></a>
+						<a class="ttr-material-button text-light"><?php echo $user_fullname['user_fullname']; ?></a>
 					</li>
 					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
 					<li>
@@ -73,18 +86,10 @@
 								<ul>
 									<li>
 										<span class="notification-text">
-											<span>Contact Us</span>
+											<span>Contact/Support</span>
 										</span>
 										<span class="notification-time">
 											<a href="notifications-contact.php">Click</a>
-										</span>
-									</li>
-									<li>
-										<span class="notification-text">
-											<span>Career</span>
-										</span>
-										<span class="notification-time">
-											<a href="notifications-career.php">Click</a>
 										</span>
 									</li>
 									<li>
@@ -93,6 +98,14 @@
 										</span>
 										<span class="notification-time">
 											<a href="notifications-msg.php">Click</a>
+										</span>
+									</li>
+									<li>
+										<span class="notification-text">
+											<span>Ask a Question</span>
+										</span>
+										<span class="notification-time">
+											<a href="notifications-ques.php">Click</a>
 										</span>
 									</li>
 								</ul>

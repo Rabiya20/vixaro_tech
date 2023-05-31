@@ -5,10 +5,12 @@ include("includes/config.php");
 if(!isset($_SESSION["login"]))
 	header("location:login.php"); 
 
+	$course_id = $_GET['id'];
 	$assignment_res = "SELECT a . * , c.course_name, c.course_id, u.user_id, u.user_fullname
 	FROM assignments a
 	LEFT JOIN course c ON c.course_id = a.course_id
-	LEFT JOIN users u ON u.user_id = a.teacher_id";
+	LEFT JOIN users u ON u.user_id = a.teacher_id
+	WHERE a.course_id = '$course_id'";
 
     $assignment_list = mysqli_query($conn, $assignment_res);
 
@@ -27,9 +29,9 @@ if(!isset($_SESSION["login"]))
 				</ul>
 			</div>
 
-			<!-- <?php if($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){ ?> -->
-            	<a href="assignment_add.php" class="btn btn-primary text-light">Add Assignment</a><br><br>
-			<!-- <?php } ?> -->
+			<?php if($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){ ?>
+	            <a href="assignment_add.php" class="btn btn-primary text-light">Add Assignment</a><br><br>
+			<?php } ?>
 
 			<table id="example" class="table table-striped table-bordered" style="width:100%">
         		<thead>

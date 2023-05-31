@@ -152,7 +152,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="container">
-                                <form action="" method="post">
+                                <form method="POST">
                                     <div class="row">
                                         <div class="col">
                                             <input type="text" class="form-control instructor_modal_user_name" placeholder="First name">
@@ -302,7 +302,7 @@
             var user_course              = $('.instructor_modal_user_course').val();
             var user_linkedin            = $('.instructor_modal_user_linkedin').val();
 
-            var user_message        = "I'm interested in "+user_course+" course and my linkedIn profile link is: "+user_linkedin;
+            var user_message        = "I am interested in "+user_course+" course and my linkedIn profile link is: "+user_linkedin;
 
             if(user_name == '' || user_surname == '' || user_phone == '' || user_email == '' || user_course == '' || user_linkedin == ''){
                 alert('Please fill all fields.');
@@ -313,6 +313,7 @@
                     data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
                     success: function(data) {
                         // alert('instructor_modal_form');
+                        // console.log(data);
                         $('.alert-dismissible').removeClass('d-none');
                         $("#instructor_modal").modal('hide');
                     },

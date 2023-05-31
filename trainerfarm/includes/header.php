@@ -363,7 +363,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="container">
-                            <form method="post">
+                            <form method="POST">
                                 <div class="row">
                                     <div class="col">
                                         <input type="text" class="form-control ask_ques_modal_user_name" placeholder="First name">

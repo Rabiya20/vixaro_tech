@@ -9,8 +9,8 @@ include("includes/config.php");
     $user_phone         = $_POST['user_phone'];
     $user_message       = $_POST['user_message'];
 
-    $insert = "INSERT INTO `notifications`(`notification_type`, `user_email`, `user_message`) 
-    VALUES ('$notification_type', '$user_email', '$user_message')";
+    $insert = "INSERT INTO `notifications`(`notification_type`, `user_name`, `user_surname`, `user_phone`, `user_email`, `user_message`) 
+    VALUES ('$notification_type', '$user_name', '$user_surname', '$user_phone', '$user_email', '$user_message')";
 
     if(mysqli_query($conn, $insert)){
         $data = array(
@@ -24,5 +24,5 @@ include("includes/config.php");
         echo json_encode($data);
     } else{
         echo "ERROR: Could not able to execute $insert. " . mysqli_error($conn);
-}
+    }
 ?>

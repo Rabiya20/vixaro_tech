@@ -108,6 +108,14 @@ if(!isset($_SESSION["login"]))
 											<a href="notifications-ques.php">Click</a>
 										</span>
 									</li>
+									<li>
+										<span class="notification-text">
+											<span>Career - Instructor</span>
+										</span>
+										<span class="notification-time">
+											<a href="notifications-career.php">Click</a>
+										</span>
+									</li>
 								</ul>
 							</div>
 						</div>

@@ -32,6 +32,11 @@
 		</div>
 		<!-- Page Heading Box END ==== -->
 		<!-- Page Content Box ==== -->
+        <div class="alert alert-success alert-dismissible mt-3 d-none">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Success!</strong> Your form has been submitted, we'll get back to you soon :)
+        </div>
+
 		<div class="content-block">
             <div class="section-area section-sp2 popular-courses-bx">
                 <div class="container">
@@ -150,45 +155,41 @@
                                 <form action="" method="post">
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" class="form-control" placeholder="First name">
+                                            <input type="text" class="form-control instructor_modal_user_name" placeholder="First name">
                                         </div>
                                         <div class="col">
-                                            <input type="text" class="form-control" placeholder="Last name">
-                                        </div>
-                                    </div>
-                                    <br>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <input type="text" class="form-control instructor_modal_user_surname" placeholder="Last name">
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
                                         <div class="col">
-                                            <input type="phone" class="form-control" placeholder="Phone Number">
+                                            <input type="email" class="form-control instructor_modal_user_email" placeholder="Email Address">
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" class="form-control" placeholder="Course">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="url" class="form-control" placeholder="LinkedIn Profile URL">
+                                            <input type="phone" class="form-control instructor_modal_user_phone" placeholder="Phone Number">
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row">
                                         <div class="col">
-                                            <input type="submit" class="btn btn-primary form-control" placeholder="Submit">
+                                            <input type="text" class="form-control instructor_modal_user_course" placeholder="Course">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="url" class="form-control instructor_modal_user_linkedin" placeholder="LinkedIn Profile URL">
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
                         <div class="modal-footer">
+                            <button type="button" class="btn btn-primary instructor_modal_form" data-dismiss="modal">Submit</button>
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -286,4 +287,42 @@
             </div>
         </div>
     </div>
+<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" language="javascript">  
+    $(document).ready(function () {
+        $('body').on('click', '.instructor_modal_form', function (e) {
+            var user_name           = $('.instructor_modal_user_name').val();
+            var user_surname        = $('.instructor_modal_user_surname').val();
+            var user_email          = $('.instructor_modal_user_email').val();
+            var user_phone          = $('.instructor_modal_user_phone').val();
+            var notification_type   = 'Career';
+            
+            var user_course              = $('.instructor_modal_user_course').val();
+            var user_linkedin            = $('.instructor_modal_user_linkedin').val();
+
+            var user_message        = "I'm interested in "+user_course+" course and my linkedIn profile link is: "+user_linkedin;
+
+            if(user_name == '' || user_surname == '' || user_phone == '' || user_email == '' || user_course == '' || user_linkedin == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('instructor_modal_form');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#instructor_modal").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
+        });
+    });
+</script>
 <?php include('includes/footer.php'); ?>

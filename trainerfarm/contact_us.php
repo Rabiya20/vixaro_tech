@@ -34,12 +34,10 @@
         </div>
     </div>
     <div class="container">
-        <?php ?>
         <div class="alert alert-success alert-dismissible mt-3 d-none">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
             <strong>Success!</strong> Your form has been submitted, we'll get back to you soon :)
         </div>
-        <?php ?>
 
         <div class="content-block mt-5 mb-5">
             <div class="row">
@@ -228,20 +226,24 @@
             var user_message        = $('.chat_with_us_modal_user_message').val();
             var notification_type   = 'Chat';
             
-            $.ajax({
-                url: 'notification_submit.php',
-                type: 'POST',
-                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
-                success: function(data) {
-                    alert('chat_with_us_modal_form');
-			        $('.alert-dismissible').removeClass('d-none');
-                    $("#chat_with_us_modal").modal('hide');
-                },
-                error: function(xhr, status, error) {
-                    alert('Error.');
-                    console.error(xhr);
-                }
-            });
+            if(user_email == '' || user_message == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('chat_with_us_modal_form');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#chat_with_us_modal").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
         });
     });
 </script> 
@@ -255,20 +257,24 @@
             var user_message            = $('.ask_ques_modal_2_user_message').val();
             var notification_type       = 'Ask a Question';
             
-            $.ajax({
-                url: 'notification_submit.php',
-                type: 'POST',
-                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
-                success: function(data) {
-                    alert('ask_ques_modal_2_form');
-			        $('.alert-dismissible').removeClass('d-none');
-                    $("#ask_ques_modal_2").modal('hide');
-                },
-                error: function(xhr, status, error) {
-                    alert('Error.');
-                    console.error(xhr);
-                }
-            });
+            if(user_name == '' || user_surname == '' || user_phone == '' || user_email == '' || user_message == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('ask_ques_modal_2_form');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#ask_ques_modal_2").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
         });
     });
 </script> 
@@ -282,20 +288,24 @@
             var user_message        = $('.email_modal_user_message').val();
             var notification_type   = 'Email Support';
             
-            $.ajax({
-                url: 'notification_submit.php',
-                type: 'POST',
-                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
-                success: function(data) {
-                    alert('email_modal_form');
-			        $('.alert-dismissible').removeClass('d-none');
-                    $("#email_modal").modal('hide');
-                },
-                error: function(xhr, status, error) {
-                    alert('Error.');
-                    console.error(xhr);
-                }
-            });
+            if(user_name == '' || user_phone == '' || user_email == '' || user_message == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('email_modal_form');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#email_modal").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
         });
     });
 </script> 

@@ -415,20 +415,25 @@
             var user_message        = $('.chat_modal_user_message').val();
             var notification_type   = 'Chat';
             
-            $.ajax({
-                url: 'notification_submit.php',
-                type: 'POST',
-                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
-                success: function(data) {
-                    alert('chat_modal_form');
-			        $('.alert-dismissible').removeClass('d-none');
-                    $("#chat_modal").modal('hide');
-                },
-                error: function(xhr, status, error) {
-                    alert('Error.');
-                    console.error(xhr);
-                }
-            });
+            if(user_email == '' || user_message == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('chat_modal_form');
+                        alert('Form has been submitted');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#chat_modal").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
         });
     });
 </script>
@@ -442,20 +447,25 @@
             var user_message            = $('.ask_ques_modal_user_message').val();
             var notification_type       = 'Ask a Question';
             
-            $.ajax({
-                url: 'notification_submit.php',
-                type: 'POST',
-                data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
-                success: function(data) {
-                    alert('ask_ques_modal_form');
-			        $('.alert-dismissible').removeClass('d-none');
-                    $("#ask_ques_modal").modal('hide');
-                },
-                error: function(xhr, status, error) {
-                    alert('Error.');
-                    console.error(xhr);
-                }
-            });
+            if(user_name == '' || user_surname == '' || user_phone == '' || user_email == '' || user_message == ''){
+                alert('Please fill all fields.');
+            }else{
+                $.ajax({
+                    url: 'notification_submit.php',
+                    type: 'POST',
+                    data:"user_email="+user_email+'&user_phone='+user_phone+'&user_message='+user_message+'&notification_type='+notification_type+'&user_name='+user_name+'&user_surname='+user_surname, 
+                    success: function(data) {
+                        // alert('ask_ques_modal_form');
+                        alert('Form has been submitted');
+                        $('.alert-dismissible').removeClass('d-none');
+                        $("#ask_ques_modal").modal('hide');
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error.');
+                        console.error(xhr);
+                    }
+                });
+            }
         });
     });
 </script> 

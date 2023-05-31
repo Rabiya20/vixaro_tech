@@ -24,6 +24,10 @@ if(!isset($_SESSION["login"]))
 			$city = $_POST['city'];
 			$linkedin = $_POST['linkedin'];			
 			
+			if(empty($user_password)){
+				$user_password = $old_pass;
+			}
+			
 			$insert = "UPDATE `users` SET `user_password` = '$user_password',`user_fullname`=  '$user_fullname',`phone` = '$phone',`email` = '$email',`linkedin`='$linkedin',`country`='$country',`city`='$city' WHERE `user_id` = '$user_id'";
 
 			if(mysqli_query($conn, $insert)){

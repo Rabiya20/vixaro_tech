@@ -15,9 +15,12 @@ if($_SESSION['user_type_id'] == 2){
 	FROM student_course sc
 	LEFT JOIN course c ON c.course_id = sc.course_id
 	WHERE sc.student_id = '".$_SESSION['user_id']."'
+	AND c.course_status = 1
 	ORDER BY joined_at";
 }
-	$my_course_list = mysqli_query($conn, $my_course_res);
+	$my_course_list1 = mysqli_query($conn, $my_course_res);
+	$my_course_list2 = mysqli_query($conn, $my_course_res);
+
 ?>
     <!-- Left sidebar menu start -->
 	<div class="ttr-sidebar">
@@ -86,7 +89,7 @@ if($_SESSION['user_type_id'] == 2){
 					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
 					<li>
 						<a href="#" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-blackboard"></i></span>
+							<span class="ttr-icon"><i class="ti-notepad"></i></span>
 		                	<span class="ttr-label">Assignment Management</span>
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
@@ -96,16 +99,42 @@ if($_SESSION['user_type_id'] == 2){
 						</ul>
 					</li>
 					<?php } ?>
+					<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
+					<li>
+						<a href="#" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-files"></i></span>
+		                	<span class="ttr-label">Assignment Submissions</span>
+		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+		                </a>
+		                <ul>
+		                	<li><a href="submission_list.php" class="ttr-material-button"><span class="ttr-label">All Submissions</span></a></li>
+						</ul>
+					</li>
+					<?php } ?>
 					<?php if(($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher') || ($_SESSION['user_type_id'] == 3 && $_SESSION['user_type_name'] == 'student')){ ?>
 					<li>
 						<a href="#" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-blackboard"></i></span>
+							<span class="ttr-icon"><i class="ti-notepad"></i></span>
 		                	<span class="ttr-label">My Assignments</span>
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
-							<?php while($row = mysqli_fetch_assoc($my_course_list)){ ?>
-		                		<li><a href="assignment_course.php?id=<?php echo $row['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row['course_name']; ?></span></a></li>
+							<?php while($row1 = mysqli_fetch_assoc($my_course_list1)){ ?>
+		                		<li><a href="assignment_course.php?id=<?php echo $row1['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row1['course_name']; ?></span></a></li>
+							<?php } ?>
+						</ul>
+					</li>
+					<?php } ?>
+					<?php if(($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher') || ($_SESSION['user_type_id'] == 3 && $_SESSION['user_type_name'] == 'student')){ ?>
+					<li>
+						<a href="#" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-files"></i></span>
+		                	<span class="ttr-label">Assignment Submissions</span>
+		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+		                </a>
+		                <ul>
+							<?php while($row2 = mysqli_fetch_assoc($my_course_list2)){ ?>
+		                		<li><a href="submission_course.php?id=<?php echo $row2['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row2['course_name']; ?></span></a></li>
 							<?php } ?>
 						</ul>
 					</li>

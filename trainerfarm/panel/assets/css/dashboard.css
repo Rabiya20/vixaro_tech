@@ -738,9 +738,10 @@
 	color:#fff;
 	position:relative;
 	margin-bottom:30px;
+	height: 150px;
 }
 .widget-card .wc-title{
-	font-size:25px;
+	font-size:20px;
 	line-height:16px;
 	margin:0;
 	color:#fff;
@@ -826,7 +827,7 @@
 	padding:20px 30px;
 }
 .widget-box .wc-title h4{
-	font-size:18px;
+	font-size:14px;
 	line-height:18px;
 	margin:0;
 	color:#333;
@@ -1609,7 +1610,7 @@
 		padding: 15px 15px;
 	}
 	.widget-box .wc-title h4 {
-		font-size: 16px;
+		font-size: 13px;
 	}
 	.ttr-wrapper {
 		padding-left: 0px;

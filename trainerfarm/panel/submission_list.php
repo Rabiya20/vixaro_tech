@@ -5,12 +5,15 @@ include("includes/config.php");
 if(!isset($_SESSION["login"]))
 	header("location:login.php"); 
 
-	$assignment_res = "SELECT a . * , c.course_name, c.course_id, u.user_id, u.user_fullname
-	FROM assignments a
-	LEFT JOIN course c ON c.course_id = a.course_id
-	LEFT JOIN users u ON u.user_id = a.teacher_id";
+	$submission_res = "SELECT s . * , a.assignment_title, c.course_name, u.user_fullname
+	FROM submissions s
 
-    $assignment_list = mysqli_query($conn, $assignment_res);
+	LEFT JOIN assignments a ON a.assignment_id = s.assignment_id
+	LEFT JOIN course c ON c.course_id = a.course_id
+	LEFT JOIN users u ON u.user_id = s.student_id AND u.user_type_id = '3'
+	ORDER BY s.submission_date DESC";
+
+    $submission_list = mysqli_query($conn, $submission_res);
 
 ?>
 <?php include("includes/header.php"); ?>
@@ -19,11 +22,11 @@ if(!isset($_SESSION["login"]))
 	<main class="ttr-wrapper">
 		<div class="container-fluid">
 			<div class="db-breadcrumb">
-				<h4 class="breadcrumb-title">Assignment Management</h4>
+				<h4 class="breadcrumb-title">Assignment Submissions</h4>
 				<ul class="db-breadcrumb-list">
 				<li>
 					<a href="index.php"><i class="fa fa-home"></i>Home</a></li>
-					<li>Assignment List</li>
+					<li>Submissions List</li>
 				</ul>
 			</div>
 
@@ -32,26 +35,30 @@ if(!isset($_SESSION["login"]))
 					<tr>
 						<th>S. No.</th>
 						<th>Course</th>
-						<th>Teacher Name</th>
 						<th>Assignment Title</th>
-						<th>Assignment Due Date</th>
-						<th>Action</th>
+						<th>Student Name</th>
+						<th>Assignment Submited Date</th>
+						<th>Status</th>
             		</tr>
         		</thead>
         		<tbody>
 				<?php $i = 1;
-					while($row = mysqli_fetch_assoc($assignment_list)){ ?>				
+					while($row = mysqli_fetch_assoc($submission_list)){ 
+						if(empty($row['submission_id'])){
+							$date = '';
+							$status = '<span class="text-danger">Not Submitted</span>';
+						}else{
+							$date = date("d-M-Y", strtotime($row['submission_date']));
+							$status = '<span class="text-success">Submitted</span>';
+						} ?>				
 					<tr>
+						
 						<td><?php echo $i++; ?></td>
 						<td><?php echo $row['course_name']; ?></td>
-						<td><?php echo $row['user_fullname']; ?></td>
 						<td><?php echo $row['assignment_title']; ?></td>
-						<td><?php echo date("d-m-Y", strtotime($row['assignment_due'])); ?></td>
-						<?php if($_SESSION['user_type_id'] == 3 && $_SESSION['user_type_name'] == 'student'){ ?>
-							<td><a href="assignment_view.php?id=<?php echo $row['assignment_id']; ?>">View Details</a></td>
-						<?php } else{ ?>
-							<td><a href="assignment_edit.php?id=<?php echo $row['assignment_id']; ?>">Edit</a></td>
-						<?php } ?>
+						<td><?php echo $row['user_fullname']; ?></td>
+						<td><?php echo $date; ?></td>
+						<td><?php echo $status; ?></td>
 					</tr>
 					<?php } ?>
         		</tbody>

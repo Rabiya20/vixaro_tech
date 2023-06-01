@@ -6,6 +6,8 @@ include("config.php");
 <!doctype html>
 <html lang="en">
   <head>
+	<link rel="icon" href="assets/images/logo/tf-icon.ico" type="image/tf-icon.ico" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,6 +44,7 @@ include("config.php");
                                 $msg = '';
                                 if($_REQUEST["err"] == 1) $msg .= 'Username shouldn\'t contain space or any special charater'; 
                                 if($_REQUEST["err"] == 2) $msg .= 'This Username isn\'t available'; 
+                                if($_REQUEST["err"] == 3) $msg .= 'Fill all required fields'; 
                             }?>
 
                             <?php if(isset($_REQUEST["suc"])){
@@ -64,8 +67,8 @@ include("config.php");
                             <div class="row">
                                 <div class="col-md-12 col-sm-6">
                                     <div class="form-group mb-4">
-                                        <label for="user_fullname">Full Name</label>
-                                        <input type="text" class="form-control" id="user_fullname" name="user_fullname">
+                                        <label for="user_fullname">Full Name <b class="text-danger">*</b></label>
+                                        <input type="text" class="form-control" id="user_fullname" name="user_fullname" required>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +76,8 @@ include("config.php");
                             <div class="row">
                                 <div class="col-md-12 col-sm-6">
                                     <div class="form-group mb-4">
-                                        <label for="email">Email Address</label>
-                                        <input type="email" class="form-control" id="email" name="email">
+                                        <label for="email">Email Address <b class="text-danger">*</b></label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
                                     </div>
                                 </div>
                             </div>
@@ -82,14 +85,14 @@ include("config.php");
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
-                                        <label for="user_name">Username</label>
-                                        <input type="text" class="form-control" id="user_name" name="user_name">
+                                        <label for="user_name">Username <b class="text-danger">*</b></label>
+                                        <input type="text" class="form-control" id="user_name" name="user_name" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group mb-4">
-                                        <label for="user_password">Password</label>
-                                        <input type="password" class="form-control" id="user_password" name="user_password">
+                                        <label for="user_password">Password <b class="text-danger">*</b></label>
+                                        <input type="password" class="form-control" id="user_password" name="user_password" required>
                                     </div>
                                 </div>
                             </div>

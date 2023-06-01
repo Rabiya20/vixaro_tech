@@ -6,6 +6,8 @@ include("config.php");
 <!doctype html>
 <html lang="en">
   <head>
+	<link rel="icon" href="assets/images/logo/tf-icon.ico" type="image/tf-icon.ico" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,20 +42,21 @@ include("config.php");
 
             <form action="loginprocess.php" method="POST">
               <div class="form-group first mb-4">
-                <label for="username">Username</label>
-                <input type="text" class="form-control" id="username" name="username">
+                <label for="username">Username <b class="text-danger">*</b></label>
+                <input type="text" class="form-control" id="username" name="username" required>
               </div>
 
               <div class="form-group last mb-4">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="password">
+                <label for="password">Password <b class="text-danger">*</b></label>
+                <input type="password" class="form-control" id="password" name="password" required>
               </div>
               
               <div class="d-flex mb-5 align-items-center">
                 <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password?</a></span> 
               </div>
 
-              <?php if(isset($_REQUEST["err"])) $msg="Invalid Username or Password"; ?>
+              <?php if(isset($_REQUEST["err"]) && $_REQUEST["err"] == 1) $msg="Invalid Username or Password"; ?>
+              <?php if(isset($_REQUEST["err"]) && $_REQUEST["err"] == 2) $msg="Fields can't be empty"; ?>
               <p style="color:red;"><b>
                 <?php if(isset($msg)){ echo $msg; } ?>
               </b></p>

@@ -38,7 +38,7 @@ if(!isset($_SESSION["login"]))
 				</ul>
 			</div>
 
-			<?php if($_SESSION['user_type_id'] != 3 && $_SESSION['user_type_name'] != 'student'){ ?>
+			<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
             	<a href="course_add.php" class="btn btn-primary text-light">Add Course</a><br><br>
 			<?php } ?>
 

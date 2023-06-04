@@ -28,7 +28,9 @@ if(!isset($_SESSION["login"]))
 				</ul>
 			</div>
 
-            <a href="course_add.php" class="btn btn-primary text-light">Add Course</a><br><br>
+			<?php if($_SESSION['user_type_id'] == 1 && $_SESSION['user_type_name'] == 'superadmin'){ ?>
+            	<a href="course_add.php" class="btn btn-primary text-light">Add Course</a><br><br>
+			<?php } ?>
 
 			<table id="example" class="table table-striped table-bordered" style="width:100%">
         		<thead>

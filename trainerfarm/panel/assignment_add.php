@@ -11,8 +11,30 @@ if(!isset($_SESSION["login"]))
     $teacher_list = mysqli_query($conn, $teacher_res);
 
 	$teacher_id = $_SESSION['user_id'];
-	$course_res = "SELECT * FROM course c WHERE c.teacher_id = '$teacher_id'";
+	$course_res = "SELECT * FROM course c WHERE c.teacher_id = '$teacher_id' AND course_status = 1";
     $course_list = mysqli_query($conn, $course_res);
+
+	$err = '';
+	$succ = '';
+
+	$error = $_GET['err'];
+	$success = $_GET['succ'];
+
+	if($error==1){
+		$err = 'Extension not allowed, please choose a .doc, .docx or .pdf file.';
+	}elseif($error == 2){
+		$err = 'File size must be excately 2 MB';
+	}
+	elseif($error==3){
+		$err = 'Error occured while adding assginment, try again';
+	}
+	elseif($error==4){
+		$err = 'Error while uploading file, try again';
+	}
+
+	if($success==1){
+		$succ = 'Assignment Added Successfully.';
+	}
 ?>
 <?php include("includes/header.php"); ?>
 <?php include("includes/sidebar.php"); ?>
@@ -35,8 +57,16 @@ if(!isset($_SESSION["login"]))
 						<div class="wc-title">
 							<h4>Add New Assignment</h4>
 						</div>
-						<div class="widget-inner">						
-							<form class="edit-profile m-b30" action="assignment_upload.php" method="post">
+						<div class="widget-inner">	
+						<?php if($succ != ''){ ?>
+                            <div class='alert-success' style="padding:10px;"><?php echo $succ; ?></div><br>
+                        <?php } ?>
+						
+						<?php if($err != ''){ ?>
+                            <div class='alert-danger' style="padding:10px;"><?php echo $err; ?></div><br>
+                        <?php } ?>
+
+							<form class="edit-profile m-b30" action="assignment_upload.php" method="post" enctype="multipart/form-data">
 								<div class="row">
 									<div class="col-12">
 										<div class="ml-auto">
@@ -46,20 +76,20 @@ if(!isset($_SESSION["login"]))
 									<div class="form-group col-6">
 										<label class="col-form-label">Assignment title</label>
 										<div>
-											<input class="form-control" type="text" name="assignment_title">
+											<input class="form-control" type="text" name="assignment_title" required>
 										</div>
 									</div>
 
 									<div class="form-group col-6">
 										<label class="col-form-label">Assignment Due Date</label>
 										<div>
-											<input class="form-control" type="date" name="assignment_due">
+											<input class="form-control" type="date" name="assignment_due" required>
 										</div>
 									</div>
 									
 									<div class="form-group text-dark teacher-dropdown col-6">
 										<label class="col-form-label">For Course</label>
-										<select class="header-lang-bx" name="course_id" id="">
+										<select class="header-lang-bx" name="course_id" id="" required>
 											<option value="0" disabled selected>Select Course</option>
 											<?php
 												foreach($course_list as $i){ ?>
@@ -73,6 +103,7 @@ if(!isset($_SESSION["login"]))
 										<label class="col-form-label">Assignment Attachment</label>
 										<div>
 											<input class="form-control" accept=".pdf, .doc, .docx" type="file" name="assignment_attach">
+											<span class="text-danger">file should be .pdf, .doc or .docx and less than 2MB</span>
 										</div>
 									</div>
 

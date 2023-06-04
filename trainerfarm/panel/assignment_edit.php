@@ -5,7 +5,67 @@ include("includes/config.php");
 if(!isset($_SESSION["login"]))
 	header("location:login.php"); 
 
+	$succ = $err = '';
 	$assignment_id = $_GET['id'];
+	if(!empty($_POST)){
+		if(isset($_FILES['assignment_attach'])){
+			$errors= array();
+			$file_name = $_FILES['assignment_attach']['name'];
+			$file_size =$_FILES['assignment_attach']['size'];
+			$file_tmp =$_FILES['assignment_attach']['tmp_name'];
+			$file_type=$_FILES['assignment_attach']['type'];
+			$file_ext=strtolower(end(explode('.',$_FILES['assignment_attach']['name'])));
+			
+			$extensions= array("doc","docx","pdf");
+			
+			$datetime = date("dmYHis-");
+			$filename = $datetime.$file_name;
+	
+			if(in_array($file_ext, $extensions)=== false){
+				// error 1
+				$error = 1;
+				$errors[]="extension not allowed, please choose a .doc, .docx or .pdf file.";
+			}
+			
+			if($file_size > 2097152){
+				// error 2
+				$error = 2;
+				$errors[]='File size must be excately 2 MB';
+			}
+		
+			if(empty($errors)==true){
+				move_uploaded_file($file_tmp,"assets/assignments/".$filename);
+				$success = "File Uploaded Successfully";
+	
+				$_id = $_SESSION['user_id'];
+	
+				$course_id = $_POST['course_id'];
+				$assignment_title = $_POST['assignment_title'];
+				$assignment_desc = $_POST['assignment_desc'];
+				$assignment_due = $_POST['assignment_due'];
+				$assignment_attach = $filename;
+				
+				$insert = "UPDATE `assignments` SET 
+				`course_id`='$course_id',`assignment_title`='$assignment_title',`assignment_desc`='$assignment_desc',`assignment_due`='$assignment_due',`assignment_attach`='$assignment_attach' WHERE assignment_id = '$assignment_id'";
+				if(mysqli_query($conn, $insert)){
+					$succ = "Assignment Updated Successfully.";
+				} else{
+					// error 3
+					$error = 3;
+					echo "ERROR: Could not able to execute $insert. " . mysqli_error($conn);
+				}
+			}
+		}
+
+		if($error==1){
+			$err = 'Extension not allowed, please choose a .doc, .docx or .pdf file.';
+		}elseif($error == 2){
+			$err = 'File size must be excately 2 MB';
+		}
+		elseif($error==3){
+			$err = 'Error occured while adding assginment, try again';
+		}
+	}
 	$assignment_res = "SELECT a . *, c.course_name, c.course_id, u.user_id, u.user_fullname
 	FROM assignments a
 	INNER JOIN course c ON c.course_id = a.course_id
@@ -20,7 +80,7 @@ if(!isset($_SESSION["login"]))
     $teacher_list = mysqli_query($conn, $teacher_res);
 
 	$teacher_id = $_SESSION['user_id'];
-	$course_res = "SELECT * FROM course c WHERE c.teacher_id = '$teacher_id'";
+	$course_res = "SELECT * FROM course c WHERE c.teacher_id = '$teacher_id' AND course_status = 1";
     $course_list = mysqli_query($conn, $course_res);
 ?>
 <?php include("includes/header.php"); ?>
@@ -44,8 +104,16 @@ if(!isset($_SESSION["login"]))
 						<div class="wc-title">
 							<h4>Add New Assignment</h4>
 						</div>
-						<div class="widget-inner">						
-							<form class="edit-profile m-b30" action="assignment_upload.php" method="post">
+						<div class="widget-inner">	
+						<?php if($succ != ''){ ?>
+                            <div class='alert-success' style="padding:10px;"><?php echo $succ; ?></div><br>
+                        <?php } ?>
+						
+						<?php if($err != ''){ ?>
+                            <div class='alert-danger' style="padding:10px;"><?php echo $err; ?></div><br>
+                        <?php } ?>
+
+							<form class="edit-profile m-b30" action="" method="post" enctype="multipart/form-data">
 								<div class="row">
 									<div class="col-12">
 										<div class="ml-auto">
@@ -83,6 +151,7 @@ if(!isset($_SESSION["login"]))
 										<div>
 											<input class="form-control" accept=".pdf, .doc, .docx" type="file" name="assignment_attach" value="<?php echo $assignment_row['assignment_attach']; ?>">
 										</div>
+										<p><?php echo $assignment_row['assignment_attach']; ?></p>
 									</div>
 
 									<div class="seperator"></div>

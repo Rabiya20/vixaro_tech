@@ -13,7 +13,6 @@ if(!isset($_SESSION["login"]))
 	WHERE a.course_id = '$course_id'";
 
     $assignment_list = mysqli_query($conn, $assignment_res);
-
 ?>
 <?php include("includes/header.php"); ?>
 <?php include("includes/sidebar.php"); ?>
@@ -28,10 +27,6 @@ if(!isset($_SESSION["login"]))
 					<li>Assignment List</li>
 				</ul>
 			</div>
-
-			<?php if($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){ ?>
-	            <a href="assignment_add.php" class="btn btn-primary text-light">Add Assignment</a><br><br>
-			<?php } ?>
 
 			<table id="example" class="table table-striped table-bordered" style="width:100%">
         		<thead>

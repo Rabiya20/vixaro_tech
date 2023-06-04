@@ -119,6 +119,9 @@ if($_SESSION['user_type_id'] == 2){
 		                	<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
 		                </a>
 		                <ul>
+						<?php if($_SESSION['user_type_id'] == 2 && $_SESSION['user_type_name'] == 'teacher'){?>
+							<li><a href="assignment_add.php" class="ttr-material-button"><span class="ttr-label">Add Assignment</span></a></li>
+						<?php }?>
 							<?php while($row1 = mysqli_fetch_assoc($my_course_list1)){ ?>
 		                		<li><a href="assignment_course.php?id=<?php echo $row1['course_id'];?>" class="ttr-material-button"><span class="ttr-label"><?php echo $row1['course_name']; ?></span></a></li>
 							<?php } ?>

@@ -37,8 +37,8 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's AWS Certification</h1>
-            <img class="course" src="assets/images/courses/course-aws.jpg" alt="aws-banner">
+            <h1 class="text-primary">AWS Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-aws.jpg" alt="aws-banner"> -->
 
             <br><br>
             <p>AWS Certification is a set of professional credentials provided by Amazon Web Services (AWS) to individuals who demonstrate their expertise in AWS services, solutions, and technology. The certifications are designed to help individuals validate their knowledge and skills in designing, deploying, and operating highly available, fault-tolerant, and scalable systems on AWS.</p>
@@ -72,7 +72,7 @@
 
             <p>In summary, TrainerFarm's AWS certification can be an essential asset for professionals, enabling them to validate their expertise, enhance their credibility, demonstrate proficiency, access AWS resources, and enable innovation in education.</p>
 
-            <h2 class="text-primary">AWS certification offered by TainerFarm:</h2>
+            <h2 class="text-primary">AWS certification offered by TrainerFarm:</h2>
             <ul>
                 <li><a class="link" href="certificate-aws_architect.php">Introduction to AWS Certified Solution Architect - Associate</a></li>
                 <li><a class="link" href="certificate-aws_practitioner.php">AWS Cloud Practitioner Essentials + Certification Exam Bundle</a></li>

@@ -37,19 +37,12 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's Microsoft Azure Certification</h1>
-            <img class="course" src="assets/images/courses/course-microsoft.jpg" alt="microsoft-banner">
+            <h1 class="text-primary">Microsoft Azure Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-microsoft.jpg" alt="microsoft-banner"> -->
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p>Microsoft Azure Certification is a series of credentials that demonstrate an individual's knowledge and expertise in Microsoft's cloud computing platform, Azure. Azure is a powerful and flexible cloud computing platform that offers a wide range of services, including computing, storage, analytics, and networking. The Azure platform enables businesses to build, deploy, and manage applications and services in a secure and scalable environment.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>There are several Microsoft Azure certifications available, each targeting a specific audience and level of expertise. The certifications are designed to validate an individual's skills in areas such as Azure administration, development, security, and architecture.</p>
-                </div>
-            </div>
-
+            <p>Microsoft Azure Certification is a series of credentials that demonstrate an individual's knowledge and expertise in Microsoft's cloud computing platform, Azure. Azure is a powerful and flexible cloud computing platform that offers a wide range of services, including computing, storage, analytics, and networking. The Azure platform enables businesses to build, deploy, and manage applications and services in a secure and scalable environment.</p>
+            <p>There are several Microsoft Azure certifications available, each targeting a specific audience and level of expertise. The certifications are designed to validate an individual's skills in areas such as Azure administration, development, security, and architecture.</p>
+            
             <p>The following is an overview of the different Azure certifications available:</p>
             <div class="heading-bx left">
                 <h2 class="title-head">Microsoft Certified: Azure Fundamentals -</h2>

@@ -37,19 +37,12 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's Cisco Certification</h1>
-            <img class="course" src="assets/images/courses/course-cisco.jpg" alt="cisco-banner">
+            <h1 class="text-primary">Cisco Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-cisco.jpg" alt="cisco-banner"> -->
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p>Cisco Certification is a professional certification program offered by Cisco Systems, a leading provider of networking equipment and solutions. The program offers a range of certifications, including Entry, Associate, Professional, Expert, and Architect levels, which are designed to validate an individual's knowledge and skills in the field of networking and information technology.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>Cisco Certification is designed to help IT professionals demonstrate their proficiency in various networking disciplines, including routing and switching, security, wireless networking, and more. The certification exams are focused on Cisco technologies and products, providing candidates with hands-on experience and practical skills that can be applied in real-world IT environments.</p>
-                </div>
-            </div>
-
+            <p>Cisco Certification is a professional certification program offered by Cisco Systems, a leading provider of networking equipment and solutions. The program offers a range of certifications, including Entry, Associate, Professional, Expert, and Architect levels, which are designed to validate an individual's knowledge and skills in the field of networking and information technology.</p>
+            <p>Cisco Certification is designed to help IT professionals demonstrate their proficiency in various networking disciplines, including routing and switching, security, wireless networking, and more. The certification exams are focused on Cisco technologies and products, providing candidates with hands-on experience and practical skills that can be applied in real-world IT environments.</p>
+            
             <p>Cisco Certification can be beneficial for IT professionals in a variety of ways, including:</p>
 
             <div class="heading-bx left">

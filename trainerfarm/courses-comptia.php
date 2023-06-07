@@ -37,19 +37,12 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's CompTIA Certification</h1>
-            <img class="course" src="assets/images/courses/course-comptia.jpg" alt="comptia-banner">
+            <h1 class="text-primary">CompTIA Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-comptia.jpg" alt="comptia-banner"> -->
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p>CompTIA (Computing Technology Industry Association) is a leading global provider of vendor-neutral IT certifications and training. The organization was founded in 1982 and since then, it has provided IT professionals with the skills and knowledge needed to succeed in their careers.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>CompTIA certifications are recognized globally as a standard for validating an individual's skills in the IT industry. The certifications offered by CompTIA are designed to cover a wide range of topics, from basic computer skills to advanced networking and cybersecurity. They are vendor-neutral, meaning they are not specific to any particular vendor's products or technologies. This makes them an ideal choice for individuals looking to start a career in IT, as well as for experienced professionals seeking to validate their skills and knowledge.</p>
-                </div>
-            </div>
-
+            <p>CompTIA (Computing Technology Industry Association) is a leading global provider of vendor-neutral IT certifications and training. The organization was founded in 1982 and since then, it has provided IT professionals with the skills and knowledge needed to succeed in their careers.</p>
+            <p>CompTIA certifications are recognized globally as a standard for validating an individual's skills in the IT industry. The certifications offered by CompTIA are designed to cover a wide range of topics, from basic computer skills to advanced networking and cybersecurity. They are vendor-neutral, meaning they are not specific to any particular vendor's products or technologies. This makes them an ideal choice for individuals looking to start a career in IT, as well as for experienced professionals seeking to validate their skills and knowledge.</p>
+            
             <p>The certifications offered by CompTIA are divided into four main categories:</p>
 
             <div class="heading-bx left">

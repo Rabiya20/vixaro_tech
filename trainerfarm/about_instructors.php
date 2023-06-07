@@ -63,7 +63,7 @@
                                     <h4 class="profile-title">Managing Director</h4>
                                     <div class="profile-icons row">
                                         <div class="col-6">
-                                            <a href="https://www.linkedin.com/in/andrew-simmon-266260269/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/in/andrew-simmons-266260269/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                         </div>
                                         <div class="col-6">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#instructor_details1">Details</button>

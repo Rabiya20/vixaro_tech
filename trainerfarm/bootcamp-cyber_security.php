@@ -66,14 +66,14 @@
                         <h3>NEXT PROGRAM DATES</h3>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>22<sup>nd</sup> May 2023</h5>
+                        <h5>17<sup>th</sup> July 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                     <div class="col-md-2 col-sm-6">
-                        <h5>12<sup>th</sup> June 2023</h5>
+                        <h5>21<sup>st</sup> August 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div><div class="col-md-4 col-sm-6">
-                        <h5>17<sup>th</sup> July 2023</h5>
+                        <h5>18<sup>th</sup> September 2023</h5>
                         <a href="apply.php" target="_blank" rel="noopener noreferrer">Apply Now</a>
                     </div>
                 </div>

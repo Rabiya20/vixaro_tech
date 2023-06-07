@@ -37,19 +37,12 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's Axelos Certification</h1>
-            <img class="course" src="assets/images/courses/course-axelos.jpg" alt="axelos-banner">
+            <h1 class="text-primary">Axelos Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-axelos.jpg" alt="axelos-banner"> -->
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p>AXELOS is a UK-based joint venture company that specializes in providing best practice guidance, certifications, and training in IT Service Management (ITSM), Project Management, and Cyber Resilience. The company was founded in 2013 as a collaboration between the UK Government and Capita, a business process outsourcing company.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>AXELOS is best known for its flagship products, ITIL (Information Technology Infrastructure Library) and PRINCE2 (Projects in Controlled Environments). ITIL is a framework that provides best practice guidance for IT Service Management, while PRINCE2 is a methodology for project management.</p>
-                </div>
-            </div>
-
+            <p>AXELOS is a UK-based joint venture company that specializes in providing best practice guidance, certifications, and training in IT Service Management (ITSM), Project Management, and Cyber Resilience. The company was founded in 2013 as a collaboration between the UK Government and Capita, a business process outsourcing company.</p>
+            <p>AXELOS is best known for its flagship products, ITIL (Information Technology Infrastructure Library) and PRINCE2 (Projects in Controlled Environments). ITIL is a framework that provides best practice guidance for IT Service Management, while PRINCE2 is a methodology for project management.</p>
+            
             <p><span class="text-primary"><b>ITIL</b></span> is widely recognized as the global standard for ITSM and is used by organizations of all sizes and industries worldwide. The ITIL framework consists of a set of practices and processes that help organizations manage their IT services and align them with business needs. The framework covers a wide range of topics, including service strategy, service design, service transition, service operation, and continual service improvement. ITIL certifications are offered at several levels, including Foundation, Practitioner, Intermediate, Expert, and Master.</p>
 
             <p>In addition to ITIL and PRINCE2, AXELOS also offers certifications in Cyber Resilience. The certifications include RESILIA Foundation and RESILIA Practitioner, which provide guidance on how to manage cyber risks and build cyber resilience in organizations.</p>

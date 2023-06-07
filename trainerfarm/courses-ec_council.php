@@ -37,19 +37,12 @@
     </div>
     <div class="container">
         <div class="content-block mt-5 mb-5">
-            <h1 class="text-primary">TrainerFarm's EC-Council Certification</h1>
-            <img class="course" src="assets/images/courses/course-ec_council.jpg" alt="ec_council-banner">
+            <h1 class="text-primary">EC-Council Certification</h1>
+            <!-- <img class="course" src="assets/images/courses/course-ec_council.jpg" alt="ec_council-banner"> -->
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <p>EC-Council (International Council of Electronic Commerce Consultants) is a global leader in providing cybersecurity education, training, and certification programs. The organization was founded in 2001 and is headquartered in Albuquerque, New Mexico.</p>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <p>EC-Council offers a range of certification programs that are designed to equip individuals with the knowledge and skills needed to protect organizations from cyber threats. The certifications are recognized worldwide and are considered as some of the most prestigious credentials in the cybersecurity industry.</p>
-                </div>
-            </div>
-
+            <p>EC-Council (International Council of Electronic Commerce Consultants) is a global leader in providing cybersecurity education, training, and certification programs. The organization was founded in 2001 and is headquartered in Albuquerque, New Mexico.</p>
+            <p>EC-Council offers a range of certification programs that are designed to equip individuals with the knowledge and skills needed to protect organizations from cyber threats. The certifications are recognized worldwide and are considered as some of the most prestigious credentials in the cybersecurity industry.</p>
+            
             <p>The following is an overview of some of the certification programs offered by EC-Council:</p>
 
             <div class="heading-bx left">
